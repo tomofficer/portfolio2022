@@ -12,17 +12,23 @@ import {
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
 import Landing from './components/Landing';
+import Header from './components/Header';
+import About from './components/About';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
       {/* <ColorModeSwitcher justifySelf="flex-end" /> */}
-      <Landing />
-      <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" p={3}>
-          <VStack spacing={8}></VStack>
-        </Grid>
-      </Box>
+      <div style={{ backgroundColor: 'black' }}>
+        <Header />
+        <Landing />
+
+        <Box textAlign="center" fontSize="xl">
+          <Grid minH="100vh" p={3}>
+            <VStack spacing={8}></VStack>
+          </Grid>
+        </Box>
+      </div>
     </ChakraProvider>
   );
 }
