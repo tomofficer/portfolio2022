@@ -23,12 +23,13 @@ function App() {
       <div style={{ backgroundColor: 'black' }}>
         <Header />
         <Landing />
+        <About />
 
-        <Box textAlign="center" fontSize="xl">
+        {/* <Box textAlign="center" fontSize="xl">
           <Grid minH="100vh" p={3}>
             <VStack spacing={8}></VStack>
           </Grid>
-        </Box>
+        </Box> */}
         <Footer />
       </div>
     </ChakraProvider>

@@ -10,6 +10,7 @@ import {
   VStack,
   Icon,
   Text,
+  color,
 } from '@chakra-ui/react';
 import { FaFacebookF } from 'react-icons/fa';
 
@@ -26,23 +27,25 @@ const Footer = () => {
           <HStack justify="center">
             <Link>
               <Icon
-                color="gray.800"
+                color="gray.600"
                 _dark={{
                   color: 'white',
                 }}
-                h="20px"
-                w="20px"
+                _hover={{ color: 'yellow.500' }}
+                h="30px"
+                w="30px"
                 as={FaFacebookF}
               />
             </Link>
             <Link>
               <Icon
-                color="gray.800"
+                color="gray.600"
                 _dark={{
                   color: 'white',
                 }}
-                h="20px"
-                w="20px"
+                _hover={{ color: 'yellow.500' }}
+                h="30px"
+                w="30px"
                 // as={FiTwitter}
               />
             </Link>
@@ -51,8 +54,9 @@ const Footer = () => {
                 _dark={{
                   color: 'white',
                 }}
-                h="20px"
-                w="20px"
+                _hover={{ color: 'yellow.500' }}
+                h="30px"
+                w="30px"
                 // as={GrInstagram}
               />
             </Link>
@@ -61,8 +65,9 @@ const Footer = () => {
                 _dark={{
                   color: 'white',
                 }}
-                h="20px"
-                w="20px"
+                _hover={{ color: 'yellow.500' }}
+                h="30px"
+                w="30px"
                 // as={FaLinkedinIn}
               />
             </Link>
@@ -74,6 +79,7 @@ const Footer = () => {
             _dark={{
               color: 'white',
             }}
+            color={'gray.500'}
           >
             &copy;2022 Copyright Tom Officer. All rights reserved
           </Text>
