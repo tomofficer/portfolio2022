@@ -63,7 +63,7 @@ const Landing = () => {
                   color="gray.500"
                   position="relative"
                   mt={'-40px'}
-                  ml={'350px'}
+                  ml={'335px'}
                 >
                   <Typewriter
                     onInit={typewriter => {
@@ -83,7 +83,6 @@ const Landing = () => {
                         .deleteAll()
                         .typeString("Let's Talk! ")
                         .pauseFor(1000)
-                        .deleteAll()
                         .start();
                     }}
                   />
