@@ -27,11 +27,11 @@ const Footer = () => {
           <HStack justify="center">
             <Link>
               <Icon
-                color="gray.600"
+                color="purple.700"
                 _dark={{
                   color: 'white',
                 }}
-                _hover={{ color: 'yellow.500' }}
+                _hover={{ color: 'green.300' }}
                 h="30px"
                 w="30px"
                 as={FaFacebookF}
@@ -39,11 +39,11 @@ const Footer = () => {
             </Link>
             <Link>
               <Icon
-                color="gray.600"
+                color="purple.700"
                 _dark={{
                   color: 'white',
                 }}
-                _hover={{ color: 'yellow.500' }}
+                _hover={{ color: 'green.300' }}
                 h="30px"
                 w="30px"
                 // as={FiTwitter}
@@ -51,10 +51,11 @@ const Footer = () => {
             </Link>
             <Link>
               <Icon
+                color="purple.700"
                 _dark={{
                   color: 'white',
                 }}
-                _hover={{ color: 'yellow.500' }}
+                _hover={{ color: 'green.300' }}
                 h="30px"
                 w="30px"
                 // as={GrInstagram}
@@ -62,10 +63,11 @@ const Footer = () => {
             </Link>
             <Link>
               <Icon
+                color="purple.700"
                 _dark={{
                   color: 'white',
                 }}
-                _hover={{ color: 'yellow.500' }}
+                _hover={{ color: 'green.300' }}
                 h="30px"
                 w="30px"
                 // as={FaLinkedinIn}

@@ -30,7 +30,7 @@ function App() {
             <VStack spacing={8}></VStack>
           </Grid>
         </Box> */}
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </ChakraProvider>
   );

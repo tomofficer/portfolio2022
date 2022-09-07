@@ -8,13 +8,13 @@ import {
   Flex,
   Button,
 } from '@chakra-ui/react';
-import ButtonShadow from './ButtonShadow';
+import Footer from './Footer';
 
 const About = () => {
   const bg = useColorModeValue('black', 'gray.800');
 
   return (
-    <section id="About" style={{ marginBottom: '50px' }}>
+    <section id="About">
       <Box pos="relative" overflow="hidden" bg={bg} mt={10}>
         <Box maxW="7xl" mx="auto">
           <Box
@@ -108,6 +108,9 @@ const About = () => {
                     bgClip="text"
                     bgGradient="linear(to-r, green.400,purple.500)"
                     fontWeight="extrabold"
+                    _hover={{
+                      bgGradient: 'linear(to-r, purple.500, green.400)',
+                    }}
                   >
                     About me
                   </chakra.span>
@@ -189,42 +192,103 @@ const About = () => {
                   color="gray.500"
                 >
                   {' '}
-                  As a former audio engineer who loves graphic design, stellar
-                  attention to even the smallest details is very important to me
+                  {/* As a former audio engineer who loves graphic design, stellar
+                  attention to even the smallest detail is very important to me */}
+                  Thanks for visiting my page! I'm always open to new
+                  opportunities and would love to hear from you.
                 </chakra.p>
                 {/* <chakra.p
-                mt={{
-                  base: 3,
-                  sm: 5,
-                  md: 5,
-                }}
-                fontSize={{
-                  sm: 'lg',
-                  md: 'xl',
-                }}
-                maxW={{
-                  sm: 'xl',
-                }}
-                mx={{
-                  sm: 'auto',
-                  lg: 0,
-                }}
-                color="gray.500"
-              >
-                {' '}
-                I'm always open to new opportunites! Let's talk!
-              </chakra.p> */}
+                  mt={{
+                    base: 3,
+                    sm: 5,
+                    md: 5,
+                  }}
+                  fontSize={{
+                    sm: 'lg',
+                    md: 'xl',
+                  }}
+                  maxW={{
+                    sm: 'xl',
+                  }}
+                  mx={{
+                    sm: 'auto',
+                    lg: 0,
+                  }}
+                  color="gray.500"
+                >
+                  {' '}
+                  Let's talk!
+                </chakra.p> */}
+                {/* <chakra.span
+                  display={{
+                    base: 'block',
+                    xl: 'inline',
+                  }}
+                  fontFamily={'Poppins.700'}
+                  fontSize={'40px'}
+                  w="full"
+                  bgClip="text"
+                  bgGradient="linear(to-l, green.400,purple.500)"
+                  fontWeight="extrabold"
+                  _hover={{
+                    bgGradient: 'linear(to-l, purple.500, green.400)',
+                  }}
+                >
+                  Contact
+                </chakra.span>
+                <chakra.p
+                  mt={{
+                    base: 3,
+                    sm: 5,
+                    md: 5,
+                  }}
+                  fontSize={{
+                    sm: 'lg',
+                    md: 'xl',
+                  }}
+                  maxW={{
+                    sm: 'xl',
+                  }}
+                  mx={{
+                    sm: 'auto',
+                    lg: 0,
+                  }}
+                  color="gray.500"
+                >
+                  {' '}
+                  <p>Tom Officer</p>
+                  <p>Mount Shasta, California</p>
+                  <p>thomasofficerjr@gmail.com</p>
+                  <p>(530) 925-9482</p>
+                  <p></p>
+                </chakra.p> */}
                 <Button
                   rounded={'full'}
                   bg={'purple.700'}
+                  // bgGradient="linear(to-r, purple.500, green.400)"
                   color={'white'}
                   _hover={{
-                    bg: 'green.200',
+                    bgGradient: 'linear(to-r, green.400, purple.500)',
                     color: 'black',
                   }}
                   mt={'40px'}
                 >
                   Download Resume
+                </Button>
+                <Button
+                  rounded={'full'}
+                  bg={'purple.300'}
+                  // bgGradient="linear(to-r, purple.500, green.400)"
+                  color={'white'}
+                  _hover={{
+                    bgGradient: 'linear(to-l, green.400, purple.500)',
+
+                    color: 'black',
+                  }}
+                  mt={'40px'}
+                  ml={'25px'}
+                >
+                  Let's talk!
                 </Button>
               </Box>
             </Box>
@@ -250,17 +314,22 @@ const About = () => {
           border="solid 1px transparent"
         >
           <Image
+            style={{ position: 'relative', bottom: 0, left: 215 }}
             h={[56, 72, 96, 'full']}
-            w="full"
-            fit="cover"
-            src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+            // w="full"
+            // h="full"
+            // fit="cover"
+            src="https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/selfie2_X8ybBe2dt.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662508173734"
             alt=""
             loading="lazy"
           />
         </Box>
+        <Footer />
       </Box>
     </section>
   );
 };
 
 export default About;
+
+//line266
