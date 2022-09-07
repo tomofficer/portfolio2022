@@ -10,6 +10,7 @@ import {
   Icon,
   Image,
 } from '@chakra-ui/react';
+import Typewriter from 'typewriter-effect';
 
 const Landing = () => {
   const bg = useColorModeValue('white', 'gray.800');
@@ -56,6 +57,38 @@ const Landing = () => {
               >
                 Tom Officer
               </Text>
+              <span>
+                {' '}
+                <chakra.p
+                  color="gray.500"
+                  position="relative"
+                  mt={'-40px'}
+                  ml={'350px'}
+                >
+                  <Typewriter
+                    onInit={typewriter => {
+                      typewriter
+
+                        .typeString('Full Stack Developer | Software Engineer ')
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString('React | JavaScript | HTML | CSS ')
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString('Node.js | Express | Knex | PostgreSQL ')
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString('Adobe Photoshop CS6 | Figma ')
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("Let's Talk! ")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .start();
+                    }}
+                  />
+                </chakra.p>
+              </span>
 
               <Box
                 w={{

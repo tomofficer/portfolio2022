@@ -22,6 +22,7 @@ import {
 } from '@chakra-ui/react';
 import { FaMoon, FaSun } from 'react-icons/fa';
 import { useViewportScroll } from 'framer-motion';
+import Typewriter from 'typewriter-effect';
 
 const Header = () => {
   const { toggleColorMode: toggleMode } = useColorMode();
