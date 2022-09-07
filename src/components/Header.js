@@ -17,6 +17,8 @@ import {
   PopoverContent,
   IconButton,
   useDisclosure,
+  Icon,
+  Text,
 } from '@chakra-ui/react';
 import { FaMoon, FaSun } from 'react-icons/fa';
 import { useViewportScroll } from 'framer-motion';
@@ -352,9 +354,15 @@ const Header = () => {
           >
             <Flex align="flex-start">
               <Link href="/">
-                <HStack>{/* <Logo /> */}</HStack>
+                <HStack>
+                  {/* <img
+                    src="https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/github_Ljbtk34W9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662522137177"
+                    alt=""
+                  /> */}
+                </HStack>
               </Link>
             </Flex>
+
             <Flex>
               <HStack
                 spacing="5"
@@ -451,21 +459,6 @@ const Header = () => {
                     boxShadow: 'none',
                   }}
                 >
-                  About
-                </Button>
-                <Button
-                  bg={bg}
-                  color="gray.500"
-                  display="inline-flex"
-                  alignItems="center"
-                  fontSize="md"
-                  _hover={{
-                    color: cl,
-                  }}
-                  _focus={{
-                    boxShadow: 'none',
-                  }}
-                >
                   Contact
                 </Button>
               </HStack>
@@ -511,7 +504,7 @@ const Header = () => {
                 }}
                 variant="ghost"
                 // icon={<AiOutlineMenu />}
-                onClick={mobileNav.onOpen}
+                // onClick={mobileNav.onOpen}
               />
             </Flex>
           </Flex>

@@ -112,7 +112,7 @@ const About = () => {
                       bgGradient: 'linear(to-r, purple.500, green.400)',
                     }}
                   >
-                    About me
+                    Contact me
                   </chakra.span>
                   {/* <chakra.span
                   display={{
@@ -169,8 +169,8 @@ const About = () => {
                   color="gray.500"
                 >
                   {' '}
-                  Hey, I'm Tom! I'm an experienced full stack developer
-                  proficient in React, JavaScript, HTML, CSS and Node.js
+                  Hey, I'm Tom! I'm an experienced software engineer proficient
+                  in React, JavaScript, HTML, CSS and Node.js
                 </chakra.p>
 
                 <chakra.p
@@ -193,10 +193,11 @@ const About = () => {
                   color="gray.500"
                 >
                   {' '}
-                  {/* As a former audio engineer who loves graphic design, stellar
-                  attention to even the smallest detail is very important to me */}
-                  Thanks for visiting my page! I'm always open to new
-                  opportunities and would love to hear from you.
+                  {/* Thanks for visiting my page! I'm always open to new
+                  opportunities and would love to hear from you. */}
+                  Tom Officer | Full Stack Developer
+                  <p>Mount Shasta, California</p>
+                  <p>tom@leadrpro.com</p>
                 </chakra.p>
 
                 <Button
@@ -208,7 +209,7 @@ const About = () => {
                     bgGradient: 'linear(to-r, green.400, purple.500)',
                     color: 'black',
                   }}
-                  mt={'40px'}
+                  mt={'30px'}
                 >
                   Download Resume
                 </Button>
@@ -222,10 +223,10 @@ const About = () => {
 
                     color: 'black',
                   }}
-                  mt={'40px'}
+                  mt={'30px'}
                   ml={'20px'}
                 >
-                  Let's talk!
+                  Let's connect!
                 </Button>
               </Box>
             </Box>
@@ -251,7 +252,7 @@ const About = () => {
           border="solid 1px transparent"
         >
           <Image
-            style={{ position: 'relative', bottom: 0, left: 245 }}
+            style={{ position: 'relative', bottom: 0, left: 200 }}
             h={[56, 72, 96, 'full']}
             // w="full"
             // h="full"

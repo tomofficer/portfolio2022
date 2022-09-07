@@ -9,6 +9,7 @@ const MyWork = () => {
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
       imgPath: '',
+      liveLink: 'https://www.leadrpro.com/',
       gitHubLink: '',
     },
     {
@@ -215,6 +216,8 @@ const MyWork = () => {
                           bgGradient: 'linear(to-l, green.400,purple.500)',
                           transform: 'scale(1.05)',
                         }}
+                        href={project.liveLink}
+                        target="_blank"
                       >
                         View Live
                       </Link>

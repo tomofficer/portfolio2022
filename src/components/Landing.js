@@ -56,6 +56,7 @@ const Landing = () => {
               >
                 Tom Officer
               </Text>
+
               <Box
                 w={{
                   base: 'full',

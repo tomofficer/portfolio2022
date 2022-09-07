@@ -14,7 +14,6 @@ import { Logo } from './Logo';
 import Landing from './components/Landing';
 import Header from './components/Header';
 import About from './components/About';
-import Footer from './components/Footer';
 import MyWork from './components/MyWork';
 
 function App() {
@@ -25,6 +24,7 @@ function App() {
         <Header />
         <Landing />
         <MyWork />
+
         <About />
 
         {/* <Box textAlign="center" fontSize="xl">
@@ -32,7 +32,6 @@ function App() {
             <VStack spacing={8}></VStack>
           </Grid>
         </Box> */}
-        {/* <Footer /> */}
       </div>
     </ChakraProvider>
   );
