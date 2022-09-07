@@ -169,9 +169,10 @@ const About = () => {
                   color="gray.500"
                 >
                   {' '}
-                  Hey, I'm Tom! I'm an experienced software engineer proficient
-                  in React, JavaScript, HTML, CSS and Node.js
+                  Hey, I'm Tom! I'm an experienced full stack developer
+                  proficient in React, JavaScript, HTML, CSS and Node.js
                 </chakra.p>
+
                 <chakra.p
                   mt={{
                     base: 3,
@@ -197,71 +198,7 @@ const About = () => {
                   Thanks for visiting my page! I'm always open to new
                   opportunities and would love to hear from you.
                 </chakra.p>
-                {/* <chakra.p
-                  mt={{
-                    base: 3,
-                    sm: 5,
-                    md: 5,
-                  }}
-                  fontSize={{
-                    sm: 'lg',
-                    md: 'xl',
-                  }}
-                  maxW={{
-                    sm: 'xl',
-                  }}
-                  mx={{
-                    sm: 'auto',
-                    lg: 0,
-                  }}
-                  color="gray.500"
-                >
-                  {' '}
-                  Let's talk!
-                </chakra.p> */}
-                {/* <chakra.span
-                  display={{
-                    base: 'block',
-                    xl: 'inline',
-                  }}
-                  fontFamily={'Poppins.700'}
-                  fontSize={'40px'}
-                  w="full"
-                  bgClip="text"
-                  bgGradient="linear(to-l, green.400,purple.500)"
-                  fontWeight="extrabold"
-                  _hover={{
-                    bgGradient: 'linear(to-l, purple.500, green.400)',
-                  }}
-                >
-                  Contact
-                </chakra.span>
-                <chakra.p
-                  mt={{
-                    base: 3,
-                    sm: 5,
-                    md: 5,
-                  }}
-                  fontSize={{
-                    sm: 'lg',
-                    md: 'xl',
-                  }}
-                  maxW={{
-                    sm: 'xl',
-                  }}
-                  mx={{
-                    sm: 'auto',
-                    lg: 0,
-                  }}
-                  color="gray.500"
-                >
-                  {' '}
-                  <p>Tom Officer</p>
-                  <p>Mount Shasta, California</p>
-                  <p>thomasofficerjr@gmail.com</p>
-                  <p>(530) 925-9482</p>
-                  <p></p>
-                </chakra.p> */}
+
                 <Button
                   rounded={'full'}
                   bg={'purple.700'}
@@ -286,7 +223,7 @@ const About = () => {
                     color: 'black',
                   }}
                   mt={'40px'}
-                  ml={'25px'}
+                  ml={'20px'}
                 >
                   Let's talk!
                 </Button>
@@ -314,7 +251,7 @@ const About = () => {
           border="solid 1px transparent"
         >
           <Image
-            style={{ position: 'relative', bottom: 0, left: 215 }}
+            style={{ position: 'relative', bottom: 0, left: 245 }}
             h={[56, 72, 96, 'full']}
             // w="full"
             // h="full"

@@ -23,6 +23,7 @@ const Landing = () => {
           backgroundImage="url(https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/portfolio1cropped2_btXsravyi.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662503760565)"
           bgPos="center"
           bgSize="cover"
+          mb={'-100px'}
         >
           <Flex
             align="center"
@@ -49,6 +50,9 @@ const Landing = () => {
                 bgClip="text"
                 bgGradient="linear(to-r, green.400,purple.500)"
                 fontWeight="extrabold"
+                _hover={{
+                  bgGradient: 'linear(to-l, green.400, purple.500)',
+                }}
               >
                 Tom Officer
               </Text>

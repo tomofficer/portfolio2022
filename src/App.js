@@ -15,6 +15,7 @@ import Landing from './components/Landing';
 import Header from './components/Header';
 import About from './components/About';
 import Footer from './components/Footer';
+import MyWork from './components/MyWork';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <div style={{ backgroundColor: 'black' }}>
         <Header />
         <Landing />
+        <MyWork />
         <About />
 
         {/* <Box textAlign="center" fontSize="xl">

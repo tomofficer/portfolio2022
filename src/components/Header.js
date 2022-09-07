@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import {
   useColorModeValue,
   useColorMode,
@@ -35,6 +35,13 @@ const Header = () => {
   }, [scrollY]);
   const cl = useColorModeValue('gray.800', 'white');
   const mobileNav = useDisclosure();
+
+  const scrollToDivider = useRef();
+
+  //click handlers
+  const scrollClickHandle = () => {
+    scrollToDivider.current.scrollIntoView({ behavior: 'smooth' });
+  };
 
   const Section = props => {
     const ic = useColorModeValue('brand.600', 'brand.50');
@@ -412,6 +419,7 @@ const Header = () => {
                   _focus={{
                     boxShadow: 'none',
                   }}
+                  onClick={() => scrollClickHandle()}
                 >
                   My Work
                 </Button>
