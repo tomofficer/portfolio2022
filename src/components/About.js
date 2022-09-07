@@ -7,6 +7,7 @@ import {
   Image,
   Flex,
   Button,
+  Link,
 } from '@chakra-ui/react';
 import Footer from './Footer';
 
@@ -210,9 +211,13 @@ const About = () => {
                     color: 'black',
                   }}
                   mt={'30px'}
+                  as="a"
+                  href="https://docs.google.com/document/d/1IY-RycZ21irJRZAMByTQnmeMM6xHo2iZw6T4gjEzuzk/edit?usp=sharing"
+                  target="_blank"
                 >
                   Download Resume
                 </Button>
+
                 <Button
                   rounded={'full'}
                   bg={'purple.300'}
