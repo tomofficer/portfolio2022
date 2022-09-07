@@ -198,7 +198,12 @@ const MyWork = () => {
                       {project.description}
                     </chakra.p>
 
-                    <Box mt={8}>
+                    <Box
+                      mt={8}
+                      display="flex"
+                      flexDirection={'row'}
+                      justifyContent={'space-between'}
+                    >
                       <Link
                         bg="gray.900"
                         color="gray.100"
@@ -207,11 +212,19 @@ const MyWork = () => {
                         fontWeight="semibold"
                         rounded="lg"
                         _hover={{
-                          bg: 'gray.800',
+                          bgGradient: 'linear(to-l, green.400,purple.500)',
+                          transform: 'scale(1.05)',
                         }}
                       >
                         View Live
                       </Link>
+                      <Image
+                        src="https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/github_Ljbtk34W9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662522137177"
+                        h={'50px'}
+                        _hover={{
+                          transform: 'scale(1.2)',
+                        }}
+                      />
                     </Box>
                   </Box>
                 </Box>
