@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Container,
   Grid,
@@ -22,6 +22,18 @@ import {
 } from '@chakra-ui/react';
 
 const Resume = () => {
+  //state variables
+  const [isHovering, setIsHovering] = useState(false);
+
+  //handlers
+  const handleMouseEnter = () => {
+    setIsHovering(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovering(false);
+  };
+
   return (
     <section id="Resume" style={{ background: 'white' }}>
       <Box
@@ -94,12 +106,24 @@ const Resume = () => {
             <Thead>
               <Tr>
                 <Th fontSize={'18px'}>Employment</Th>
+
                 <Th>
-                  LeadrPro{' '}
-                  <span style={{ fontSize: '10px', fontStyle: 'italic' }}>
+                  <a
+                    href="https://www.leadrpro.com/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    LeadrPro{' '}
+                  </a>
+                  <p style={{ fontSize: '10px', fontStyle: 'italic' }}>
                     (Full Stack Developer) Nov 2021 - Current
-                  </span>
+                  </p>
                 </Th>
+
                 <Th></Th>
               </Tr>
             </Thead>
