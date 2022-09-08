@@ -234,13 +234,13 @@ const MyWork = () => {
                         >
                           View Live
                         </Link>
-                        {/* <Image
+                        <Image
                           src="https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/github_Ljbtk34W9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662522137177"
                           h={'50px'}
                           _hover={{
                             transform: 'scale(1.2)',
                           }}
-                        /> */}
+                        />
                       </Box>
                     </Box>
                   </Box>
