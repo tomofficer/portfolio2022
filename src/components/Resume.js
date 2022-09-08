@@ -34,6 +34,125 @@ const Resume = () => {
     setIsHovering(false);
   };
 
+  //employment data
+  const employment = [
+    {
+      company: 'LeadrPro',
+      jobTitle: 'Full Stack Developer',
+      location: 'Remote, California',
+      date: 'Nov 2021 - Current',
+      descriptions: [
+        'Developed a full stack web application to host video demos for Saas companies',
+        'Built out a visually appealing front end by translating designer wire-frames into Jsx code',
+        'Helped develop functional databases and servers to support scalability on the backend',
+      ],
+    },
+    {
+      company: 'White Dog Woodworking',
+      jobTitle: 'Front End Developer',
+      location: 'Remote, California',
+      date: 'Nov 2021 - Current',
+      descriptions: [
+        'Developed a full stack web application to host video demos for Saas companies',
+        'Built out a visually appealing front end by translating designer wire-frames into Jsx code',
+        'Helped develop functional databases and servers to support scalability on the backend',
+      ],
+    },
+  ];
+
+  //experience data
+  const experience = [
+    {
+      company: 'Your Next Toy.com',
+      jobTitle: 'Front End Developer',
+      location: 'Remote, California',
+      date: 'Aug 2022',
+      descriptions: [
+        'Developed a full stack web application to host video demos for Saas companies',
+        'Built out a visually appealing front end by translating designer wire-frames into Jsx code',
+        'Helped develop functional databases and servers to support scalability on the backend',
+      ],
+    },
+    {
+      company: 'JavaScript Coding Tips.com',
+      jobTitle: 'Front End Developer',
+      location: 'Remote, California',
+      date: 'Sep 2022',
+      descriptions: [
+        'Developed a full stack web application to host video demos for Saas companies',
+        'Built out a visually appealing front end by translating designer wire-frames into Jsx code',
+        'Helped develop functional databases and servers to support scalability on the backend',
+      ],
+    },
+    {
+      company: 'GitHub Finder App',
+      jobTitle: 'Full Stack Developer',
+      location: 'Remote, California',
+      date: 'Sep 2021 ',
+      descriptions: [
+        'Developed a full stack web application to host video demos for Saas companies',
+        'Built out a visually appealing front end by translating designer wire-frames into Jsx code',
+        'Helped develop functional databases and servers to support scalability on the backend',
+      ],
+    },
+  ];
+
+  //education data
+  const education = [
+    {
+      school: 'Thinkful',
+      programTitle: 'Software Engineering Program',
+      location: 'Remote, California',
+      date: 'Apr 2021 - Jan 2022',
+      descriptions: [
+        'Developed a full stack web application to host video demos for Saas companies',
+        'Built out a visually appealing front end by translating designer wire-frames into Jsx code',
+      ],
+    },
+    {
+      school: 'Expression College',
+      programTitle: 'Bachelor Of Applied Science, Audio Engineering',
+      location: 'Remote, California',
+      date: 'Feb 2012 - Dec 2015',
+      descriptions: [
+        'Developed a full stack web application to host video demos for Saas companies',
+        'Built out a visually appealing front end by translating designer wire-frames into Jsx code',
+      ],
+    },
+  ];
+
+  //certificate data
+  const certificates = [
+    {
+      title: 'Advanced JavaScript',
+      school: 'Udemy',
+      date: 'Nov 2021',
+      description:
+        'Developed a full stack web application to host video demos for Saas companies',
+    },
+    {
+      title: 'React Front To Back',
+      school: 'Udemy',
+      date: 'Nov 2021',
+      description:
+        'Developed a full stack web application to host video demos for Saas companies',
+    },
+    {
+      title: 'React + Shopify (Headless CMS)',
+      school: 'Udemy',
+      date: 'Sep 2021',
+      description:
+        'Developed a full stack web application to host video demos for Saas companies',
+    },
+    {
+      title: 'Advanced Shopify Theme Development : Liquid + Vue.js',
+      school: 'Udemy',
+      date: 'Sep 2021',
+      description:
+        'Developed a full stack web application to host video demos for Saas companies',
+    },
+  ];
+
   return (
     <section id="Resume" style={{ background: 'white' }}>
       <Box
@@ -176,7 +295,7 @@ const Resume = () => {
                   >
                     White Dog Woodworking{' '}
                     <span style={{ fontStyle: 'italic' }}>
-                      • Web Developer •
+                      • Front End Developer •
                     </span>{' '}
                   </a>
                   <p
