@@ -11,19 +11,21 @@ import {
   Icon,
   Text,
   color,
+  Center,
 } from '@chakra-ui/react';
-import { FaFacebookF } from 'react-icons/fa';
+import { FaFacebookF, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
     <div>
       <Box
-        bg="black"
+        bg="transparent"
         _dark={{
           bg: 'gray.600',
         }}
+        position="relative"
       >
-        <VStack py={3}>
+        <VStack py={4}>
           <HStack justify="center">
             <Link>
               <Icon
@@ -32,9 +34,9 @@ const Footer = () => {
                   color: 'white',
                 }}
                 _hover={{ color: 'green.300' }}
-                h="30px"
-                w="30px"
-                as={FaFacebookF}
+                h="35px"
+                w="35px"
+                as={FaLinkedin}
               />
             </Link>
             <Link>
@@ -44,11 +46,12 @@ const Footer = () => {
                   color: 'white',
                 }}
                 _hover={{ color: 'green.300' }}
-                h="30px"
-                w="30px"
-                // as={FiTwitter}
+                h="35px"
+                w="35px"
+                as={FaGithub}
               />
             </Link>
+
             <Link>
               <Icon
                 color="purple.700"
@@ -56,25 +59,12 @@ const Footer = () => {
                   color: 'white',
                 }}
                 _hover={{ color: 'green.300' }}
-                h="30px"
-                w="30px"
-                // as={GrInstagram}
-              />
-            </Link>
-            <Link>
-              <Icon
-                color="purple.700"
-                _dark={{
-                  color: 'white',
-                }}
-                _hover={{ color: 'green.300' }}
-                h="30px"
-                w="30px"
-                // as={FaLinkedinIn}
+                h="35px"
+                w="35px"
+                as={FaInstagram}
               />
             </Link>
           </HStack>
-
           <Text
             textAlign="center"
             fontSize="smaller"
@@ -85,7 +75,7 @@ const Footer = () => {
           >
             &copy;2022 Copyright Tom Officer. All rights reserved
           </Text>
-        </VStack>
+        </VStack>{' '}
       </Box>
     </div>
   );

@@ -81,7 +81,7 @@ const Landing = () => {
                         .typeString('Adobe Photoshop CS6 | Figma ')
                         .pauseFor(1000)
                         .deleteAll()
-                        .typeString("Let's Talk! ")
+                        .typeString("Let's connect! ")
                         .pauseFor(1000)
                         .start();
                     }}

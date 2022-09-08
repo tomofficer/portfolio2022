@@ -194,8 +194,10 @@ const About = () => {
                   color="gray.500"
                 >
                   {' '}
-                  {/* Thanks for visiting my page! I'm always open to new
-                  opportunities and would love to hear from you. */}
+                  <p style={{ marginBottom: '20px' }}>
+                    Thanks for visiting my page! I'm always open to new
+                    opportunities and would love to hear from you.
+                  </p>
                   Tom Officer | Full Stack Developer
                   <p>Mount Shasta, California</p>
                   <p>tom@leadrpro.com</p>
@@ -257,7 +259,7 @@ const About = () => {
           border="solid 1px transparent"
         >
           <Image
-            style={{ position: 'relative', bottom: 0, left: 200 }}
+            style={{ position: 'relative', bottom: 0, left: 190 }}
             h={[56, 72, 96, 'full']}
             // w="full"
             // h="full"

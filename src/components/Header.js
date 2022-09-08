@@ -28,7 +28,7 @@ const Header = () => {
   const { toggleColorMode: toggleMode } = useColorMode();
   const text = useColorModeValue('dark', 'light');
   const SwitchIcon = useColorModeValue(FaMoon, FaSun);
-  const bg = useColorModeValue('transparent', 'transparent');
+  const bg = useColorModeValue('black', 'white');
   const ref = React.useRef(null);
   const [y, setY] = React.useState(0);
   const height = ref.current ? ref.current.getBoundingClientRect() : 0;
@@ -333,7 +333,7 @@ const Header = () => {
   );
 
   return (
-    <React.Fragment>
+    <React.Fragment style={{ zIndex: '10' }}>
       <chakra.header
         ref={ref}
         shadow={y > height ? 'sm' : undefined}
@@ -379,7 +379,7 @@ const Header = () => {
                   alignItems="center"
                   fontSize="md"
                   _hover={{
-                    color: cl,
+                    color: 'green.300',
                   }}
                   _focus={{
                     boxShadow: 'none',
@@ -423,7 +423,7 @@ const Header = () => {
                   alignItems="center"
                   fontSize="md"
                   _hover={{
-                    color: cl,
+                    color: 'purple.300',
                   }}
                   _focus={{
                     boxShadow: 'none',
@@ -439,7 +439,7 @@ const Header = () => {
                   alignItems="center"
                   fontSize="md"
                   _hover={{
-                    color: cl,
+                    color: 'purple.300',
                   }}
                   _focus={{
                     boxShadow: 'none',
@@ -454,7 +454,7 @@ const Header = () => {
                   alignItems="center"
                   fontSize="md"
                   _hover={{
-                    color: cl,
+                    color: 'green.300',
                   }}
                   _focus={{
                     boxShadow: 'none',
