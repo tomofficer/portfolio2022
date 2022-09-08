@@ -121,6 +121,9 @@ const Resume = () => {
                     onMouseLeave={handleMouseLeave}
                   >
                     LeadrPro{' '}
+                    <span style={{ fontStyle: 'italic' }}>
+                      • Full Stack Developer •
+                    </span>{' '}
                   </a>
                   <p
                     style={{
@@ -131,7 +134,7 @@ const Resume = () => {
                       paddingTop: '5px',
                     }}
                   >
-                    (Full Stack Developer) Nov 2021 - Current
+                    (Remote, California) Nov 2021 - Current
                   </p>
                   <p
                     style={{
@@ -172,6 +175,9 @@ const Resume = () => {
                     onMouseLeave={handleMouseLeave}
                   >
                     White Dog Woodworking{' '}
+                    <span style={{ fontStyle: 'italic' }}>
+                      • Web Developer •
+                    </span>{' '}
                   </a>
                   <p
                     style={{
@@ -182,7 +188,7 @@ const Resume = () => {
                       paddingTop: '5px',
                     }}
                   >
-                    (Web Developer) Jul 2022 - Current
+                    (Remote, California) Jul 2022 - Current (Contract)
                   </p>
                   <p
                     style={{
@@ -190,130 +196,269 @@ const Resume = () => {
                       marginLeft: '100px',
                     }}
                   >
-                    •Developed a full stack web application to host video demos
-                    for SaaS companies
+                    •Spearheaded custom website from wireframe design to
+                    production level deployment
                   </p>
                   <p
                     style={{
                       fontSize: '10px',
                       marginLeft: '100px',
+                      marginBottom: '20px',
                     }}
                   >
-                    •Built out a visually appealing front end by translating
-                    designer wire-frames into JSX code
+                    •Used industry best practices to write clean front-end code
+                    using JavaScript, HTML + CSS
                   </p>
                 </Th>
 
                 <Th></Th>
               </Tr>
             </Thead>
-            {/* <Thead>
+
+            <Thead>
               <Tr>
-                <Th></Th>
+                <Th fontSize={'18px'}>Experience</Th>
                 <Th>
                   <a
-                    href="https://www.whitedogwoodworking.com/"
+                    href="https://www.leadrpro.com/"
                     target={'_blank'}
                     style={{
                       color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
                     }}
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                   >
-                    White Dog Woodworking{' '}
+                    Your Next Toy.com{' '}
                   </a>
                   <p
                     style={{
-                      fontSize: '10px',
+                      fontSize: '12px',
                       fontStyle: 'italic',
-                      marginLeft: '10px',
+                      marginLeft: '40px',
+                      paddingBottom: '5px',
+                      paddingTop: '5px',
                     }}
                   >
-                    (Web Developer) Jul 2022 - Current
+                    (Affiliate Marketing Website) Sep 2022
+                  </p>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                    }}
+                  >
+                    •Spearheaded custom website from wireframe design to
+                    production level deployment
+                  </p>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •Developed using React.js, Chakra UI, JavaScript, HTML and
+                    CSS
+                  </p>
+                  <a
+                    href="https://www.leadrpro.com/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    JavaScript Coding Tips.com{' '}
+                  </a>
+                  <p
+                    style={{
+                      fontSize: '12px',
+                      fontStyle: 'italic',
+                      marginLeft: '40px',
+                      paddingBottom: '5px',
+                      paddingTop: '5px',
+                    }}
+                  >
+                    (Programming Blog Website) Sep 2022
+                  </p>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                    }}
+                  >
+                    •Modern developer blog focused on industry best practices
+                    for JavaScript and React.js
+                  </p>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                    }}
+                  >
+                    •Developed using React.js, Chakra UI, JavaScript, HTML and
+                    CSS
+                  </p>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •Implemented fetch calls to the Contentful API to store and
+                    retrieve blog data
+                  </p>
+                  <a
+                    href="https://www.leadrpro.com/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    GitHub Finder App{' '}
+                  </a>
+                  <p
+                    style={{
+                      fontSize: '12px',
+                      fontStyle: 'italic',
+                      marginLeft: '40px',
+                      paddingBottom: '5px',
+                      paddingTop: '5px',
+                    }}
+                  >
+                    (Full Stack Web App) Dec 2021
+                  </p>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                    }}
+                  >
+                    •Full stack web application developed with React.js,
+                    Express.js, MongoDb and Node.js
+                  </p>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •Implemented API fetch calls to retrieve, display and store
+                    data from the GitHub API
                   </p>
                 </Th>
-                <Th></Th>
-              </Tr>
-            </Thead> */}
-            <Thead>
-              <Tr>
-                <Th fontSize={'18px'}>Experience</Th>
-                <Th>YourNextToy.com</Th>
+
                 <Th></Th>
               </Tr>
             </Thead>
-            <Thead>
-              <Tr>
-                <Th></Th>
-                <Th>JavaScriptCodingTips.com</Th>
-                <Th></Th>
-              </Tr>
-            </Thead>
-            <Thead>
-              <Tr>
-                <Th></Th>
-                <Th>GitHub Finder App</Th>
-                <Th></Th>
-              </Tr>
-            </Thead>
+
             <Thead>
               <Tr>
                 <Th fontSize={'18px'}>Education</Th>
 
                 <Th>
-                  {' '}
                   <a
-                    href="https://www.whitedogwoodworking.com/"
+                    href="https://www.leadrpro.com/"
                     target={'_blank'}
                     style={{
                       color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
                     }}
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                   >
                     Thinkful{' '}
+                    <span style={{ fontStyle: 'italic' }}>
+                      • Software Engineering Program •
+                    </span>
                   </a>
                   <p
                     style={{
-                      fontSize: '10px',
+                      fontSize: '12px',
                       fontStyle: 'italic',
-                      marginLeft: '10px',
+                      marginLeft: '40px',
+                      paddingBottom: '5px',
+                      paddingTop: '5px',
                     }}
                   >
-                    (Software Engineering Program) 2021
+                    (Remote, California) Apr 2021 - Jan 2022
                   </p>
-                </Th>
-                <Th></Th>
-              </Tr>
-            </Thead>
-            <Thead>
-              <Tr>
-                <Th></Th>
-                <Th>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                    }}
+                  >
+                    •9 Month mentorship from a senior software engineer
+                  </p>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •Meeting twice weekly to learn industry standards in both
+                    front and back-end technologies
+                  </p>
                   <a
                     href="https://www.whitedogwoodworking.com/"
                     target={'_blank'}
                     style={{
                       color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
                     }}
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                   >
                     Expression College{' '}
+                    <span style={{ fontStyle: 'italic' }}>
+                      • Audio Bachelor Of Applied Science •
+                    </span>{' '}
                   </a>
                   <p
                     style={{
-                      fontSize: '10px',
+                      fontSize: '12px',
                       fontStyle: 'italic',
-                      marginLeft: '10px',
+                      marginLeft: '40px',
+                      paddingBottom: '5px',
+                      paddingTop: '5px',
                     }}
                   >
-                    (Bachelors Of Applied Science) 2015
+                    (Emeryville, CA) Feb 2012 - Dec 2015
                   </p>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                    }}
+                  >
+                    •Spearheaded custom website from wireframe design to
+                    production level deployment
+                  </p>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •Used industry best practices to write clean front-end code
+                    using JavaScript, HTML + CSS
+                  </p>{' '}
                 </Th>
                 <Th></Th>
               </Tr>
             </Thead>
+
             <Thead>
               <Tr>
                 <Th fontSize={'18px'}>Certificates</Th>
