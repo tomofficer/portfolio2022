@@ -597,7 +597,7 @@ const Resume = () => {
                       paddingTop: '5px',
                     }}
                   >
-                    (Emeryville, CA) Feb 2012 - Dec 2015
+                    (Emeryville, California) Feb 2012 - Dec 2015
                   </p>
                   <p
                     style={{
