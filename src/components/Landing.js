@@ -25,13 +25,14 @@ const Landing = () => {
           bgPos="center"
           bgSize="cover"
           mb={'-100px'}
+          // opacity={'80%'}
         >
           <Flex
             align="center"
             pos="relative"
             justify="center"
             boxSize="full"
-            bg="blackAlpha.700"
+            // bg="blackAlpha.700"
           >
             <Stack
               textAlign="center"
@@ -66,6 +67,7 @@ const Landing = () => {
                   ml={'335px'}
                 >
                   <Typewriter
+                    color="white"
                     onInit={typewriter => {
                       typewriter
 

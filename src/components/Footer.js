@@ -27,7 +27,10 @@ const Footer = () => {
       >
         <VStack py={4}>
           <HStack justify="center">
-            <Link>
+            <Link
+              href="https://www.linkedin.com/in/tomofficer/"
+              target="_blank"
+            >
               <Icon
                 color="purple.700"
                 _dark={{
@@ -39,7 +42,7 @@ const Footer = () => {
                 as={FaLinkedin}
               />
             </Link>
-            <Link>
+            <Link href="https://github.com/tomofficer" target="_blank">
               <Icon
                 color="purple.700"
                 _dark={{
@@ -52,7 +55,10 @@ const Footer = () => {
               />
             </Link>
 
-            <Link>
+            <Link
+              href="https://instagram.com/javascriptcodingtips?igshid=YmMyMTA2M2Y="
+              target="_blank"
+            >
               <Icon
                 color="purple.700"
                 _dark={{

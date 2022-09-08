@@ -2,7 +2,7 @@ import { Box, Center, Flex, chakra, Image, Link, Icon } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-import { FaFacebookF, FaGithub } from 'react-icons/fa';
+import { FaFacebookF, FaGit, FaGithub } from 'react-icons/fa';
 
 const MyWork = () => {
   //data
