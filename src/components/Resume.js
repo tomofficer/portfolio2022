@@ -105,7 +105,9 @@ const Resume = () => {
           <Table variant="simple">
             <Thead>
               <Tr>
-                <Th fontSize={'18px'}>Employment</Th>
+                <Th fontSize={'18px'} position={'relative'}>
+                  Employment
+                </Th>
 
                 <Th>
                   <a
@@ -113,6 +115,7 @@ const Resume = () => {
                     target={'_blank'}
                     style={{
                       color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
                     }}
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
@@ -121,19 +124,90 @@ const Resume = () => {
                   </a>
                   <p
                     style={{
-                      fontSize: '10px',
+                      fontSize: '12px',
                       fontStyle: 'italic',
-                      marginLeft: '10px',
+                      marginLeft: '40px',
+                      paddingBottom: '5px',
+                      paddingTop: '5px',
                     }}
                   >
                     (Full Stack Developer) Nov 2021 - Current
+                  </p>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                    }}
+                  >
+                    •Developed a full stack web application to host video demos
+                    for SaaS companies
+                  </p>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                    }}
+                  >
+                    •Built out a visually appealing front end by translating
+                    designer wire-frames into JSX code
+                  </p>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •Helped develop functional databases and servers to support
+                    scalability on the back-end
+                  </p>
+                  <a
+                    href="https://www.whitedogwoodworking.com/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    White Dog Woodworking{' '}
+                  </a>
+                  <p
+                    style={{
+                      fontSize: '12px',
+                      fontStyle: 'italic',
+                      marginLeft: '40px',
+                      paddingBottom: '5px',
+                      paddingTop: '5px',
+                    }}
+                  >
+                    (Web Developer) Jul 2022 - Current
+                  </p>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                    }}
+                  >
+                    •Developed a full stack web application to host video demos
+                    for SaaS companies
+                  </p>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                    }}
+                  >
+                    •Built out a visually appealing front end by translating
+                    designer wire-frames into JSX code
                   </p>
                 </Th>
 
                 <Th></Th>
               </Tr>
             </Thead>
-            <Thead>
+            {/* <Thead>
               <Tr>
                 <Th></Th>
                 <Th>
@@ -160,7 +234,7 @@ const Resume = () => {
                 </Th>
                 <Th></Th>
               </Tr>
-            </Thead>
+            </Thead> */}
             <Thead>
               <Tr>
                 <Th fontSize={'18px'}>Experience</Th>
