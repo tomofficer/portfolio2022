@@ -15,6 +15,7 @@ import Landing from './components/Landing';
 import Header from './components/Header';
 import About from './components/About';
 import MyWork from './components/MyWork';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Header />
         <Landing />
         <MyWork />
+        <Resume />
 
         <About />
 

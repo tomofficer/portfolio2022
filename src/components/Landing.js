@@ -5,10 +5,7 @@ import {
   Box,
   Flex,
   Stack,
-  Button,
   Text,
-  Icon,
-  Image,
 } from '@chakra-ui/react';
 import Typewriter from 'typewriter-effect';
 
@@ -64,7 +61,7 @@ const Landing = () => {
                   color="gray.500"
                   position="relative"
                   mt={'-40px'}
-                  ml={'335px'}
+                  ml={'360px'}
                 >
                   <Typewriter
                     color="white"
@@ -78,6 +75,9 @@ const Landing = () => {
                         .pauseFor(1000)
                         .deleteAll()
                         .typeString('Node.js | Express | Knex | PostgreSQL ')
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString('Agile Scrum Development | Asana | Jira ')
                         .pauseFor(1000)
                         .deleteAll()
                         .typeString('Adobe Photoshop CS6 | Figma ')
