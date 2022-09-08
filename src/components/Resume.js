@@ -19,15 +19,19 @@ import {
   TableContainer,
   UnorderedList,
   ListItem,
+  Icon,
 } from '@chakra-ui/react';
+import { FaEye } from 'react-icons/fa';
 
 const Resume = () => {
   //state variables
   const [isHovering, setIsHovering] = useState(false);
+  const [currentId, setCurrentId] = useState(null);
 
   //handlers
   const handleMouseEnter = id => {
-    setIsHovering(true);
+    setCurrentId(id);
+    // setIsHovering(true);
   };
 
   const handleMouseLeave = () => {
@@ -275,13 +279,12 @@ const Resume = () => {
                   ))} */}
 
                   <a
-                    href="https://www.leadrpro.com/"
                     target={'_blank'}
                     style={{
                       color: isHovering ? 'blue' : '',
                       fontSize: '14px',
                     }}
-                    onMouseEnter={handleMouseEnter}
+                    onMouseEnter={() => handleMouseEnter()}
                     onMouseLeave={handleMouseLeave}
                   >
                     LeadrPro{' '}
@@ -289,6 +292,18 @@ const Resume = () => {
                       • Full Stack Developer •
                     </span>{' '}
                   </a>
+
+                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="18px"
+                      w="20px"
+                    />
+                  </a>
+
                   <p
                     style={{
                       fontSize: '12px',
@@ -344,6 +359,19 @@ const Resume = () => {
                       • Front End Developer •
                     </span>{' '}
                   </a>
+                  <a
+                    href="https://www.whitedogwoodworking.com/"
+                    target={'_blank'}
+                  >
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="18px"
+                      w="20px"
+                    />
+                  </a>
                   <p
                     style={{
                       fontSize: '12px',
@@ -394,6 +422,17 @@ const Resume = () => {
                     onMouseLeave={handleMouseLeave}
                   >
                     Your Next Toy.com{' '}
+                    <span style={{ fontStyle: 'italic' }}> •</span>{' '}
+                  </a>
+                  <a href="https://www.yournexttoy.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="18px"
+                      w="20px"
+                    />
                   </a>
                   <p
                     style={{
@@ -436,6 +475,20 @@ const Resume = () => {
                     onMouseLeave={handleMouseLeave}
                   >
                     JavaScript Coding Tips.com{' '}
+                    <span style={{ fontStyle: 'italic' }}> •</span>{' '}
+                  </a>
+                  <a
+                    href="https://www.javascriptcodingtips.com/"
+                    target={'_blank'}
+                  >
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="18px"
+                      w="20px"
+                    />
                   </a>
                   <p
                     style={{
@@ -487,6 +540,17 @@ const Resume = () => {
                     onMouseLeave={handleMouseLeave}
                   >
                     GitHub Finder App{' '}
+                    <span style={{ fontStyle: 'italic' }}> •</span>{' '}
+                  </a>
+                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="18px"
+                      w="20px"
+                    />
                   </a>
                   <p
                     style={{
@@ -543,6 +607,16 @@ const Resume = () => {
                     <span style={{ fontStyle: 'italic' }}>
                       • Software Engineering Program •
                     </span>
+                  </a>
+                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="18px"
+                      w="20px"
+                    />
                   </a>
                   <p
                     style={{
@@ -628,7 +702,7 @@ const Resume = () => {
                 <Th fontSize={'18px'}>Certificates</Th>
                 <Th>
                   <a
-                    href="https://www.leadrpro.com/"
+                    href="https://www.udemy.com/certificate/UC-9537e18e-dd7c-4002-9e9b-50d8518936cd/"
                     target={'_blank'}
                     style={{
                       color: isHovering ? 'blue' : '',
@@ -639,6 +713,17 @@ const Resume = () => {
                   >
                     Advanced JavaScript{' '}
                   </a>
+                  <span style={{ fontStyle: 'italic' }}> •</span>{' '}
+                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="18px"
+                      w="20px"
+                    />
+                  </a>
                   <p
                     style={{
                       fontSize: '12px',
@@ -661,7 +746,7 @@ const Resume = () => {
                     CSS
                   </p>
                   <a
-                    href="https://www.leadrpro.com/"
+                    href="https://www.udemy.com/certificate/UC-2d46e76f-3c8b-4ded-b80b-ce25c769bbe2/"
                     target={'_blank'}
                     style={{
                       color: isHovering ? 'blue' : '',
@@ -672,6 +757,17 @@ const Resume = () => {
                   >
                     React Front To Back{' '}
                   </a>
+                  <span style={{ fontStyle: 'italic' }}> •</span>{' '}
+                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="18px"
+                      w="20px"
+                    />
+                  </a>
                   <p
                     style={{
                       fontSize: '12px',
@@ -683,7 +779,6 @@ const Resume = () => {
                   >
                     (Udemy) Nov 2021
                   </p>
-
                   <p
                     style={{
                       fontSize: '10px',
@@ -695,7 +790,7 @@ const Resume = () => {
                     CSS
                   </p>
                   <a
-                    href="https://www.leadrpro.com/"
+                    href="https://www.udemy.com/certificate/UC-0890bf55-645f-47ac-9a9f-2792437deb60/"
                     target={'_blank'}
                     style={{
                       color: isHovering ? 'blue' : '',
@@ -706,39 +801,16 @@ const Resume = () => {
                   >
                     React + Shopify (Headless CMS){' '}
                   </a>
-                  <p
-                    style={{
-                      fontSize: '12px',
-                      fontStyle: 'italic',
-                      marginLeft: '40px',
-                      paddingBottom: '5px',
-                      paddingTop: '5px',
-                    }}
-                  >
-                    (Udemy) Sep 2021
-                  </p>
-
-                  <p
-                    style={{
-                      fontSize: '10px',
-                      marginLeft: '100px',
-                      marginBottom: '20px',
-                    }}
-                  >
-                    •Developed using React.js, Chakra UI, JavaScript, HTML and
-                    CSS
-                  </p>
-                  <a
-                    href="https://www.leadrpro.com/"
-                    target={'_blank'}
-                    style={{
-                      color: isHovering ? 'blue' : '',
-                      fontSize: '14px',
-                    }}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                  >
-                    Advanced Shopify Theme Development : Liquid + Vue.js{' '}
+                  <span style={{ fontStyle: 'italic' }}> •</span>{' '}
+                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="18px"
+                      w="20px"
+                    />
                   </a>
                   <p
                     style={{
@@ -751,7 +823,50 @@ const Resume = () => {
                   >
                     (Udemy) Sep 2021
                   </p>
-
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •Developed using React.js, Chakra UI, JavaScript, HTML and
+                    CSS
+                  </p>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-9f51f7d0-29b6-42b2-8c43-eef5b7404787/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    Advanced Shopify Theme Development : Liquid + Vue.js{' '}
+                  </a>
+                  <span style={{ fontStyle: 'italic' }}> •</span>{' '}
+                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="18px"
+                      w="20px"
+                    />
+                  </a>
+                  <p
+                    style={{
+                      fontSize: '12px',
+                      fontStyle: 'italic',
+                      marginLeft: '40px',
+                      paddingBottom: '5px',
+                      paddingTop: '5px',
+                    }}
+                  >
+                    (Udemy) Sep 2021
+                  </p>
                   <p
                     style={{
                       fontSize: '10px',
