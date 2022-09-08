@@ -430,7 +430,7 @@ const Header = () => {
                   }}
                   onClick={() => scrollClickHandle()}
                 >
-                  My Work
+                  Resume
                 </Button>
                 <Button
                   bg={bg}
@@ -445,7 +445,7 @@ const Header = () => {
                     boxShadow: 'none',
                   }}
                 >
-                  Resume
+                  My Work
                 </Button>
                 <Button
                   bg={bg}

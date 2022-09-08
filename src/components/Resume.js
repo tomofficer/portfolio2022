@@ -26,7 +26,7 @@ const Resume = () => {
   const [isHovering, setIsHovering] = useState(false);
 
   //handlers
-  const handleMouseEnter = () => {
+  const handleMouseEnter = id => {
     setIsHovering(true);
   };
 
@@ -47,13 +47,13 @@ const Resume = () => {
           sm: 6,
           lg: 8,
         }}
-        // mt={{
-        //   base: 10,
-        //   sm: 12,
-        //   md: 16,
-        //   lg: 20,
-        //   xl: 28,
-        // }}
+        mt={{
+          base: 10,
+          sm: 12,
+          md: 16,
+          lg: 20,
+          xl: 28,
+        }}
       >
         <Box
           w="full"
@@ -119,7 +119,13 @@ const Resume = () => {
                   >
                     LeadrPro{' '}
                   </a>
-                  <p style={{ fontSize: '10px', fontStyle: 'italic' }}>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      fontStyle: 'italic',
+                      marginLeft: '10px',
+                    }}
+                  >
                     (Full Stack Developer) Nov 2021 - Current
                   </p>
                 </Th>
@@ -131,10 +137,26 @@ const Resume = () => {
               <Tr>
                 <Th></Th>
                 <Th>
-                  White Dog WoodWorking{' '}
-                  <span style={{ fontSize: '10px', fontStyle: 'italic' }}>
+                  <a
+                    href="https://www.whitedogwoodworking.com/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    White Dog Woodworking{' '}
+                  </a>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      fontStyle: 'italic',
+                      marginLeft: '10px',
+                    }}
+                  >
                     (Web Developer) Jul 2022 - Current
-                  </span>
+                  </p>
                 </Th>
                 <Th></Th>
               </Tr>
@@ -163,42 +185,170 @@ const Resume = () => {
             <Thead>
               <Tr>
                 <Th fontSize={'18px'}>Education</Th>
-                <Th>Expression College</Th>
+
+                <Th>
+                  {' '}
+                  <a
+                    href="https://www.whitedogwoodworking.com/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    Thinkful{' '}
+                  </a>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      fontStyle: 'italic',
+                      marginLeft: '10px',
+                    }}
+                  >
+                    (Software Engineering Program) 2021
+                  </p>
+                </Th>
                 <Th></Th>
               </Tr>
             </Thead>
             <Thead>
               <Tr>
                 <Th></Th>
-                <Th>Thinkful</Th>
+                <Th>
+                  <a
+                    href="https://www.whitedogwoodworking.com/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    Expression College{' '}
+                  </a>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      fontStyle: 'italic',
+                      marginLeft: '10px',
+                    }}
+                  >
+                    (Bachelors Of Applied Science) 2015
+                  </p>
+                </Th>
                 <Th></Th>
               </Tr>
             </Thead>
             <Thead>
               <Tr>
                 <Th fontSize={'18px'}>Certificates</Th>
-                <Th>Advanced JavaScript</Th>
+                <Th>
+                  <a
+                    href="https://www.whitedogwoodworking.com/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    Advanced Javascript{' '}
+                  </a>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      fontStyle: 'italic',
+                      marginLeft: '10px',
+                    }}
+                  >
+                    (Udemy) 2022
+                  </p>
+                </Th>
                 <Th></Th>
               </Tr>
             </Thead>
             <Thead>
               <Tr>
                 <Th></Th>
-                <Th>React Front To Back</Th>
+                <Th>
+                  <a
+                    href="https://www.whitedogwoodworking.com/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    React Front To Back{' '}
+                  </a>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      fontStyle: 'italic',
+                      marginLeft: '10px',
+                    }}
+                  >
+                    (Udemy) 2021
+                  </p>
+                </Th>
                 <Th></Th>
               </Tr>
             </Thead>
             <Thead>
               <Tr>
                 <Th></Th>
-                <Th>React + Shopify Headless CMS</Th>
+                <Th>
+                  <a
+                    href="https://www.whitedogwoodworking.com/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    React + Shopify (Headless CMS){' '}
+                  </a>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      fontStyle: 'italic',
+                      marginLeft: '10px',
+                    }}
+                  >
+                    (Udemy) 2021
+                  </p>
+                </Th>
                 <Th></Th>
               </Tr>
             </Thead>
             <Thead>
               <Tr>
                 <Th></Th>
-                <Th>Advanced Shopify Theme Dev</Th>
+                <Th>
+                  <a
+                    href="https://www.whitedogwoodworking.com/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    Advanced Shopify Theme Development{' '}
+                  </a>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      fontStyle: 'italic',
+                      marginLeft: '10px',
+                    }}
+                  >
+                    (Udemy) 2021
+                  </p>
+                </Th>
                 <Th></Th>
               </Tr>
             </Thead>

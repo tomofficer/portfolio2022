@@ -57,13 +57,13 @@ const MyWork = () => {
             sm: 6,
             lg: 8,
           }}
-          mt={{
-            base: 10,
-            sm: 12,
-            md: 16,
-            lg: 20,
-            xl: 28,
-          }}
+          // mt={{
+          //   base: 10,
+          //   sm: 12,
+          //   md: 16,
+          //   lg: 20,
+          //   xl: 28,
+          // }}
         >
           <Box
             w="full"

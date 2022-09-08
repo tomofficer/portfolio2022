@@ -24,8 +24,8 @@ function App() {
       <div style={{ backgroundColor: 'black' }}>
         <Header />
         <Landing />
-        <MyWork />
         <Resume />
+        <MyWork />
 
         <About />
 
