@@ -421,7 +421,7 @@ const Resume = () => {
                   >
                     Expression College{' '}
                     <span style={{ fontStyle: 'italic' }}>
-                      • Audio Bachelor Of Applied Science •
+                      • Bachelor Of Applied Science, Audio Engineering •
                     </span>{' '}
                   </a>
                   <p
@@ -464,38 +464,44 @@ const Resume = () => {
                 <Th fontSize={'18px'}>Certificates</Th>
                 <Th>
                   <a
-                    href="https://www.whitedogwoodworking.com/"
+                    href="https://www.leadrpro.com/"
                     target={'_blank'}
                     style={{
                       color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
                     }}
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                   >
-                    Advanced Javascript{' '}
+                    Advanced JavaScript{' '}
                   </a>
                   <p
                     style={{
-                      fontSize: '10px',
+                      fontSize: '12px',
                       fontStyle: 'italic',
-                      marginLeft: '10px',
+                      marginLeft: '40px',
+                      paddingBottom: '5px',
+                      paddingTop: '5px',
                     }}
                   >
-                    (Udemy) 2022
+                    (Udemy) Nov 2021
                   </p>
-                </Th>
-                <Th></Th>
-              </Tr>
-            </Thead>
-            <Thead>
-              <Tr>
-                <Th></Th>
-                <Th>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •Developed using React.js, Chakra UI, JavaScript, HTML and
+                    CSS
+                  </p>
                   <a
-                    href="https://www.whitedogwoodworking.com/"
+                    href="https://www.leadrpro.com/"
                     target={'_blank'}
                     style={{
                       color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
                     }}
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
@@ -504,26 +510,32 @@ const Resume = () => {
                   </a>
                   <p
                     style={{
-                      fontSize: '10px',
+                      fontSize: '12px',
                       fontStyle: 'italic',
-                      marginLeft: '10px',
+                      marginLeft: '40px',
+                      paddingBottom: '5px',
+                      paddingTop: '5px',
                     }}
                   >
-                    (Udemy) 2021
+                    (Udemy) Nov 2021
                   </p>
-                </Th>
-                <Th></Th>
-              </Tr>
-            </Thead>
-            <Thead>
-              <Tr>
-                <Th></Th>
-                <Th>
+
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •Developed using React.js, Chakra UI, JavaScript, HTML and
+                    CSS
+                  </p>
                   <a
-                    href="https://www.whitedogwoodworking.com/"
+                    href="https://www.leadrpro.com/"
                     target={'_blank'}
                     style={{
                       color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
                     }}
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
@@ -532,40 +544,59 @@ const Resume = () => {
                   </a>
                   <p
                     style={{
-                      fontSize: '10px',
+                      fontSize: '12px',
                       fontStyle: 'italic',
-                      marginLeft: '10px',
+                      marginLeft: '40px',
+                      paddingBottom: '5px',
+                      paddingTop: '5px',
                     }}
                   >
-                    (Udemy) 2021
+                    (Udemy) Sep 2021
                   </p>
-                </Th>
-                <Th></Th>
-              </Tr>
-            </Thead>
-            <Thead>
-              <Tr>
-                <Th></Th>
-                <Th>
+
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •Developed using React.js, Chakra UI, JavaScript, HTML and
+                    CSS
+                  </p>
                   <a
-                    href="https://www.whitedogwoodworking.com/"
+                    href="https://www.leadrpro.com/"
                     target={'_blank'}
                     style={{
                       color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
                     }}
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                   >
-                    Advanced Shopify Theme Development{' '}
+                    Advanced Shopify Theme Development : Liquid + Vue.js{' '}
                   </a>
                   <p
                     style={{
-                      fontSize: '10px',
+                      fontSize: '12px',
                       fontStyle: 'italic',
-                      marginLeft: '10px',
+                      marginLeft: '40px',
+                      paddingBottom: '5px',
+                      paddingTop: '5px',
                     }}
                   >
-                    (Udemy) 2021
+                    (Udemy) Sep 2021
+                  </p>
+
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •Developed using React.js, Chakra UI, JavaScript, HTML and
+                    CSS
                   </p>
                 </Th>
                 <Th></Th>
