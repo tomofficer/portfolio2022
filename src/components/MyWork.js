@@ -9,7 +9,8 @@ const MyWork = () => {
       title: 'LeadrPro',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
-      imgPath: '',
+      imgPath:
+        'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/lpshot_SyidJfdxi.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662676790090',
       liveLink: 'https://www.leadrpro.com/',
       gitHubLink: '',
     },
@@ -18,7 +19,8 @@ const MyWork = () => {
       title: 'Your Next Toy',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
-      imgPath: '',
+      imgPath:
+        'https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80',
       gitHubLink: '',
     },
     {
@@ -26,7 +28,8 @@ const MyWork = () => {
       title: 'White Dog Woodworking',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
-      imgPath: '',
+      imgPath:
+        'https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80',
       gitHubLink: '',
     },
     {
@@ -34,7 +37,8 @@ const MyWork = () => {
       title: 'GitHub Finder',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
-      imgPath: '',
+      imgPath:
+        'https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80',
       gitHubLink: '',
     },
   ];

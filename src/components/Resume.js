@@ -229,6 +229,51 @@ const Resume = () => {
                 </Th>
 
                 <Th>
+                  {/* {employment.map(job => (
+                    <>
+                      <a
+                        href="https://www.leadrpro.com/"
+                        target={'_blank'}
+                        style={{
+                          color: isHovering ? 'blue' : '',
+                          fontSize: '14px',
+                        }}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}
+                      >
+                        <Box mt={'20px'}>
+                          {job.company}{' '}
+                          <span style={{ fontStyle: 'italic' }}>
+                            • {job.jobTitle} •
+                          </span>{' '}
+                        </Box>
+                      </a>
+                      <p
+                        style={{
+                          fontSize: '12px',
+                          fontStyle: 'italic',
+                          marginLeft: '40px',
+                          paddingBottom: '5px',
+                          paddingTop: '5px',
+                        }}
+                      >
+                        ({job.location}) {job.date}
+                      </p>
+                      {job.descriptions.map(description => (
+                        <>
+                          <p
+                            style={{
+                              fontSize: '10px',
+                              marginLeft: '100px',
+                            }}
+                          >
+                            •{description}
+                          </p>
+                        </>
+                      ))}
+                    </>
+                  ))} */}
+
                   <a
                     href="https://www.leadrpro.com/"
                     target={'_blank'}
@@ -283,6 +328,7 @@ const Resume = () => {
                     •Helped develop functional databases and servers to support
                     scalability on the back-end
                   </p>
+
                   <a
                     href="https://www.whitedogwoodworking.com/"
                     target={'_blank'}
@@ -329,7 +375,6 @@ const Resume = () => {
                     using JavaScript, HTML + CSS
                   </p>
                 </Th>
-
                 <Th></Th>
               </Tr>
             </Thead>

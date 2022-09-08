@@ -454,7 +454,7 @@ const Header = () => {
                   alignItems="center"
                   fontSize="md"
                   _hover={{
-                    color: 'purple.300',
+                    color: 'green.300',
                   }}
                   _focus={{
                     boxShadow: 'none',
@@ -462,7 +462,7 @@ const Header = () => {
                 >
                   Contact
                 </Button>
-                <Button
+                {/* <Button
                   bg={bg}
                   color="gray.500"
                   display="inline-flex"
@@ -476,7 +476,7 @@ const Header = () => {
                   }}
                 >
                   Blog
-                </Button>
+                </Button> */}
               </HStack>
             </Flex>
             <Flex justify="flex-end" align="center" color="gray.400">
