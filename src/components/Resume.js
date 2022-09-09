@@ -277,8 +277,8 @@ const Resume = () => {
                       ))}
                     </>
                   ))} */}
-
                   <a
+                    href="https://www.leadrpro.com/"
                     target={'_blank'}
                     style={{
                       color: isHovering ? 'blue' : '',
@@ -287,12 +287,9 @@ const Resume = () => {
                     onMouseEnter={() => handleMouseEnter()}
                     onMouseLeave={handleMouseLeave}
                   >
-                    LeadrPro{' '}
-                    <span style={{ fontStyle: 'italic' }}>
-                      • Full Stack Developer •
-                    </span>{' '}
+                    Full Stack Developer{' '}
+                    <span style={{ fontStyle: 'italic' }}>• LeadrPro •</span>{' '}
                   </a>
-
                   <a href="https://www.leadrpro.com/" target={'_blank'}>
                     <Icon
                       position={'absolute'}
@@ -303,7 +300,16 @@ const Resume = () => {
                       w="20px"
                     />
                   </a>
-
+                  {/* <a href="https://www.leadrpro.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="18px"
+                      w="20px"
+                    />
+                  </a> */}
                   <p
                     style={{
                       fontSize: '12px',
@@ -343,7 +349,6 @@ const Resume = () => {
                     •Helped develop functional databases and servers to support
                     scalability on the back-end
                   </p>
-
                   <a
                     href="https://www.whitedogwoodworking.com/"
                     target={'_blank'}
@@ -354,9 +359,9 @@ const Resume = () => {
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                   >
-                    White Dog Woodworking{' '}
+                    Front End Developer{' '}
                     <span style={{ fontStyle: 'italic' }}>
-                      • Front End Developer •
+                      • White Dog Woodworking •
                     </span>{' '}
                   </a>
                   <a
@@ -603,10 +608,8 @@ const Resume = () => {
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                   >
-                    Thinkful{' '}
-                    <span style={{ fontStyle: 'italic' }}>
-                      • Software Engineering Program •
-                    </span>
+                    Software Engineering Program{' '}
+                    <span style={{ fontStyle: 'italic' }}>• Thinkful •</span>
                   </a>
                   <a href="https://www.leadrpro.com/" target={'_blank'}>
                     <Icon
@@ -657,10 +660,20 @@ const Resume = () => {
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                   >
-                    Expression College{' '}
+                    Bachelor Of Applied Science, Audio Engineering{' '}
                     <span style={{ fontStyle: 'italic' }}>
-                      • Bachelor Of Applied Science, Audio Engineering •
+                      • Expression College •
                     </span>{' '}
+                  </a>
+                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="18px"
+                      w="20px"
+                    />
                   </a>
                   <p
                     style={{
