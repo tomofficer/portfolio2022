@@ -290,26 +290,6 @@ const Resume = () => {
                     Full Stack Developer{' '}
                     <span style={{ fontStyle: 'italic' }}>• LeadrPro •</span>{' '}
                   </a>
-                  <a href="https://www.leadrpro.com/" target={'_blank'}>
-                    <Icon
-                      position={'absolute'}
-                      ml={'10px'}
-                      as={FaEye}
-                      _hover={{ color: 'blue.500' }}
-                      h="18px"
-                      w="20px"
-                    />
-                  </a>
-                  {/* <a href="https://www.leadrpro.com/" target={'_blank'}>
-                    <Icon
-                      position={'absolute'}
-                      ml={'10px'}
-                      as={FaEye}
-                      _hover={{ color: 'blue.500' }}
-                      h="18px"
-                      w="20px"
-                    />
-                  </a> */}
                   <p
                     style={{
                       fontSize: '12px',
@@ -321,6 +301,16 @@ const Resume = () => {
                   >
                     (Remote, California) Nov 2021 - Current
                   </p>
+                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="13px"
+                      w="15px"
+                    />
+                  </a>
                   <p
                     style={{
                       fontSize: '10px',
@@ -364,19 +354,7 @@ const Resume = () => {
                       • White Dog Woodworking •
                     </span>{' '}
                   </a>
-                  <a
-                    href="https://www.whitedogwoodworking.com/"
-                    target={'_blank'}
-                  >
-                    <Icon
-                      position={'absolute'}
-                      ml={'10px'}
-                      as={FaEye}
-                      _hover={{ color: 'blue.500' }}
-                      h="18px"
-                      w="20px"
-                    />
-                  </a>
+
                   <p
                     style={{
                       fontSize: '12px',
@@ -388,6 +366,21 @@ const Resume = () => {
                   >
                     (Remote, California) Jul 2022 - Current (Contract)
                   </p>
+                  <span>
+                    <a
+                      href="https://www.whitedogwoodworking.com/"
+                      target={'_blank'}
+                    >
+                      <Icon
+                        position={'absolute'}
+                        ml={'10px'}
+                        as={FaEye}
+                        _hover={{ color: 'blue.500' }}
+                        h="13px"
+                        w="15px"
+                      />
+                    </a>
+                  </span>
                   <p
                     style={{
                       fontSize: '10px',
@@ -429,16 +422,7 @@ const Resume = () => {
                     Your Next Toy.com{' '}
                     <span style={{ fontStyle: 'italic' }}> •</span>{' '}
                   </a>
-                  <a href="https://www.yournexttoy.com/" target={'_blank'}>
-                    <Icon
-                      position={'absolute'}
-                      ml={'10px'}
-                      as={FaEye}
-                      _hover={{ color: 'blue.500' }}
-                      h="18px"
-                      w="20px"
-                    />
-                  </a>
+
                   <p
                     style={{
                       fontSize: '12px',
@@ -450,6 +434,16 @@ const Resume = () => {
                   >
                     (Affiliate Marketing Website) Sep 2022
                   </p>
+                  <a href="https://www.yournexttoy.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="13px"
+                      w="15px"
+                    />
+                  </a>
                   <p
                     style={{
                       fontSize: '10px',
@@ -482,19 +476,7 @@ const Resume = () => {
                     JavaScript Coding Tips.com{' '}
                     <span style={{ fontStyle: 'italic' }}> •</span>{' '}
                   </a>
-                  <a
-                    href="https://www.javascriptcodingtips.com/"
-                    target={'_blank'}
-                  >
-                    <Icon
-                      position={'absolute'}
-                      ml={'10px'}
-                      as={FaEye}
-                      _hover={{ color: 'blue.500' }}
-                      h="18px"
-                      w="20px"
-                    />
-                  </a>
+
                   <p
                     style={{
                       fontSize: '12px',
@@ -506,6 +488,19 @@ const Resume = () => {
                   >
                     (Programming Blog Website) Sep 2022
                   </p>
+                  <a
+                    href="https://www.javascriptcodingtips.com/"
+                    target={'_blank'}
+                  >
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="13px"
+                      w="15px"
+                    />
+                  </a>
                   <p
                     style={{
                       fontSize: '10px',
@@ -547,16 +542,7 @@ const Resume = () => {
                     GitHub Finder App{' '}
                     <span style={{ fontStyle: 'italic' }}> •</span>{' '}
                   </a>
-                  <a href="https://www.leadrpro.com/" target={'_blank'}>
-                    <Icon
-                      position={'absolute'}
-                      ml={'10px'}
-                      as={FaEye}
-                      _hover={{ color: 'blue.500' }}
-                      h="18px"
-                      w="20px"
-                    />
-                  </a>
+
                   <p
                     style={{
                       fontSize: '12px',
@@ -568,6 +554,16 @@ const Resume = () => {
                   >
                     (Full Stack Web App) Dec 2021
                   </p>
+                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="13px"
+                      w="15px"
+                    />
+                  </a>
                   <p
                     style={{
                       fontSize: '10px',
@@ -611,16 +607,6 @@ const Resume = () => {
                     Software Engineering Program{' '}
                     <span style={{ fontStyle: 'italic' }}>• Thinkful •</span>
                   </a>
-                  <a href="https://www.leadrpro.com/" target={'_blank'}>
-                    <Icon
-                      position={'absolute'}
-                      ml={'10px'}
-                      as={FaEye}
-                      _hover={{ color: 'blue.500' }}
-                      h="18px"
-                      w="20px"
-                    />
-                  </a>
                   <p
                     style={{
                       fontSize: '12px',
@@ -632,6 +618,16 @@ const Resume = () => {
                   >
                     (Remote, California) Apr 2021 - Jan 2022
                   </p>
+                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="13px"
+                      w="15px"
+                    />
+                  </a>
                   <p
                     style={{
                       fontSize: '10px',
@@ -665,16 +661,6 @@ const Resume = () => {
                       • Expression College •
                     </span>{' '}
                   </a>
-                  <a href="https://www.leadrpro.com/" target={'_blank'}>
-                    <Icon
-                      position={'absolute'}
-                      ml={'10px'}
-                      as={FaEye}
-                      _hover={{ color: 'blue.500' }}
-                      h="18px"
-                      w="20px"
-                    />
-                  </a>
                   <p
                     style={{
                       fontSize: '12px',
@@ -686,6 +672,16 @@ const Resume = () => {
                   >
                     (Emeryville, California) Feb 2012 - Dec 2015
                   </p>
+                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="13px"
+                      w="15px"
+                    />
+                  </a>
                   <p
                     style={{
                       fontSize: '10px',
@@ -727,16 +723,6 @@ const Resume = () => {
                     Advanced JavaScript{' '}
                   </a>
                   <span style={{ fontStyle: 'italic' }}> •</span>{' '}
-                  <a href="https://www.leadrpro.com/" target={'_blank'}>
-                    <Icon
-                      position={'absolute'}
-                      ml={'10px'}
-                      as={FaEye}
-                      _hover={{ color: 'blue.500' }}
-                      h="18px"
-                      w="20px"
-                    />
-                  </a>
                   <p
                     style={{
                       fontSize: '12px',
@@ -748,6 +734,16 @@ const Resume = () => {
                   >
                     (Udemy) Nov 2021
                   </p>
+                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="13px"
+                      w="15px"
+                    />
+                  </a>
                   <p
                     style={{
                       fontSize: '10px',
@@ -771,16 +767,6 @@ const Resume = () => {
                     React Front To Back{' '}
                   </a>
                   <span style={{ fontStyle: 'italic' }}> •</span>{' '}
-                  <a href="https://www.leadrpro.com/" target={'_blank'}>
-                    <Icon
-                      position={'absolute'}
-                      ml={'10px'}
-                      as={FaEye}
-                      _hover={{ color: 'blue.500' }}
-                      h="18px"
-                      w="20px"
-                    />
-                  </a>
                   <p
                     style={{
                       fontSize: '12px',
@@ -792,6 +778,16 @@ const Resume = () => {
                   >
                     (Udemy) Nov 2021
                   </p>
+                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="13px"
+                      w="15px"
+                    />
+                  </a>
                   <p
                     style={{
                       fontSize: '10px',
@@ -815,16 +811,6 @@ const Resume = () => {
                     React + Shopify (Headless CMS){' '}
                   </a>
                   <span style={{ fontStyle: 'italic' }}> •</span>{' '}
-                  <a href="https://www.leadrpro.com/" target={'_blank'}>
-                    <Icon
-                      position={'absolute'}
-                      ml={'10px'}
-                      as={FaEye}
-                      _hover={{ color: 'blue.500' }}
-                      h="18px"
-                      w="20px"
-                    />
-                  </a>
                   <p
                     style={{
                       fontSize: '12px',
@@ -836,6 +822,16 @@ const Resume = () => {
                   >
                     (Udemy) Sep 2021
                   </p>
+                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="13px"
+                      w="15px"
+                    />
+                  </a>
                   <p
                     style={{
                       fontSize: '10px',
@@ -859,16 +855,6 @@ const Resume = () => {
                     Advanced Shopify Theme Development : Liquid + Vue.js{' '}
                   </a>
                   <span style={{ fontStyle: 'italic' }}> •</span>{' '}
-                  <a href="https://www.leadrpro.com/" target={'_blank'}>
-                    <Icon
-                      position={'absolute'}
-                      ml={'10px'}
-                      as={FaEye}
-                      _hover={{ color: 'blue.500' }}
-                      h="18px"
-                      w="20px"
-                    />
-                  </a>
                   <p
                     style={{
                       fontSize: '12px',
@@ -880,6 +866,16 @@ const Resume = () => {
                   >
                     (Udemy) Sep 2021
                   </p>
+                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                    <Icon
+                      position={'absolute'}
+                      ml={'10px'}
+                      as={FaEye}
+                      _hover={{ color: 'blue.500' }}
+                      h="13px"
+                      w="15px"
+                    />
+                  </a>
                   <p
                     style={{
                       fontSize: '10px',
