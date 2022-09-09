@@ -277,9 +277,7 @@ const Resume = () => {
                       ))}
                     </>
                   ))} */}
-                  <a
-                    href="https://www.leadrpro.com/"
-                    target={'_blank'}
+                  <chakra.header
                     style={{
                       color: isHovering ? 'blue' : '',
                       fontSize: '14px',
@@ -288,8 +286,8 @@ const Resume = () => {
                     onMouseLeave={handleMouseLeave}
                   >
                     Full Stack Developer{' '}
-                    <span style={{ fontStyle: 'italic' }}>• LeadrPro •</span>{' '}
-                  </a>
+                    <span style={{ fontStyle: 'italic' }}>• LeadrPro </span>{' '}
+                  </chakra.header>
                   <p
                     style={{
                       fontSize: '12px',
@@ -299,7 +297,7 @@ const Resume = () => {
                       paddingTop: '5px',
                     }}
                   >
-                    (Remote, California) Nov 2021 - Current
+                    (Remote, California) Nov 2021 - Current (Full Time)
                   </p>
                   <a href="https://www.leadrpro.com/" target={'_blank'}>
                     <Icon
@@ -349,9 +347,9 @@ const Resume = () => {
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                   >
-                    Front End Developer{' '}
+                    Front End Developer
                     <span style={{ fontStyle: 'italic' }}>
-                      • White Dog Woodworking •
+                      • White Dog Woodworking
                     </span>{' '}
                   </a>
 
@@ -419,8 +417,11 @@ const Resume = () => {
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                   >
-                    Your Next Toy.com{' '}
-                    <span style={{ fontStyle: 'italic' }}> •</span>{' '}
+                    Web Developer{' '}
+                    {/* <span style={{ fontStyle: 'italic' }}> •</span>{' '} */}
+                    <span style={{ fontStyle: 'italic' }}>
+                      • YourNextToy.com
+                    </span>{' '}
                   </a>
 
                   <p
@@ -473,8 +474,11 @@ const Resume = () => {
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                   >
-                    JavaScript Coding Tips.com{' '}
-                    <span style={{ fontStyle: 'italic' }}> •</span>{' '}
+                    Web Developer{' '}
+                    {/* <span style={{ fontStyle: 'italic' }}> •</span>{' '} */}
+                    <span style={{ fontStyle: 'italic' }}>
+                      • JavaScriptCodingTips.com
+                    </span>{' '}
                   </a>
 
                   <p
@@ -539,8 +543,11 @@ const Resume = () => {
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                   >
-                    GitHub Finder App{' '}
-                    <span style={{ fontStyle: 'italic' }}> •</span>{' '}
+                    Full Stack Developer{' '}
+                    {/* <span style={{ fontStyle: 'italic' }}> •</span>{' '} */}
+                    <span style={{ fontStyle: 'italic' }}>
+                      • GitHub Finder App
+                    </span>{' '}
                   </a>
 
                   <p
@@ -605,7 +612,7 @@ const Resume = () => {
                     onMouseLeave={handleMouseLeave}
                   >
                     Software Engineering Program{' '}
-                    <span style={{ fontStyle: 'italic' }}>• Thinkful •</span>
+                    <span style={{ fontStyle: 'italic' }}>• Thinkful </span>
                   </a>
                   <p
                     style={{
@@ -658,7 +665,7 @@ const Resume = () => {
                   >
                     Bachelor Of Applied Science, Audio Engineering{' '}
                     <span style={{ fontStyle: 'italic' }}>
-                      • Expression College •
+                      • Expression College
                     </span>{' '}
                   </a>
                   <p
@@ -885,6 +892,106 @@ const Resume = () => {
                   >
                     •Developed using React.js, Chakra UI, JavaScript, HTML and
                     CSS
+                  </p>
+                </Th>
+                <Th></Th>
+              </Tr>
+            </Thead>
+            <Thead>
+              <Tr>
+                <Th fontSize={'18px'}>Additional Skills</Th>
+                <Th>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-9537e18e-dd7c-4002-9e9b-50d8518936cd/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    Frontend Skills{' '}
+                  </a>
+
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '40px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •JavaScript | React | HTML | CSS | Next.js | Vue.js |
+                    Shopify : Liquid | Bootstrap | Gatsby.js | Chakra UI
+                  </p>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-9537e18e-dd7c-4002-9e9b-50d8518936cd/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    Backend Skills{' '}
+                  </a>
+
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '40px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •Node.js | Express.js | Knex.js | PostgreSQL | MongoDB |
+                    Separation of concerns | RESTful API's
+                  </p>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-9537e18e-dd7c-4002-9e9b-50d8518936cd/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    Soft Skills{' '}
+                  </a>
+
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '40px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •Critical problem solving | Self management | Empathy |
+                    Communication | Creativity | Self-awareness
+                  </p>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-2d46e76f-3c8b-4ded-b80b-ce25c769bbe2/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    Miscellaneous{' '}
+                  </a>
+
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '40px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •SEO | d3.js | Mailchimp | MouseFlow | Git | Figma | Adobe
+                    Photoshop CS6 | Asana | Postman | Jira
                   </p>
                 </Th>
                 <Th></Th>

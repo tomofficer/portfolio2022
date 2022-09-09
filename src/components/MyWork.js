@@ -1,5 +1,6 @@
-import { Box, Flex, chakra, Image, Link } from '@chakra-ui/react';
+import { Box, Flex, chakra, Image, Link, Icon } from '@chakra-ui/react';
 import React from 'react';
+import { FaBitbucket } from 'react-icons/fa';
 
 const MyWork = () => {
   //data
@@ -167,9 +168,9 @@ const MyWork = () => {
                           backgroundImage:
                             "url('https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80')",
                         }}
-                        // _hover={{
-                        //   transform: 'scale(1.05)',
-                        // }}
+                        _hover={{
+                          transform: 'scale(1.05)',
+                        }}
                       ></Box>
                     </Box>
 
@@ -368,9 +369,9 @@ const MyWork = () => {
                           backgroundImage:
                             "url('https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80')",
                         }}
-                        // _hover={{
-                        //   transform: 'scale(1.05)',
-                        // }}
+                        _hover={{
+                          transform: 'scale(1.05)',
+                        }}
                       ></Box>
                     </Box>
                   </Box>

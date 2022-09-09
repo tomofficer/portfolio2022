@@ -333,8 +333,9 @@ const Header = () => {
   );
 
   return (
-    <React.Fragment style={{ zIndex: '10' }}>
+    <React.Fragment>
       <chakra.header
+        zIndex={10}
         ref={ref}
         shadow={y > height ? 'sm' : undefined}
         transition="box-shadow 0.2s"
