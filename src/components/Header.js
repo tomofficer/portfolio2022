@@ -24,7 +24,7 @@ import { FaMoon, FaSun } from 'react-icons/fa';
 import { useViewportScroll } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
 
-const Header = () => {
+const Header = ({ scrollClickHandle }) => {
   const { toggleColorMode: toggleMode } = useColorMode();
   const text = useColorModeValue('dark', 'light');
   const SwitchIcon = useColorModeValue(FaMoon, FaSun);
@@ -39,12 +39,12 @@ const Header = () => {
   const cl = useColorModeValue('gray.800', 'white');
   const mobileNav = useDisclosure();
 
-  const scrollToDivider = useRef();
+  // const scrollToDivider = useRef();
 
-  //click handlers
-  const scrollClickHandle = () => {
-    scrollToDivider.current.scrollIntoView({ behavior: 'smooth' });
-  };
+  // //click handlers
+  // const scrollClickHandle = () => {
+  //   scrollToDivider.current.scrollIntoView({ behavior: 'smooth' });
+  // };
 
   const Section = props => {
     const ic = useColorModeValue('brand.600', 'brand.50');

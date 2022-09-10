@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import {
   Container,
   Grid,
@@ -23,7 +23,7 @@ import {
 } from '@chakra-ui/react';
 import { FaEye } from 'react-icons/fa';
 
-const Resume = () => {
+const Resume = ({ scrollToResume }) => {
   //state variables
   const [isHovering, setIsHovering] = useState(false);
   const [currentId, setCurrentId] = useState(null);
@@ -159,6 +159,7 @@ const Resume = () => {
 
   return (
     <section id="Resume" style={{ background: 'white' }}>
+      <div></div>
       <Box
         bgColor={'white'}
         mx="auto"
@@ -214,7 +215,7 @@ const Resume = () => {
               color="black"
               fontWeight="extrabold"
               _hover={{
-                bgGradient: 'linear(to-r, purple.500, green.400)',
+                bgGradient: 'linear(to-l, green.400, purple.500)',
               }}
             >
               Resume
@@ -729,7 +730,7 @@ const Resume = () => {
                   >
                     Advanced JavaScript{' '}
                   </a>
-                  <span style={{ fontStyle: 'italic' }}> •</span>{' '}
+
                   <p
                     style={{
                       fontSize: '12px',
@@ -773,7 +774,7 @@ const Resume = () => {
                   >
                     React Front To Back{' '}
                   </a>
-                  <span style={{ fontStyle: 'italic' }}> •</span>{' '}
+
                   <p
                     style={{
                       fontSize: '12px',
@@ -817,7 +818,7 @@ const Resume = () => {
                   >
                     React + Shopify (Headless CMS){' '}
                   </a>
-                  <span style={{ fontStyle: 'italic' }}> •</span>{' '}
+
                   <p
                     style={{
                       fontSize: '12px',
@@ -861,7 +862,7 @@ const Resume = () => {
                   >
                     Advanced Shopify Theme Development : Liquid + Vue.js{' '}
                   </a>
-                  <span style={{ fontStyle: 'italic' }}> •</span>{' '}
+
                   <p
                     style={{
                       fontSize: '12px',
@@ -990,8 +991,8 @@ const Resume = () => {
                       marginBottom: '20px',
                     }}
                   >
-                    •SEO | d3.js | Mailchimp | MouseFlow | Git | Figma | Adobe
-                    Photoshop CS6 | Asana | Postman | Jira
+                    •SEO | d3.js | Mailchimp Integration | MouseFlow | Git |
+                    Figma | Adobe Photoshop | Asana | Postman | Jira
                   </p>
                 </Th>
                 <Th></Th>

@@ -9,7 +9,7 @@ import {
 } from '@chakra-ui/react';
 import Typewriter from 'typewriter-effect';
 
-const Landing = () => {
+const Landing = ({ scrollToResume }) => {
   const bg = useColorModeValue('white', 'gray.800');
 
   return (
@@ -86,7 +86,7 @@ const Landing = () => {
                         .typeString('Production Deployment | Vercel | Heroku ')
                         .pauseFor(1000)
                         .deleteAll()
-                        .typeString('Adobe Photoshop CS6 | Figma | FigJam ')
+                        .typeString('Adobe Photoshop | Figma | FigJam ')
                         .pauseFor(1000)
                         .deleteAll()
                         .typeString(
@@ -164,6 +164,7 @@ const Landing = () => {
           </Flex>
         </Box>
       </chakra.header>
+      <div ref={scrollToResume}></div>
     </section>
   );
 };
