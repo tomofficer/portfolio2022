@@ -23,7 +23,7 @@ import {
 } from '@chakra-ui/react';
 import { FaEye } from 'react-icons/fa';
 
-const Resume = ({ scrollToResume }) => {
+const Resume = ({ myWorkRef }) => {
   //state variables
   const [isHovering, setIsHovering] = useState(false);
   const [currentId, setCurrentId] = useState(null);
@@ -960,7 +960,7 @@ const Resume = ({ scrollToResume }) => {
                   >
                     Soft Skills{' '}
                   </a>
-
+                  {/* <div ref={myWorkRef}></div> */}
                   <p
                     style={{
                       fontSize: '10px',
@@ -980,6 +980,7 @@ const Resume = ({ scrollToResume }) => {
                     }}
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
+                    ref={myWorkRef}
                   >
                     Miscellaneous{' '}
                   </a>

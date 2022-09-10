@@ -25,12 +25,16 @@ function App() {
   const scrollToContactRef = useRef();
 
   //scroll handlers
-  // const scrollToHomeHandle = () => {
-  //   scrollToHomeRef.current.scrollIntoView({ behavior: 'smooth' });
-  // };
-
   const scrollToResumeHandle = () => {
     scrollToResumeRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const scrollToMyWorkHandle = () => {
+    scrollToMyWorkRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const scrollToContactHandle = () => {
+    scrollToContactRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -38,13 +42,13 @@ function App() {
       {/* <ColorModeSwitcher justifySelf="flex-end" /> */}
       <div style={{ backgroundColor: 'black' }}>
         <Header
-          // homeRef={scrollToHomeRef}
-          // homeHandle={scrollToHomeHandle}
           resumeHandle={scrollToResumeHandle}
+          myWorkHandle={scrollToMyWorkHandle}
+          contactHandle={scrollToContactHandle}
         />
         <Landing resumeRef={scrollToResumeRef} />
-        <Resume />
-        <MyWork />
+        <Resume myWorkRef={scrollToMyWorkRef} />
+        <MyWork contactRef={scrollToContactRef} />
 
         <About />
 

@@ -2,7 +2,7 @@ import { Box, Flex, chakra, Image, Link, Icon } from '@chakra-ui/react';
 import React from 'react';
 import { FaBitbucket } from 'react-icons/fa';
 
-const MyWork = () => {
+const MyWork = ({ contactRef }) => {
   //data
   const projects = [
     {
@@ -49,6 +49,7 @@ const MyWork = () => {
     return num % 2 === 0;
   };
 
+  //JSX RETURN
   return (
     <section id="#MyWork">
       <div style={{ backgroundColor: '#edf3f8' }}>
@@ -381,6 +382,7 @@ const MyWork = () => {
           ))}
         </Box>
       </div>
+      <div ref={contactRef}></div>
     </section>
   );
 };

@@ -24,7 +24,7 @@ import { FaMoon, FaSun } from 'react-icons/fa';
 import { useViewportScroll } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
 
-const Header = ({ resumeHandle }) => {
+const Header = ({ resumeHandle, myWorkHandle, contactHandle }) => {
   const { toggleColorMode: toggleMode } = useColorMode();
   const text = useColorModeValue('dark', 'light');
   const SwitchIcon = useColorModeValue(FaMoon, FaSun);
@@ -449,6 +449,7 @@ const Header = ({ resumeHandle }) => {
                   _focus={{
                     boxShadow: 'none',
                   }}
+                  onClick={() => myWorkHandle()}
                 >
                   My Work
                 </Button>
@@ -464,6 +465,7 @@ const Header = ({ resumeHandle }) => {
                   _focus={{
                     boxShadow: 'none',
                   }}
+                  onClick={() => contactHandle()}
                 >
                   Contact
                 </Button>
