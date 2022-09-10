@@ -9,7 +9,7 @@ import {
 } from '@chakra-ui/react';
 import Typewriter from 'typewriter-effect';
 
-const Landing = ({ scrollToResume }) => {
+const Landing = ({ resumeRef }) => {
   const bg = useColorModeValue('white', 'gray.800');
 
   return (
@@ -164,7 +164,7 @@ const Landing = ({ scrollToResume }) => {
           </Flex>
         </Box>
       </chakra.header>
-      <div ref={scrollToResume}></div>
+      <div ref={resumeRef}></div>
     </section>
   );
 };

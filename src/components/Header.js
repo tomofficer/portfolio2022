@@ -24,7 +24,7 @@ import { FaMoon, FaSun } from 'react-icons/fa';
 import { useViewportScroll } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
 
-const Header = ({ scrollClickHandle }) => {
+const Header = ({ resumeHandle }) => {
   const { toggleColorMode: toggleMode } = useColorMode();
   const text = useColorModeValue('dark', 'light');
   const SwitchIcon = useColorModeValue(FaMoon, FaSun);
@@ -39,12 +39,13 @@ const Header = ({ scrollClickHandle }) => {
   const cl = useColorModeValue('gray.800', 'white');
   const mobileNav = useDisclosure();
 
-  // const scrollToDivider = useRef();
+  //useRef
+  const scrollToHomeRef = useRef();
 
-  // //click handlers
-  // const scrollClickHandle = () => {
-  //   scrollToDivider.current.scrollIntoView({ behavior: 'smooth' });
-  // };
+  //scroll handle
+  const scrollToHomeHandle = () => {
+    scrollToHomeRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
 
   const Section = props => {
     const ic = useColorModeValue('brand.600', 'brand.50');
@@ -332,11 +333,13 @@ const Header = ({ scrollClickHandle }) => {
     </VStack>
   );
 
+  //JSX RETURN
   return (
     <React.Fragment>
       <chakra.header
         zIndex={10}
-        ref={ref}
+        // ref={ref}
+
         shadow={y > height ? 'sm' : undefined}
         transition="box-shadow 0.2s"
         bg={bg}
@@ -385,6 +388,7 @@ const Header = ({ scrollClickHandle }) => {
                   _focus={{
                     boxShadow: 'none',
                   }}
+                  onClick={() => scrollToHomeHandle()}
                 >
                   Home
                 </Button>
@@ -429,7 +433,7 @@ const Header = ({ scrollClickHandle }) => {
                   _focus={{
                     boxShadow: 'none',
                   }}
-                  onClick={() => scrollClickHandle()}
+                  onClick={() => resumeHandle()}
                 >
                   Resume
                 </Button>
@@ -528,6 +532,7 @@ const Header = ({ scrollClickHandle }) => {
           {MobileNavContent}
         </chakra.div>
       </chakra.header>
+      <div ref={scrollToHomeRef}></div>
     </React.Fragment>
   );
 };

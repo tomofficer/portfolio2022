@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useRef } from 'react';
 import {
   ChakraProvider,
   Box,
@@ -19,19 +19,30 @@ import Resume from './components/Resume';
 
 function App() {
   //useRef
-  const scrollToResume = useRef();
+  // const scrollToHomeRef = useRef();
+  const scrollToResumeRef = useRef();
+  const scrollToMyWorkRef = useRef();
+  const scrollToContactRef = useRef();
 
-  //scroll handler
-  const scrollClickHandle = () => {
-    scrollToResume.current.scrollIntoView({ behavior: 'smooth' });
+  //scroll handlers
+  // const scrollToHomeHandle = () => {
+  //   scrollToHomeRef.current.scrollIntoView({ behavior: 'smooth' });
+  // };
+
+  const scrollToResumeHandle = () => {
+    scrollToResumeRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
     <ChakraProvider theme={theme}>
       {/* <ColorModeSwitcher justifySelf="flex-end" /> */}
       <div style={{ backgroundColor: 'black' }}>
-        <Header scrollClickHandle={scrollClickHandle} />
-        <Landing scrollToResume={scrollToResume} />
+        <Header
+          // homeRef={scrollToHomeRef}
+          // homeHandle={scrollToHomeHandle}
+          resumeHandle={scrollToResumeHandle}
+        />
+        <Landing resumeRef={scrollToResumeRef} />
         <Resume />
         <MyWork />
 
