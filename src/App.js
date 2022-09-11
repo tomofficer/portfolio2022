@@ -10,7 +10,6 @@ import {
   theme,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
 import Landing from './components/Landing';
 import Header from './components/Header';
 import About from './components/About';
@@ -19,7 +18,7 @@ import Resume from './components/Resume';
 
 function App() {
   //useRef
-  // const scrollToHomeRef = useRef();
+
   const scrollToResumeRef = useRef();
   const scrollToMyWorkRef = useRef();
   const scrollToContactRef = useRef();

@@ -162,9 +162,10 @@ const Landing = ({ resumeRef }) => {
               ></Box>
             </Stack>
           </Flex>
+          <div ref={resumeRef}></div>
         </Box>
+        <div ref={resumeRef}></div>
       </chakra.header>
-      <div ref={resumeRef}></div>
     </section>
   );
 };

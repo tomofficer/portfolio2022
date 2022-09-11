@@ -39,12 +39,12 @@ const Header = ({ resumeHandle, myWorkHandle, contactHandle }) => {
   const cl = useColorModeValue('gray.800', 'white');
   const mobileNav = useDisclosure();
 
-  //useRef
-  const scrollToHomeRef = useRef();
-
-  //scroll handle
-  const scrollToHomeHandle = () => {
-    scrollToHomeRef.current.scrollIntoView({ behavior: 'smooth' });
+  //home scroll handler
+  const scrollToHome = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
   };
 
   const Section = props => {
@@ -333,7 +333,7 @@ const Header = ({ resumeHandle, myWorkHandle, contactHandle }) => {
     </VStack>
   );
 
-  //JSX RETURN
+  //JSX Return
   return (
     <React.Fragment>
       <chakra.header
@@ -388,7 +388,7 @@ const Header = ({ resumeHandle, myWorkHandle, contactHandle }) => {
                   _focus={{
                     boxShadow: 'none',
                   }}
-                  onClick={() => scrollToHomeHandle()}
+                  onClick={() => scrollToHome()}
                 >
                   Home
                 </Button>
@@ -534,7 +534,6 @@ const Header = ({ resumeHandle, myWorkHandle, contactHandle }) => {
           {MobileNavContent}
         </chakra.div>
       </chakra.header>
-      <div ref={scrollToHomeRef}></div>
     </React.Fragment>
   );
 };
