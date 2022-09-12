@@ -11,9 +11,9 @@ const MyWork = ({ contactRef }) => {
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
       imgPath:
-        'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/lpshot_SyidJfdxi.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662676790090',
+        'https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80',
       liveLink: 'https://www.leadrpro.com/',
-      gitHubLink: '',
+      gitHubLink: 'private',
     },
     {
       index: 1,
@@ -21,8 +21,9 @@ const MyWork = ({ contactRef }) => {
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
       imgPath:
-        'https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80',
-      gitHubLink: '',
+        'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/chris-hardy-H5Ffv4I5ZMI-unsplash_CMz4Jv9Ql.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663021113717',
+      liveLink: 'https://yournexttoy.com',
+      gitHubLink: 'https://github.com/tomofficer/best-kids-toys-affiliate',
     },
     {
       index: 2,
@@ -30,17 +31,29 @@ const MyWork = ({ contactRef }) => {
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
       imgPath:
-        'https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80',
-      gitHubLink: '',
+        'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/wdww_Ge3jBVDWu.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663020587694',
+      liveLink: 'https://whitedogwoodworking.com',
+      gitHubLink: 'https://github.com/tomofficer/whitedogwoodworking',
     },
     {
       index: 3,
-      title: 'GitHub Finder',
+      title: 'JavaScript Coding Tips Blog',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
       imgPath:
-        'https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80',
-      gitHubLink: '',
+        'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/claudio-schwarz-i25aqE_YUZs-unsplash_k5SlbiydX.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663021962512',
+      liveLink: 'https://javascriptcodingtips.com',
+      gitHubLink: 'https://github.com/tomofficer/js-coding-tips-blog',
+    },
+    {
+      index: 4,
+      title: 'GitHub Finder App',
+      description:
+        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
+      imgPath:
+        'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/marvin-meyer-SYTO3xs06fU-unsplash_nxxNA9f5M.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663020924096',
+      liveLink: '',
+      gitHubLink: 'https://github.com/tomofficer/github-finder',
     },
   ];
 
@@ -156,23 +169,26 @@ const MyWork = ({ contactRef }) => {
                         lg: '50%',
                       }}
                     >
-                      <Box
-                        h={{
-                          base: 64,
-                          lg: 'full',
-                        }}
-                        rounded={{
-                          lg: 'lg',
-                        }}
-                        bgSize="cover"
-                        style={{
-                          backgroundImage:
-                            "url('https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80')",
-                        }}
-                        _hover={{
-                          transform: 'scale(1.05)',
-                        }}
-                      ></Box>
+                      <a href={project.liveLink} target="_blank">
+                        <Box
+                          h={{
+                            base: 64,
+                            lg: 'full',
+                          }}
+                          rounded={{
+                            lg: 'lg',
+                          }}
+                          // style={{
+                          //   backgroundImage:
+                          //     "url('https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80')",
+                          // }}
+                          backgroundImage={project.imgPath}
+                          bgSize="cover"
+                          _hover={{
+                            transform: 'scale(1.05)',
+                          }}
+                        ></Box>
+                      </a>
                     </Box>
 
                     <Box
@@ -237,13 +253,15 @@ const MyWork = ({ contactRef }) => {
                         >
                           View Live
                         </Link>
-                        <Image
-                          src="https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/github_Ljbtk34W9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662522137177"
-                          h={'50px'}
-                          _hover={{
-                            transform: 'scale(1.2)',
-                          }}
-                        />
+                        <a href={project.gitHubLink} target="_blank">
+                          <Image
+                            src="https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/github_Ljbtk34W9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662522137177"
+                            h={'50px'}
+                            _hover={{
+                              transform: 'scale(1.2)',
+                            }}
+                          />
+                        </a>
                       </Box>
                     </Box>
                   </Box>
@@ -343,13 +361,15 @@ const MyWork = ({ contactRef }) => {
                         >
                           View Live
                         </Link>
-                        <Image
-                          src="https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/github_Ljbtk34W9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662522137177"
-                          h={'50px'}
-                          _hover={{
-                            transform: 'scale(1.2)',
-                          }}
-                        />
+                        <a href={project.gitHubLink} target="_blank">
+                          <Image
+                            src="https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/github_Ljbtk34W9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662522137177"
+                            h={'50px'}
+                            _hover={{
+                              transform: 'scale(1.2)',
+                            }}
+                          />
+                        </a>
                       </Box>
                     </Box>
                     <Box
@@ -366,10 +386,11 @@ const MyWork = ({ contactRef }) => {
                           lg: 'lg',
                         }}
                         bgSize="cover"
-                        style={{
-                          backgroundImage:
-                            "url('https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80')",
-                        }}
+                        // style={{
+                        //   backgroundImage:
+                        //     "url('https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80')",
+                        // }}
+                        backgroundImage={project.imgPath}
                         _hover={{
                           transform: 'scale(1.05)',
                         }}
