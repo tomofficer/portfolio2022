@@ -105,7 +105,7 @@ const BlogBanner = ({ contactRef }) => {
                     fontSize={'17px'}
                     fontWeight="bold"
                     letterSpacing="tight"
-                    lineHeight="shorter"
+                    // lineHeight="shorter"
                     color="black"
                     _dark={{
                       color: 'gray.100',
@@ -115,6 +115,7 @@ const BlogBanner = ({ contactRef }) => {
                       Check out my blog where I share my solutions to common
                       challenges presented in modern web development.
                     </span>
+
                     <br />
                     <span>
                       Check out my behavioral assessment results from Indeed and
