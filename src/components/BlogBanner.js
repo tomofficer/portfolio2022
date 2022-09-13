@@ -8,6 +8,8 @@ import {
   Image,
   Center,
 } from '@chakra-ui/react';
+import LetsConnectModal from './LetsConnectModal';
+import AssessmentsModal from './AssessmentsModal';
 
 const BlogBanner = ({ contactRef }) => {
   return (
@@ -165,7 +167,7 @@ const BlogBanner = ({ contactRef }) => {
                             bg: 'brand.600',
                           },
                         }}
-                        href="http://tomofficer.com"
+                        href="https://js-coding-tips-blog.vercel.app/"
                         target="_blank"
                       >
                         My Blog
@@ -173,7 +175,7 @@ const BlogBanner = ({ contactRef }) => {
                       <chakra.a
                         alignItems="center"
                         justifyContent="center"
-                        px={6}
+                        px={0}
                         py={2}
                         mr={6}
                         border="solid transparent"
@@ -201,10 +203,8 @@ const BlogBanner = ({ contactRef }) => {
                             bg: 'brand.600',
                           },
                         }}
-                        href="http://tomofficer.com"
-                        target="_blank"
                       >
-                        Assessments
+                        <AssessmentsModal />
                       </chakra.a>
                     </Box>
                   </Stack>
@@ -219,7 +219,7 @@ const BlogBanner = ({ contactRef }) => {
               ml={20}
               _hover={{ transform: 'scale(1.15)' }}
             >
-              <a href="https://tomofficer.com" target="_blank">
+              <a href="https://js-coding-tips-blog.vercel.app/" target="_blank">
                 <Image src="https://ik.imagekit.io/e16xo45jw/Blog/jsct-logo-white_57YEipdMW.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662871696512" />
               </a>
             </Box>
