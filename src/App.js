@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import {
   ChakraProvider,
   Box,
@@ -16,7 +16,8 @@ import Contact from './components/Contact';
 import MyWork from './components/MyWork';
 import Resume from './components/Resume';
 import BlogBanner from './components/BlogBanner';
-import LetsConnectModal from './components/LetsConnectModal';
+
+import WelcomeModal from './components/WelcomeModal';
 
 function App() {
   //useRef
@@ -43,10 +44,19 @@ function App() {
     scrollToBlogRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
+  //modal logic
+  const [showWelcomeModal, setShowWelcomeModal] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setShowWelcomeModal(true);
+    }, 3000);
+  }, []);
+
   return (
     <ChakraProvider theme={theme}>
-      {/* <ColorModeSwitcher justifySelf="flex-end" /> */}
       <div style={{ backgroundColor: 'black' }}>
+        {showWelcomeModal && <WelcomeModal />}
         <Header
           resumeHandle={scrollToResumeHandle}
           myWorkHandle={scrollToMyWorkHandle}

@@ -187,7 +187,8 @@ const BlogBanner = ({ contactRef }) => {
                           bg: 'brand.500',
                         }}
                         _hover={{
-                          transform: 'scale(1.1)',
+                          transform: 'translateY(-3px)',
+                          boxShadow: 'lg',
 
                           _light: {
                             bg: 'black',
