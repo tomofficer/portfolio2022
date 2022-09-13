@@ -10,6 +10,7 @@ import {
   Link,
 } from '@chakra-ui/react';
 import Footer from './Footer';
+import LetsConnectModal from './LetsConnectModal';
 
 const Contact = () => {
   const bg = useColorModeValue('black', 'gray.800');
@@ -233,7 +234,7 @@ const Contact = () => {
                   mt={'30px'}
                   ml={'20px'}
                 >
-                  Let's connect!
+                  <LetsConnectModal />
                 </Button>
               </Box>
             </Box>

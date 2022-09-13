@@ -16,6 +16,7 @@ import Contact from './components/Contact';
 import MyWork from './components/MyWork';
 import Resume from './components/Resume';
 import BlogBanner from './components/BlogBanner';
+import LetsConnectModal from './components/LetsConnectModal';
 
 function App() {
   //useRef
