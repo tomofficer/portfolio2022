@@ -46,11 +46,11 @@ function App() {
   //modal logic
   const [showWelcomeModal, setShowWelcomeModal] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setShowWelcomeModal(true);
-    }, 3000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setShowWelcomeModal(true);
+  //   }, 3000);
+  // }, []);
 
   return (
     <ChakraProvider theme={theme}>
