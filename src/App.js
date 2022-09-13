@@ -16,7 +16,6 @@ import Contact from './components/Contact';
 import MyWork from './components/MyWork';
 import Resume from './components/Resume';
 import BlogBanner from './components/BlogBanner';
-
 import WelcomeModal from './components/WelcomeModal';
 
 function App() {

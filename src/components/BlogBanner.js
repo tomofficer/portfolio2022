@@ -91,7 +91,10 @@ const BlogBanner = ({ contactRef }) => {
                       // position="absolute"
                     >
                       I have what it takes to be{' '}
-                      <chakra.span color="purple.600">
+                      <chakra.span
+                        bgClip="text"
+                        bgGradient="linear(to-r, purple.500,purple.600)"
+                      >
                         {' '}
                         your next developer.
                       </chakra.span>

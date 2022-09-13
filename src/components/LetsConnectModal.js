@@ -114,7 +114,7 @@ const LetsConnectModal = () => {
                         Tom Officer
                       </Heading>
                       <Text color={'gray.500'}>Full Stack Developer</Text>
-                      <Text color={'gray.500'}>Mount Shasta, Ca</Text>
+                      <Text color={'gray.500'}>Mt. Shasta, California</Text>
                       <Text color={'gray.500'}>Tom@leadrpro.com</Text>
                       <Text color={'gray.500'}>(530) 925-9482</Text>
                     </Stack>
@@ -131,12 +131,12 @@ const LetsConnectModal = () => {
                           target="_blank"
                         >
                           <Icon
-                            color="purple.700"
+                            color="blue.600"
                             _dark={{
                               color: 'white',
                             }}
                             _hover={{
-                              color: 'purple.300',
+                              color: 'blue.300',
                               transform: 'scale(1.2)',
                             }}
                             h="35px"
@@ -151,12 +151,12 @@ const LetsConnectModal = () => {
                           target="_blank"
                         >
                           <Icon
-                            color="purple.700"
+                            color="blue.600"
                             _dark={{
                               color: 'white',
                             }}
                             _hover={{
-                              color: 'purple.300',
+                              color: 'blue.300',
                               transform: 'scale(1.2)',
                             }}
                             h="35px"
@@ -171,12 +171,13 @@ const LetsConnectModal = () => {
                           target="_blank"
                         >
                           <Icon
-                            color="purple.700"
+                            color="blue.600"
                             _dark={{
                               color: 'white',
                             }}
                             _hover={{
-                              color: 'purple.300',
+                              color: 'blue.300',
+
                               transform: 'scale(1.2)',
                             }}
                             h="35px"
@@ -205,11 +206,13 @@ const LetsConnectModal = () => {
                       w={'full'}
                       mt={2}
                       bg={useColorModeValue('#151f21', 'gray.900')}
-                      color={'white'}
+                      backgroundColor={'blue.600'}
+                      color="white"
                       rounded={'md'}
                       _hover={{
                         transform: 'translateY(-2px)',
                         boxShadow: 'lg',
+                        bgGradient: 'linear(to-r, blue.200, blue.500)',
                       }}
                     >
                       Subscribe
@@ -219,9 +222,7 @@ const LetsConnectModal = () => {
               </Center>
             </Box>
           </ModalBody>
-          <ModalFooter>
-            {/* <Button onClick={onClose}>Close</Button> */}
-          </ModalFooter>
+          <ModalFooter></ModalFooter>
         </ModalContent>
       </Modal>
     </>
