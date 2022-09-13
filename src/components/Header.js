@@ -435,7 +435,7 @@ const Header = ({ resumeHandle, myWorkHandle, contactHandle }) => {
                   }}
                   onClick={() => resumeHandle()}
                 >
-                  Resume
+                  My Resume
                 </Button>
                 <Button
                   bg={bg}
@@ -453,6 +453,22 @@ const Header = ({ resumeHandle, myWorkHandle, contactHandle }) => {
                 >
                   My Work
                 </Button>
+
+                <Button
+                  bg={bg}
+                  color="gray.500"
+                  display="inline-flex"
+                  alignItems="center"
+                  fontSize="md"
+                  _hover={{
+                    color: 'purple.300',
+                  }}
+                  _focus={{
+                    boxShadow: 'none',
+                  }}
+                >
+                  My Blog
+                </Button>
                 <Button
                   bg={bg}
                   color="gray.500"
@@ -469,21 +485,6 @@ const Header = ({ resumeHandle, myWorkHandle, contactHandle }) => {
                 >
                   Contact
                 </Button>
-                {/* <Button
-                  bg={bg}
-                  color="gray.500"
-                  display="inline-flex"
-                  alignItems="center"
-                  fontSize="md"
-                  _hover={{
-                    color: 'green.300',
-                  }}
-                  _focus={{
-                    boxShadow: 'none',
-                  }}
-                >
-                  Blog
-                </Button> */}
               </HStack>
             </Flex>
             <Flex justify="flex-end" align="center" color="gray.400">

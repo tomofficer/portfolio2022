@@ -15,6 +15,7 @@ import Header from './components/Header';
 import About from './components/About';
 import MyWork from './components/MyWork';
 import Resume from './components/Resume';
+import BlogBanner from './components/BlogBanner';
 
 function App() {
   //useRef
@@ -48,7 +49,7 @@ function App() {
         <Landing resumeRef={scrollToResumeRef} />
         <Resume myWorkRef={scrollToMyWorkRef} />
         <MyWork contactRef={scrollToContactRef} />
-
+        <BlogBanner />
         <About />
 
         {/* <Box textAlign="center" fontSize="xl">
