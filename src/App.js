@@ -12,7 +12,7 @@ import {
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import Landing from './components/Landing';
 import Header from './components/Header';
-import About from './components/About';
+import Contact from './components/Contact';
 import MyWork from './components/MyWork';
 import Resume from './components/Resume';
 import BlogBanner from './components/BlogBanner';
@@ -57,7 +57,7 @@ function App() {
         <MyWork blogRef={scrollToBlogRef} />
         <BlogBanner contactRef={scrollToContactRef} />
 
-        <About />
+        <Contact />
       </div>
     </ChakraProvider>
   );

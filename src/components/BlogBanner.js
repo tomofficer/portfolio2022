@@ -213,7 +213,7 @@ const BlogBanner = ({ contactRef }) => {
               mb={0}
               pt={8}
               ml={20}
-              _hover={{ transform: 'scale(1.1)' }}
+              _hover={{ transform: 'scale(1.15)' }}
             >
               <a href="https://tomofficer.com" target="_blank">
                 <Image src="https://ik.imagekit.io/e16xo45jw/Blog/jsct-logo-white_57YEipdMW.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662871696512" />
