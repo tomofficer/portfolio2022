@@ -141,9 +141,8 @@ const BlogBanner = ({ contactRef }) => {
                         alignItems="center"
                         justifyContent="center"
                         px={6}
-                        py={2}
+                        py={3}
                         mr={6}
-                        border="solid transparent"
                         fontWeight="bold"
                         w="full"
                         rounded="md"
@@ -176,7 +175,7 @@ const BlogBanner = ({ contactRef }) => {
                         alignItems="center"
                         justifyContent="center"
                         px={0}
-                        py={2}
+                        py={3}
                         mr={6}
                         border="solid transparent"
                         fontWeight="bold"
@@ -194,7 +193,7 @@ const BlogBanner = ({ contactRef }) => {
                         _hover={{
                           transform: 'translateY(-3px)',
                           boxShadow: 'lg',
-
+                          color: 'white',
                           _light: {
                             bg: 'black',
                             color: 'white',
