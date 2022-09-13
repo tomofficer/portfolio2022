@@ -13,7 +13,13 @@ import {
   color,
   Center,
 } from '@chakra-ui/react';
-import { FaFacebookF, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import {
+  FaFacebookF,
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+  FaBitbucket,
+} from 'react-icons/fa';
 
 const Footer = () => {
   return (
