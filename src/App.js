@@ -56,13 +56,8 @@ function App() {
         <Resume myWorkRef={scrollToMyWorkRef} />
         <MyWork blogRef={scrollToBlogRef} />
         <BlogBanner contactRef={scrollToContactRef} />
-        <About />
 
-        {/* <Box textAlign="center" fontSize="xl">
-          <Grid minH="100vh" p={3}>
-            <VStack spacing={8}></VStack>
-          </Grid>
-        </Box> */}
+        <About />
       </div>
     </ChakraProvider>
   );

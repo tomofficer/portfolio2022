@@ -1,31 +1,48 @@
 import React from 'react';
-import { Flex, Box, chakra, Stack, SimpleGrid, Image } from '@chakra-ui/react';
+import {
+  Flex,
+  Box,
+  chakra,
+  Stack,
+  SimpleGrid,
+  Image,
+  Center,
+} from '@chakra-ui/react';
 
 const BlogBanner = ({ contactRef }) => {
   return (
     <div>
       <Flex
-        bgGradient="linear(to-r, purple.600, purple.300)"
+        bgGradient="linear(to-r, purple.600, white)"
         _dark={{
           bg: '#3e3e3e',
         }}
         w="full"
-        alignItems="center"
-        justifyContent="center"
       >
         <Box
+          py={10}
           _dark={{
             bg: 'gray.800',
           }}
           borderRadius="20px"
+          mx="auto"
+          maxW={{
+            base: '7xl',
+          }}
+          // px={{
+          //   base: 4,
+          //   sm: 6,
+          //   lg: 8,
+          // }}
         >
           <Flex direction={'row'}>
             <SimpleGrid
               maxW="7xl"
-              w={{
-                md: '3xl',
-                lg: '4xl',
-              }}
+              // w={{
+              //   md: '3xl',
+              //   lg: '5xl',
+              // }}
+
               alignItems="center"
               columns={{
                 base: 2,
@@ -46,148 +63,155 @@ const BlogBanner = ({ contactRef }) => {
                 lg: 'flex',
               }}
             >
-              <Box>
-                <chakra.h2
-                  fontSize={{
-                    base: '3xl',
-                    sm: '4xl',
-                  }}
-                  fontWeight="extrabold"
-                  letterSpacing="tight"
-                  lineHeight="shorter"
-                  color="white"
-                  _dark={{
-                    color: 'gray.100',
-                  }}
-                  mb={6}
-                >
-                  <chakra.span display="block" fontSize={'34.5px'}>
-                    I have the skill set you're looking for in your next dev
-                    hire.
-                  </chakra.span>
-                  <chakra.span
-                    display="block"
-                    color="brand.600"
-                    _dark={{
-                      color: 'gray.500',
+              <Stack direction={'row'}>
+                <Box>
+                  <chakra.h2
+                    fontSize={{
+                      base: '3xl',
+                      sm: '4xl',
                     }}
-                  ></chakra.span>
-                </chakra.h2>
-                <chakra.p
-                  fontFamily={'Mulish.300'}
-                  fontSize={'17px'}
-                  fontWeight="bold"
-                  letterSpacing="tight"
-                  lineHeight="shorter"
-                  color="white"
-                  _dark={{
-                    color: 'gray.100',
-                  }}
-                >
-                  <span>
-                    Check out my blog where I share my solutions to common
-                    challenges presented in modern web development.
-                  </span>
-                  <br />
-                  <span>
-                    Check out my behavioral assessment results from Indeed and
-                    let's see if we're a good fit for eachother.
-                  </span>
-                </chakra.p>
-
-                <Stack
-                  direction={{
-                    base: 'column',
-                    sm: 'row',
-                  }}
-                  spacing={2}
-                  mt={10}
-                >
-                  <Box rounded="md">
-                    <chakra.a
-                      alignItems="center"
-                      justifyContent="center"
-                      px={6}
-                      py={2}
-                      mr={6}
-                      border="solid transparent"
-                      fontWeight="bold"
-                      w="full"
-                      rounded="md"
-                      // borderRadius={'50px'}
-                      _light={{
-                        bg: 'white',
-                        color: 'black',
-                      }}
-                      bg="brand.600"
-                      _dark={{
-                        bg: 'brand.500',
-                      }}
-                      _hover={{
-                        transform: 'scale(1.1)',
-
-                        _light: {
-                          bg: 'black',
-                          color: 'white',
-                        },
-                        _dark: {
-                          bg: 'brand.600',
-                        },
-                      }}
-                      href="http://tomofficer.com"
-                      target="_blank"
+                    fontWeight="extrabold"
+                    letterSpacing="tight"
+                    lineHeight="shorter"
+                    color="white"
+                    _dark={{
+                      color: 'gray.100',
+                    }}
+                    mb={6}
+                    w="full"
+                    // textAlign={{
+                    //   sm: 'center',
+                    //   lg: 'left',
+                    // }}
+                  >
+                    <chakra.h2
+                      display="block"
+                      fontSize={'45px'}
+                      // overflow="visible"
+                      // position="absolute"
                     >
-                      My Blog
-                    </chakra.a>
-                    <chakra.a
-                      alignItems="center"
-                      justifyContent="center"
-                      px={6}
-                      py={2}
-                      mr={6}
-                      border="solid transparent"
-                      fontWeight="bold"
-                      w="full"
-                      rounded="md"
-                      // borderRadius={'50px'}
-                      _light={{
-                        bg: 'white',
-                        color: 'black',
-                      }}
-                      bg="brand.600"
-                      _dark={{
-                        bg: 'brand.500',
-                      }}
-                      _hover={{
-                        transform: 'scale(1.1)',
+                      I have what it takes to be{' '}
+                      <chakra.span color="purple.600">
+                        {' '}
+                        your next developer.
+                      </chakra.span>
+                    </chakra.h2>
+                    {/* <chakra.span fontSize={'35px'}>
+                      Let me show you.
+                    </chakra.span> */}
+                  </chakra.h2>
+                  <chakra.p
+                    fontFamily={'Mulish.300'}
+                    fontSize={'17px'}
+                    fontWeight="bold"
+                    letterSpacing="tight"
+                    lineHeight="shorter"
+                    color="black"
+                    _dark={{
+                      color: 'gray.100',
+                    }}
+                  >
+                    <span>
+                      Check out my blog where I share my solutions to common
+                      challenges presented in modern web development.
+                    </span>
+                    <br />
+                    <span>
+                      Check out my behavioral assessment results from Indeed and
+                      let's see if we're a good fit for eachother.
+                    </span>
+                  </chakra.p>
 
-                        _light: {
-                          bg: 'black',
-                          color: 'white',
-                        },
-                        _dark: {
-                          bg: 'brand.600',
-                        },
-                      }}
-                      href="http://tomofficer.com"
-                      target="_blank"
-                    >
-                      My Results
-                    </chakra.a>
-                  </Box>
-                </Stack>
-              </Box>
+                  <Stack
+                    direction={{
+                      base: 'column',
+                      sm: 'row',
+                    }}
+                    spacing={2}
+                    mt={10}
+                  >
+                    <Box rounded="md">
+                      <chakra.a
+                        alignItems="center"
+                        justifyContent="center"
+                        px={6}
+                        py={2}
+                        mr={6}
+                        border="solid transparent"
+                        fontWeight="bold"
+                        w="full"
+                        rounded="md"
+                        // borderRadius={'50px'}
+                        _light={{
+                          bg: 'white',
+                          color: 'black',
+                        }}
+                        bg="brand.600"
+                        _dark={{
+                          bg: 'brand.500',
+                        }}
+                        _hover={{
+                          transform: 'scale(1.1)',
+
+                          _light: {
+                            bg: 'black',
+                            color: 'white',
+                          },
+                          _dark: {
+                            bg: 'brand.600',
+                          },
+                        }}
+                        href="http://tomofficer.com"
+                        target="_blank"
+                      >
+                        My Blog
+                      </chakra.a>
+                      <chakra.a
+                        alignItems="center"
+                        justifyContent="center"
+                        px={6}
+                        py={2}
+                        mr={6}
+                        border="solid transparent"
+                        fontWeight="bold"
+                        w="full"
+                        rounded="md"
+                        // borderRadius={'50px'}
+                        _light={{
+                          bg: 'white',
+                          color: 'black',
+                        }}
+                        bg="brand.600"
+                        _dark={{
+                          bg: 'brand.500',
+                        }}
+                        _hover={{
+                          transform: 'scale(1.1)',
+
+                          _light: {
+                            bg: 'black',
+                            color: 'white',
+                          },
+                          _dark: {
+                            bg: 'brand.600',
+                          },
+                        }}
+                        href="http://tomofficer.com"
+                        target="_blank"
+                      >
+                        Assessments
+                      </chakra.a>
+                    </Box>
+                  </Stack>
+                </Box>
+              </Stack>
             </SimpleGrid>
-
             <Box
-              w="275px"
-              mt={14}
-              mb={14}
-              display="flex"
-              flexDirection={'column'}
-              alignItems="center"
-              justifyContent={'center'}
-              ml="45px"
+              w="220px"
+              mt={2}
+              mb={0}
+              pt={8}
+              ml={20}
               _hover={{ transform: 'scale(1.1)' }}
             >
               <a href="https://tomofficer.com" target="_blank">
@@ -197,6 +221,7 @@ const BlogBanner = ({ contactRef }) => {
           </Flex>
         </Box>
       </Flex>
+
       <div ref={contactRef}></div>
     </div>
   );
