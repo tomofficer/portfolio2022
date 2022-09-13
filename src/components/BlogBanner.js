@@ -1,7 +1,7 @@
 import React from 'react';
 import { Flex, Box, chakra, Stack, SimpleGrid, Image } from '@chakra-ui/react';
 
-const BlogBanner = () => {
+const BlogBanner = ({ contactRef }) => {
   return (
     <div>
       <Flex
@@ -12,7 +12,6 @@ const BlogBanner = () => {
         w="full"
         alignItems="center"
         justifyContent="center"
-        // borderTop="2px solid black"
       >
         <Box
           _dark={{
@@ -37,7 +36,7 @@ const BlogBanner = () => {
               mx="auto"
               py={{
                 base: 12,
-                lg: 10,
+                lg: 12,
               }}
               // px={{
               //   base: 4,
@@ -63,7 +62,7 @@ const BlogBanner = () => {
                   mb={6}
                 >
                   <chakra.span display="block">
-                    Want more proof of my skills?
+                    I have the skill set you're looking for in your next hire.
                   </chakra.span>
                   <chakra.span
                     display="block"
@@ -71,13 +70,11 @@ const BlogBanner = () => {
                     _dark={{
                       color: 'gray.500',
                     }}
-                  >
-                    Don't forget to check out my blog!
-                  </chakra.span>
+                  ></chakra.span>
                 </chakra.h2>
                 <chakra.p
                   fontFamily={'Mulish.300'}
-                  fontSize={'16px'}
+                  fontSize={'17px'}
                   fontWeight="bold"
                   letterSpacing="tight"
                   lineHeight="shorter"
@@ -85,25 +82,15 @@ const BlogBanner = () => {
                   _dark={{
                     color: 'gray.100',
                   }}
-                  // marginTop="50px"
                 >
-                  <chakra.p
-                    fontSize={{
-                      base: '2xl',
-                      sm: '4xl',
-                    }}
-                    mb={4}
-                  >
-                    I want you to want you hire me before we even talk!
-                  </chakra.p>
-                  {/* <br />
-                  <br /> */}
-                  Let me prove to you that I have the skill set you're looking
-                  for in your next associate developer hire.
+                  <span>
+                    Check out my blog where I share my solutions to common
+                    challenges presented in modern web development.
+                  </span>
                   <br />
                   <span>
-                    Check out my blog where I discuss solutions to everyday
-                    challenges presented in modern web development.
+                    Check out my behavioral assessment results on Indeed and
+                    let's see if we're a good fit for eachother.
                   </span>
                 </chakra.p>
 
@@ -113,15 +100,15 @@ const BlogBanner = () => {
                     sm: 'row',
                   }}
                   spacing={2}
-                  mt={7}
+                  mt={10}
                 >
-                  {/* <Box display="inline-flex" rounded="md" shadow="md">
+                  <Box rounded="md">
                     <chakra.a
-                      display="inline-flex"
                       alignItems="center"
                       justifyContent="center"
-                      px={5}
-                      py={3}
+                      px={6}
+                      py={4}
+                      mr={6}
                       border="solid transparent"
                       fontWeight="bold"
                       w="full"
@@ -145,26 +132,69 @@ const BlogBanner = () => {
                           bg: 'brand.600',
                         },
                       }}
+                      href="http://tomofficer.com"
+                      target="_blank"
                     >
-                      Let's go!
+                      My Blog
                     </chakra.a>
-                  </Box> */}
+                    <chakra.a
+                      alignItems="center"
+                      justifyContent="center"
+                      px={6}
+                      py={4}
+                      mr={6}
+                      border="solid transparent"
+                      fontWeight="bold"
+                      w="full"
+                      rounded="md"
+                      _light={{
+                        bg: 'black',
+                        color: 'white',
+                      }}
+                      bg="brand.600"
+                      _dark={{
+                        bg: 'brand.500',
+                      }}
+                      _hover={{
+                        transform: 'scale(1.1)',
+
+                        _light: {
+                          bg: 'purple.600',
+                          color: 'white',
+                        },
+                        _dark: {
+                          bg: 'brand.600',
+                        },
+                      }}
+                      href="http://tomofficer.com"
+                      target="_blank"
+                    >
+                      My Results
+                    </chakra.a>
+                  </Box>
                 </Stack>
               </Box>
             </SimpleGrid>
+
             <Box
-              w="300px"
+              w="275px"
+              mt={10}
+              mb={10}
               display="flex"
               flexDirection={'column'}
               alignItems="center"
               justifyContent={'center'}
+              ml="45px"
+              _hover={{ transform: 'scale(1.1)' }}
             >
-              <Image src="https://ik.imagekit.io/e16xo45jw/Blog/jsct-logo-white_57YEipdMW.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662871696512" />
+              <a href="https://tomofficer.com" target="_blank">
+                <Image src="https://ik.imagekit.io/e16xo45jw/Blog/jsct-logo-white_57YEipdMW.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662871696512" />
+              </a>
             </Box>
           </Flex>
         </Box>
       </Flex>
-      ;
+      <div ref={contactRef}></div>
     </div>
   );
 };

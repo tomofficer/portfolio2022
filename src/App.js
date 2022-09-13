@@ -23,6 +23,7 @@ function App() {
   const scrollToResumeRef = useRef();
   const scrollToMyWorkRef = useRef();
   const scrollToContactRef = useRef();
+  const scrollToBlogRef = useRef();
 
   //scroll handlers
   const scrollToResumeHandle = () => {
@@ -37,6 +38,10 @@ function App() {
     scrollToContactRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const scrollToBlogHandle = () => {
+    scrollToBlogRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <ChakraProvider theme={theme}>
       {/* <ColorModeSwitcher justifySelf="flex-end" /> */}
@@ -45,11 +50,12 @@ function App() {
           resumeHandle={scrollToResumeHandle}
           myWorkHandle={scrollToMyWorkHandle}
           contactHandle={scrollToContactHandle}
+          blogHandle={scrollToBlogHandle}
         />
         <Landing resumeRef={scrollToResumeRef} />
         <Resume myWorkRef={scrollToMyWorkRef} />
-        <MyWork contactRef={scrollToContactRef} />
-        <BlogBanner />
+        <MyWork blogRef={scrollToBlogRef} />
+        <BlogBanner contactRef={scrollToContactRef} />
         <About />
 
         {/* <Box textAlign="center" fontSize="xl">
