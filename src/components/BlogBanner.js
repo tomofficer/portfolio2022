@@ -5,7 +5,7 @@ const BlogBanner = ({ contactRef }) => {
   return (
     <div>
       <Flex
-        bgGradient="linear(to-r, purple.300, purple.600)"
+        bgGradient="linear(to-r, purple.600, purple.300)"
         _dark={{
           bg: '#3e3e3e',
         }}
@@ -61,8 +61,9 @@ const BlogBanner = ({ contactRef }) => {
                   }}
                   mb={6}
                 >
-                  <chakra.span display="block">
-                    I have the skill set you're looking for in your next hire.
+                  <chakra.span display="block" fontSize={'34.5px'}>
+                    I have the skill set you're looking for in your next dev
+                    hire.
                   </chakra.span>
                   <chakra.span
                     display="block"
@@ -89,7 +90,7 @@ const BlogBanner = ({ contactRef }) => {
                   </span>
                   <br />
                   <span>
-                    Check out my behavioral assessment results on Indeed and
+                    Check out my behavioral assessment results from Indeed and
                     let's see if we're a good fit for eachother.
                   </span>
                 </chakra.p>
@@ -107,15 +108,16 @@ const BlogBanner = ({ contactRef }) => {
                       alignItems="center"
                       justifyContent="center"
                       px={6}
-                      py={4}
+                      py={2}
                       mr={6}
                       border="solid transparent"
                       fontWeight="bold"
                       w="full"
                       rounded="md"
+                      // borderRadius={'50px'}
                       _light={{
-                        bg: 'black',
-                        color: 'white',
+                        bg: 'white',
+                        color: 'black',
                       }}
                       bg="brand.600"
                       _dark={{
@@ -125,7 +127,7 @@ const BlogBanner = ({ contactRef }) => {
                         transform: 'scale(1.1)',
 
                         _light: {
-                          bg: 'purple.600',
+                          bg: 'black',
                           color: 'white',
                         },
                         _dark: {
@@ -141,15 +143,16 @@ const BlogBanner = ({ contactRef }) => {
                       alignItems="center"
                       justifyContent="center"
                       px={6}
-                      py={4}
+                      py={2}
                       mr={6}
                       border="solid transparent"
                       fontWeight="bold"
                       w="full"
                       rounded="md"
+                      // borderRadius={'50px'}
                       _light={{
-                        bg: 'black',
-                        color: 'white',
+                        bg: 'white',
+                        color: 'black',
                       }}
                       bg="brand.600"
                       _dark={{
@@ -159,7 +162,7 @@ const BlogBanner = ({ contactRef }) => {
                         transform: 'scale(1.1)',
 
                         _light: {
-                          bg: 'purple.600',
+                          bg: 'black',
                           color: 'white',
                         },
                         _dark: {
@@ -178,8 +181,8 @@ const BlogBanner = ({ contactRef }) => {
 
             <Box
               w="275px"
-              mt={10}
-              mb={10}
+              mt={14}
+              mb={14}
               display="flex"
               flexDirection={'column'}
               alignItems="center"
