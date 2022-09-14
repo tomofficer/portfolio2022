@@ -96,6 +96,7 @@ const BlogBanner = ({ contactRef }) => {
                       <chakra.span
                         bgClip="text"
                         bgGradient="linear(to-r, purple.500,purple.600)"
+                        // color="purple.600"
                       >
                         {' '}
                         your next developer.
@@ -111,20 +112,27 @@ const BlogBanner = ({ contactRef }) => {
                     fontWeight="bold"
                     letterSpacing="tight"
                     // lineHeight="shorter"
-                    color="black"
+
+                    color="white"
                     _dark={{
                       color: 'gray.100',
                     }}
                   >
                     <span>
                       Check out my blog where I share my solutions to common
-                      challenges presented in modern web development.
+                      challenges presented in{' '}
+                      <chakra.span color="purple.700">
+                        modern web development.
+                      </chakra.span>
                     </span>
 
                     <br />
                     <span>
                       Check out my behavioral assessment results from Indeed and
-                      let's see if we're a good fit for eachother.
+                      let's see if{' '}
+                      <chakra.span color="purple.700">
+                        we're a good fit for eachother.
+                      </chakra.span>{' '}
                     </span>
                   </chakra.p>
 
