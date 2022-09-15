@@ -57,7 +57,7 @@ const CodeSampleModal = ({ sample }) => {
             <ModalCloseButton />
 
             <Center flexDirection={'column'}>
-              <ModalHeader color="red.500">{sample.title}</ModalHeader>
+              <ModalHeader color="black">{sample.title}</ModalHeader>
               <Text textAlign={'center'} color={'gray.500'} mt={0} mb={6}>
                 {sample.description}
               </Text>
