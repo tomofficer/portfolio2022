@@ -1,6 +1,6 @@
 import { Box, Flex, chakra, Image, Link, Icon } from '@chakra-ui/react';
-import React from 'react';
-import { FaBitbucket } from 'react-icons/fa';
+import React, { useState } from 'react';
+import PrivateRepoModal from './PrivateRepoModal';
 
 const MyWork = ({ blogRef }) => {
   //data
@@ -13,7 +13,7 @@ const MyWork = ({ blogRef }) => {
       imgPath:
         'https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80',
       liveLink: 'https://www.leadrpro.com/',
-      gitHubLink: 'private',
+      gitHubLink: 1,
     },
     {
       index: 1,
@@ -255,15 +255,25 @@ const MyWork = ({ blogRef }) => {
                           >
                             View Live
                           </Link>
-                          <a href={project.gitHubLink} target="_blank">
-                            <Image
-                              src="https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/github_Ljbtk34W9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662522137177"
-                              h={'50px'}
-                              _hover={{
-                                transform: 'scale(1.2)',
-                              }}
-                            />
-                          </a>
+
+                          {project.gitHubLink === 1 && (
+                            <>
+                              <PrivateRepoModal />
+                            </>
+                          )}
+                          {project.gitHubLink !== 1 && (
+                            <>
+                              <a href={project.gitHubLink} target="_blank">
+                                <Image
+                                  src="https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/github_Ljbtk34W9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662522137177"
+                                  h={'50px'}
+                                  _hover={{
+                                    transform: 'scale(1.2)',
+                                  }}
+                                />
+                              </a>
+                            </>
+                          )}
                         </Box>
                       </Box>
                     </Box>
