@@ -246,7 +246,8 @@ const MyWork = ({ blogRef }) => {
                             fontWeight="semibold"
                             rounded="lg"
                             _hover={{
-                              bgGradient: 'linear(to-l, green.400,purple.500)',
+                              bgGradient:
+                                'linear(to-l, purple.300, purple.500)',
                               transform: 'scale(1.05)',
                             }}
                             href={project.liveLink}
@@ -354,7 +355,8 @@ const MyWork = ({ blogRef }) => {
                             fontWeight="semibold"
                             rounded="lg"
                             _hover={{
-                              bgGradient: 'linear(to-l, green.400,purple.500)',
+                              bgGradient:
+                                'linear(to-r, purple.300, purple.500)',
                               transform: 'scale(1.05)',
                             }}
                             href={project.liveLink}

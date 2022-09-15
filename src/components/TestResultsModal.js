@@ -49,7 +49,7 @@ const TestResultsModal = () => {
         justifyContent="center"
         px={6}
         // py={5}
-        py="22.4px"
+        py="22px"
         mr={6}
         fontWeight="bold"
         rounded="md"
