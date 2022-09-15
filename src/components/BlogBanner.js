@@ -144,7 +144,7 @@ const BlogBanner = ({ contactRef }) => {
                     spacing={2}
                     mt={10}
                   >
-                    <Box rounded="md">
+                    <Box>
                       <chakra.a
                         alignItems="center"
                         justifyContent="center"
@@ -154,7 +154,6 @@ const BlogBanner = ({ contactRef }) => {
                         fontWeight="bold"
                         w="full"
                         rounded="md"
-                        // borderRadius={'50px'}
                         _light={{
                           bg: 'white',
                           color: 'black',
@@ -179,40 +178,8 @@ const BlogBanner = ({ contactRef }) => {
                       >
                         My Blog
                       </chakra.a>
-                      <chakra.a
-                        alignItems="center"
-                        justifyContent="center"
-                        px={0}
-                        py={3}
-                        mr={6}
-                        border="solid transparent"
-                        fontWeight="bold"
-                        w="full"
-                        rounded="md"
-                        // borderRadius={'50px'}
-                        _light={{
-                          bg: 'white',
-                          color: 'black',
-                        }}
-                        bg="brand.600"
-                        _dark={{
-                          bg: 'brand.500',
-                        }}
-                        _hover={{
-                          transform: 'translateY(-3px)',
-                          boxShadow: 'lg',
-                          color: 'white',
-                          _light: {
-                            bg: 'black',
-                            color: 'white',
-                          },
-                          _dark: {
-                            bg: 'brand.600',
-                          },
-                        }}
-                      >
-                        <AssessmentsModal />
-                      </chakra.a>
+
+                      <AssessmentsModal />
                     </Box>
                   </Stack>
                 </Box>

@@ -45,13 +45,32 @@ const AssessmentsModal = () => {
   return (
     <>
       <Button
-        background="none"
-        fontSize="16px"
+        alignItems="center"
+        justifyContent="center"
+        px={6}
+        // py={5}
+        py="22.5px"
+        mr={6}
         fontWeight="bold"
-        color={'black'}
+        rounded="md"
+        _light={{
+          bg: 'white',
+          color: 'black',
+        }}
+        bg="brand.600"
+        _dark={{
+          bg: 'brand.500',
+        }}
         _hover={{
-          color: 'white',
-          bgColor: 'black',
+          transform: 'scale(1.1)',
+
+          _light: {
+            bg: 'black',
+            color: 'white',
+          },
+          _dark: {
+            bg: 'brand.600',
+          },
         }}
         onClick={() => {
           setOverlay(<OverlayOne />);
