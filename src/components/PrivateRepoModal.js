@@ -27,8 +27,42 @@ import {
   FaInstagram,
   FaBitbucket,
 } from 'react-icons/fa';
+import CodeSampleModal from './CodeSampleModal';
+import LetsConnectModal from './LetsConnectModal';
 
 const PrivateRepoModal = () => {
+  //code sample data
+  const codeSamples = [
+    {
+      title: 'API Calls',
+      description:
+        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis sit dolorem aut pariatur alias quaerat voluptate veritatis minima, saepe reprehenderit.',
+      imgPath:
+        'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/Screen_Shot_2022-09-14_at_11.48.25_PM_uxS638lIO.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663224555378',
+    },
+    {
+      title: 'Conditional Rendering',
+      description:
+        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis sit dolorem aut pariatur alias quaerat voluptate veritatis minima, saepe reprehenderit.',
+      imgPath:
+        'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/Screen_Shot_2022-09-14_at_11.48.25_PM_uxS638lIO.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663224555378',
+    },
+    {
+      title: 'React useEffect Hook',
+      description:
+        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis sit dolorem aut pariatur alias quaerat voluptate veritatis minima, saepe reprehenderit.',
+      imgPath:
+        'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/Screen_Shot_2022-09-14_at_11.48.25_PM_uxS638lIO.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663224555378',
+    },
+    {
+      title: 'React useState Hook',
+      description:
+        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis sit dolorem aut pariatur alias quaerat voluptate veritatis minima, saepe reprehenderit.',
+      imgPath:
+        'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/Screen_Shot_2022-09-14_at_11.48.25_PM_uxS638lIO.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663224555378',
+    },
+  ];
+
   const OverlayOne = () => (
     <ModalOverlay
       bg="blackAlpha.300"
@@ -108,10 +142,20 @@ const PrivateRepoModal = () => {
                       </MenuButton>
 
                       <MenuList>
-                        <MenuItem>API Calls</MenuItem>
+                        {codeSamples.map(sample => (
+                          <>
+                            <MenuItem>
+                              <CodeSampleModal sample={sample} />
+                            </MenuItem>
+                          </>
+                        ))}
+                        {/* <MenuItem>API Calls</MenuItem>
+                        <MenuItem>
+                          <CodeSampleModal />
+                        </MenuItem>
                         <MenuItem>Conditional Rendering</MenuItem>
                         <MenuItem>React useEffect Hook</MenuItem>
-                        <MenuItem>React useState Hook</MenuItem>
+                        <MenuItem>React useState Hook</MenuItem> */}
                       </MenuList>
                     </>
                   )}
