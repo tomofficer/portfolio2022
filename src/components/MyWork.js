@@ -52,7 +52,7 @@ const MyWork = ({ blogRef }) => {
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
       imgPath:
         'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/marvin-meyer-SYTO3xs06fU-unsplash_nxxNA9f5M.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663020924096',
-      liveLink: '',
+      liveLink: 'https://githubfinder41987.netlify.app/',
       gitHubLink: 'https://github.com/tomofficer/github-finder',
     },
   ];
