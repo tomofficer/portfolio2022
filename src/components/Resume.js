@@ -535,7 +535,7 @@ const Resume = ({ myWorkRef }) => {
                     retrieve blog data
                   </p>
                   <a
-                    href="https://www.leadrpro.com/"
+                    href="https://githubfinder41987.netlify.app/"
                     target={'_blank'}
                     style={{
                       color: isHovering ? 'blue' : '',
@@ -562,7 +562,10 @@ const Resume = ({ myWorkRef }) => {
                   >
                     (Full Stack Web App) Dec 2021
                   </p>
-                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                  <a
+                    href="https://githubfinder41987.netlify.app/"
+                    target={'_blank'}
+                  >
                     <Icon
                       position={'absolute'}
                       ml={'10px'}
