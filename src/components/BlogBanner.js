@@ -1,15 +1,6 @@
 import React from 'react';
-import {
-  Flex,
-  Box,
-  chakra,
-  Stack,
-  SimpleGrid,
-  Image,
-  Center,
-} from '@chakra-ui/react';
-import LetsConnectModal from './LetsConnectModal';
-import AssessmentsModal from './AssessmentsModal';
+import { Flex, Box, chakra, Stack, SimpleGrid, Image } from '@chakra-ui/react';
+import TestResultsModal from './TestResultsModal';
 
 const BlogBanner = ({ contactRef }) => {
   return (
@@ -163,8 +154,6 @@ const BlogBanner = ({ contactRef }) => {
                           bg: 'brand.500',
                         }}
                         _hover={{
-                          transform: 'scale(1.1)',
-
                           _light: {
                             bg: 'black',
                             color: 'white',
@@ -179,7 +168,7 @@ const BlogBanner = ({ contactRef }) => {
                         My Blog
                       </chakra.a>
 
-                      <AssessmentsModal />
+                      <TestResultsModal />
                     </Box>
                   </Stack>
                 </Box>

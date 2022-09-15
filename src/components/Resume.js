@@ -603,7 +603,7 @@ const Resume = ({ myWorkRef }) => {
 
                 <Th>
                   <a
-                    href="https://www.leadrpro.com/"
+                    href="https://ik.imagekit.io/v66nb6oaq/Certificates/Thinkful-certificate_AzyLoiXVN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663217660714"
                     target={'_blank'}
                     style={{
                       color: isHovering ? 'blue' : '',
@@ -626,7 +626,10 @@ const Resume = ({ myWorkRef }) => {
                   >
                     (Remote, California) Apr 2021 - Jan 2022
                   </p>
-                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                  <a
+                    href="https://ik.imagekit.io/v66nb6oaq/Certificates/Thinkful-certificate_AzyLoiXVN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663217660714"
+                    target={'_blank'}
+                  >
                     <Icon
                       position={'absolute'}
                       ml={'10px'}
@@ -742,7 +745,10 @@ const Resume = ({ myWorkRef }) => {
                   >
                     (Udemy) Nov 2021
                   </p>
-                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-9537e18e-dd7c-4002-9e9b-50d8518936cd/"
+                    target={'_blank'}
+                  >
                     <Icon
                       position={'absolute'}
                       ml={'10px'}
@@ -786,7 +792,10 @@ const Resume = ({ myWorkRef }) => {
                   >
                     (Udemy) Nov 2021
                   </p>
-                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-2d46e76f-3c8b-4ded-b80b-ce25c769bbe2/"
+                    target={'_blank'}
+                  >
                     <Icon
                       position={'absolute'}
                       ml={'10px'}
@@ -830,7 +839,10 @@ const Resume = ({ myWorkRef }) => {
                   >
                     (Udemy) Sep 2021
                   </p>
-                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-0890bf55-645f-47ac-9a9f-2792437deb60/"
+                    target={'_blank'}
+                  >
                     <Icon
                       position={'absolute'}
                       ml={'10px'}
@@ -874,7 +886,10 @@ const Resume = ({ myWorkRef }) => {
                   >
                     (Udemy) Sep 2021
                   </p>
-                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-9f51f7d0-29b6-42b2-8c43-eef5b7404787/"
+                    target={'_blank'}
+                  >
                     <Icon
                       position={'absolute'}
                       ml={'10px'}
@@ -992,7 +1007,7 @@ const Resume = ({ myWorkRef }) => {
                       marginBottom: '20px',
                     }}
                   >
-                    •SEO | d3.js | Mailchimp Integration | MouseFlow | Git |
+                    •SEO | d3.js | Mailchimp |Contentful | MouseFlow | Git |
                     Figma | Adobe Photoshop | Asana | Postman | Jira
                   </p>
                 </Th>

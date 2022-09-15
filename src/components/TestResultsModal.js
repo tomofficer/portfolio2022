@@ -31,7 +31,7 @@ import {
   FaBitbucket,
 } from 'react-icons/fa';
 
-const AssessmentsModal = () => {
+const TestResultsModal = () => {
   const OverlayOne = () => (
     <ModalOverlay
       bg="blackAlpha.300"
@@ -49,7 +49,7 @@ const AssessmentsModal = () => {
         justifyContent="center"
         px={6}
         // py={5}
-        py="22.5px"
+        py="22.4px"
         mr={6}
         fontWeight="bold"
         rounded="md"
@@ -62,8 +62,6 @@ const AssessmentsModal = () => {
           bg: 'brand.500',
         }}
         _hover={{
-          transform: 'scale(1.1)',
-
           _light: {
             bg: 'black',
             color: 'white',
@@ -194,4 +192,4 @@ const AssessmentsModal = () => {
   );
 };
 
-export default AssessmentsModal;
+export default TestResultsModal;
