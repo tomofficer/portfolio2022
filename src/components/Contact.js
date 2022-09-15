@@ -171,8 +171,9 @@ const Contact = () => {
                   color="gray.500"
                 >
                   {' '}
-                  Hey, I'm Tom! I'm an experienced software engineer proficient
-                  in React, JavaScript, HTML, CSS and Node.js
+                  Hey, I'm Tom! I'm an experienced software engineer
+                  specializing in React, JavaScript, HTML, CSS, PostgreSQL and
+                  Node.js
                 </chakra.p>
 
                 <chakra.p
