@@ -503,7 +503,7 @@ const Header = ({ resumeHandle, myWorkHandle, contactHandle, blogHandle }) => {
                   Sign up
                 </Button> */}
               </HStack>
-              <IconButton
+              {/* <IconButton
                 size="md"
                 fontSize="lg"
                 aria-label={`Switch to ${text} mode`}
@@ -515,7 +515,7 @@ const Header = ({ resumeHandle, myWorkHandle, contactHandle, blogHandle }) => {
                 }}
                 onClick={toggleMode}
                 icon={<SwitchIcon />}
-              />
+              /> */}
               <IconButton
                 display={{
                   base: 'flex',
@@ -529,7 +529,7 @@ const Header = ({ resumeHandle, myWorkHandle, contactHandle, blogHandle }) => {
                 }}
                 variant="ghost"
                 // icon={<AiOutlineMenu />}
-                // onClick={mobileNav.onOpen}
+                onClick={mobileNav.onOpen}
               />
             </Flex>
           </Flex>

@@ -53,7 +53,7 @@ const CodeSampleModal = ({ sample }) => {
       <Modal isCentered isOpen={isOpen} onClose={onClose}>
         {overlay}
         <Box>
-          <ModalContent p={0}>
+          <ModalContent p={4} w="full">
             <ModalCloseButton />
 
             <Center flexDirection={'column'}>
