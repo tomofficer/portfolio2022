@@ -278,14 +278,7 @@ const Resume = ({ myWorkRef }) => {
                       ))}
                     </>
                   ))} */}
-                  <chakra.header
-                    style={{
-                      color: isHovering ? 'blue' : '',
-                      fontSize: '14px',
-                    }}
-                    onMouseEnter={() => handleMouseEnter()}
-                    onMouseLeave={handleMouseLeave}
-                  >
+                  <chakra.header fontSize="14px">
                     Full Stack Developer{' '}
                     <span style={{ fontStyle: 'italic' }}>• LeadrPro </span>{' '}
                   </chakra.header>
@@ -338,21 +331,12 @@ const Resume = ({ myWorkRef }) => {
                     •Helped develop functional databases and servers to support
                     scalability on the back-end
                   </p>
-                  <a
-                    href="https://www.whitedogwoodworking.com/"
-                    target={'_blank'}
-                    style={{
-                      color: isHovering ? 'blue' : '',
-                      fontSize: '14px',
-                    }}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                  >
+                  <chakra.header fontSize="14px">
                     Front End Developer
                     <span style={{ fontStyle: 'italic' }}>
                       • White Dog Woodworking
                     </span>{' '}
-                  </a>
+                  </chakra.header>
 
                   <p
                     style={{
@@ -408,22 +392,13 @@ const Resume = ({ myWorkRef }) => {
               <Tr>
                 <Th fontSize={'18px'}>Experience</Th>
                 <Th>
-                  <a
-                    href="https://www.leadrpro.com/"
-                    target={'_blank'}
-                    style={{
-                      color: isHovering ? 'blue' : '',
-                      fontSize: '14px',
-                    }}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                  >
+                  <chakra.header fontSize={'14px'}>
                     Web Developer{' '}
                     {/* <span style={{ fontStyle: 'italic' }}> •</span>{' '} */}
                     <span style={{ fontStyle: 'italic' }}>
                       • YourNextToy.com
                     </span>{' '}
-                  </a>
+                  </chakra.header>
 
                   <p
                     style={{
@@ -465,22 +440,14 @@ const Resume = ({ myWorkRef }) => {
                     •Developed using React.js, Chakra UI, JavaScript, HTML and
                     CSS
                   </p>
-                  <a
-                    href="https://www.leadrpro.com/"
-                    target={'_blank'}
-                    style={{
-                      color: isHovering ? 'blue' : '',
-                      fontSize: '14px',
-                    }}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                  >
+
+                  <chakra.header fontSize={'14px'}>
                     Web Developer{' '}
                     {/* <span style={{ fontStyle: 'italic' }}> •</span>{' '} */}
                     <span style={{ fontStyle: 'italic' }}>
                       • JavaScriptCodingTips.com
                     </span>{' '}
-                  </a>
+                  </chakra.header>
 
                   <p
                     style={{
@@ -534,22 +501,14 @@ const Resume = ({ myWorkRef }) => {
                     •Implemented fetch calls to the Contentful API to store and
                     retrieve blog data
                   </p>
-                  <a
-                    href="https://githubfinder41987.netlify.app/"
-                    target={'_blank'}
-                    style={{
-                      color: isHovering ? 'blue' : '',
-                      fontSize: '14px',
-                    }}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                  >
+
+                  <chakra.header fontSize={'14px'}>
                     Full Stack Developer{' '}
                     {/* <span style={{ fontStyle: 'italic' }}> •</span>{' '} */}
                     <span style={{ fontStyle: 'italic' }}>
                       • GitHub Finder App
                     </span>{' '}
-                  </a>
+                  </chakra.header>
 
                   <p
                     style={{
@@ -605,19 +564,10 @@ const Resume = ({ myWorkRef }) => {
                 <Th fontSize={'18px'}>Education</Th>
 
                 <Th>
-                  <a
-                    href="https://ik.imagekit.io/v66nb6oaq/Certificates/Thinkful-certificate_AzyLoiXVN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663217660714"
-                    target={'_blank'}
-                    style={{
-                      color: isHovering ? 'blue' : '',
-                      fontSize: '14px',
-                    }}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                  >
+                  <chakra.header fontSize={'14px'}>
                     Software Engineering Program{' '}
                     <span style={{ fontStyle: 'italic' }}>• Thinkful </span>
-                  </a>
+                  </chakra.header>
                   <p
                     style={{
                       fontSize: '12px',
@@ -660,21 +610,12 @@ const Resume = ({ myWorkRef }) => {
                     •Meeting twice weekly to learn industry standards in both
                     front and back-end technologies
                   </p>
-                  <a
-                    href="https://www.whitedogwoodworking.com/"
-                    target={'_blank'}
-                    style={{
-                      color: isHovering ? 'blue' : '',
-                      fontSize: '14px',
-                    }}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                  >
+                  <chakra.header fontSize={'14px'}>
                     Bachelor Of Applied Science, Audio Engineering{' '}
                     <span style={{ fontStyle: 'italic' }}>
                       • Expression College
                     </span>{' '}
-                  </a>
+                  </chakra.header>
                   <p
                     style={{
                       fontSize: '12px',
@@ -686,7 +627,7 @@ const Resume = ({ myWorkRef }) => {
                   >
                     (Emeryville, California) Feb 2012 - Dec 2015
                   </p>
-                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                  {/* <a href="https://www.leadrpro.com/" target={'_blank'}>
                     <Icon
                       position={'absolute'}
                       ml={'10px'}
@@ -695,7 +636,7 @@ const Resume = ({ myWorkRef }) => {
                       h="13px"
                       w="15px"
                     />
-                  </a>
+                  </a> */}
                   <p
                     style={{
                       fontSize: '10px',
@@ -724,18 +665,9 @@ const Resume = ({ myWorkRef }) => {
               <Tr>
                 <Th fontSize={'18px'}>Certificates</Th>
                 <Th>
-                  <a
-                    href="https://www.udemy.com/certificate/UC-9537e18e-dd7c-4002-9e9b-50d8518936cd/"
-                    target={'_blank'}
-                    style={{
-                      color: isHovering ? 'blue' : '',
-                      fontSize: '14px',
-                    }}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                  >
+                  <chakra.header fontSize={'14px'}>
                     Advanced JavaScript{' '}
-                  </a>
+                  </chakra.header>
 
                   <p
                     style={{
@@ -771,18 +703,9 @@ const Resume = ({ myWorkRef }) => {
                     •Developed using React.js, Chakra UI, JavaScript, HTML and
                     CSS
                   </p>
-                  <a
-                    href="https://www.udemy.com/certificate/UC-2d46e76f-3c8b-4ded-b80b-ce25c769bbe2/"
-                    target={'_blank'}
-                    style={{
-                      color: isHovering ? 'blue' : '',
-                      fontSize: '14px',
-                    }}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                  >
+                  <chakra.header fontSize={'14px'}>
                     React Front To Back{' '}
-                  </a>
+                  </chakra.header>
 
                   <p
                     style={{
@@ -818,18 +741,7 @@ const Resume = ({ myWorkRef }) => {
                     •Developed using React.js, Chakra UI, JavaScript, HTML and
                     CSS
                   </p>
-                  <a
-                    href="https://www.udemy.com/certificate/UC-0890bf55-645f-47ac-9a9f-2792437deb60/"
-                    target={'_blank'}
-                    style={{
-                      color: isHovering ? 'blue' : '',
-                      fontSize: '14px',
-                    }}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                  >
-                    React + Shopify (Headless CMS){' '}
-                  </a>
+                  <chakra.header>React + Shopify (Headless CMS) </chakra.header>
 
                   <p
                     style={{
@@ -865,18 +777,9 @@ const Resume = ({ myWorkRef }) => {
                     •Developed using React.js, Chakra UI, JavaScript, HTML and
                     CSS
                   </p>
-                  <a
-                    href="https://www.udemy.com/certificate/UC-9f51f7d0-29b6-42b2-8c43-eef5b7404787/"
-                    target={'_blank'}
-                    style={{
-                      color: isHovering ? 'blue' : '',
-                      fontSize: '14px',
-                    }}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                  >
+                  <chakra.header fontSize={'14px'}>
                     Advanced Shopify Theme Development : Liquid + Vue.js{' '}
-                  </a>
+                  </chakra.header>
 
                   <p
                     style={{
