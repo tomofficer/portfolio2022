@@ -13,11 +13,11 @@ import Footer from './Footer';
 import LetsConnectModal from './LetsConnectModal';
 import TestResultsModal2 from './TestResultsModal2';
 
-const Contact = () => {
+const Contact = ({ contactRef }) => {
   const bg = useColorModeValue('black', 'gray.800');
 
   return (
-    <section id="About">
+    <section id="About" ref={contactRef}>
       <Box pos="relative" overflow="hidden" bg={bg} mt={10}>
         <Box maxW="7xl" mx="auto">
           <Box

@@ -67,7 +67,7 @@ function App() {
         <MyWork blogRef={scrollToBlogRef} contactRef={scrollToContactRef} />
         {/* <BlogBanner contactRef={scrollToContactRef} /> */}
 
-        <Contact />
+        <Contact contactRef={scrollToContactRef} />
       </div>
     </ChakraProvider>
   );

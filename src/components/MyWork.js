@@ -418,7 +418,7 @@ const MyWork = ({ blogRef, contactRef }) => {
         </div>
         <div
           // ref={blogRef}
-          ref={contactRef}
+          // ref={contactRef}
           style={{ paddingTop: '70px', backgroundColor: '#edf3f8' }}
         ></div>
       </section>
