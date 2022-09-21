@@ -454,7 +454,7 @@ const Header = ({ resumeHandle, myWorkHandle, contactHandle, blogHandle }) => {
                   My Work
                 </Button>
 
-                <Button
+                {/* <Button
                   bg={bg}
                   color="gray.500"
                   display="inline-flex"
@@ -469,7 +469,7 @@ const Header = ({ resumeHandle, myWorkHandle, contactHandle, blogHandle }) => {
                   onClick={() => blogHandle()}
                 >
                   My Blog
-                </Button>
+                </Button> */}
                 <Button
                   bg={bg}
                   color="gray.500"

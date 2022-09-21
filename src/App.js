@@ -64,8 +64,8 @@ function App() {
         />
         <Landing resumeRef={scrollToResumeRef} />
         <Resume myWorkRef={scrollToMyWorkRef} />
-        <MyWork blogRef={scrollToBlogRef} />
-        <BlogBanner contactRef={scrollToContactRef} />
+        <MyWork blogRef={scrollToBlogRef} contactRef={scrollToContactRef} />
+        {/* <BlogBanner contactRef={scrollToContactRef} /> */}
 
         <Contact />
       </div>

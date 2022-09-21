@@ -2,7 +2,7 @@ import { Box, Flex, chakra, Image, Link, Icon } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import PrivateRepoModal from './PrivateRepoModal';
 
-const MyWork = ({ blogRef }) => {
+const MyWork = ({ blogRef, contactRef }) => {
   //data
   const projects = [
     {
@@ -417,7 +417,8 @@ const MyWork = ({ blogRef }) => {
           </Box>
         </div>
         <div
-          ref={blogRef}
+          // ref={blogRef}
+          ref={contactRef}
           style={{ paddingTop: '70px', backgroundColor: '#edf3f8' }}
         ></div>
       </section>
