@@ -49,7 +49,7 @@ const LetsConnectModal = () => {
         bg={'transparent'}
         color={'white'}
         _hover={{
-          bgGradient: 'linear(to-l, green.400, purple.500)',
+          bgGradient: 'linear(to-r, green.400, purple.500)',
 
           color: 'black',
         }}
@@ -58,7 +58,7 @@ const LetsConnectModal = () => {
           onOpen();
         }}
       >
-        Let's Connect
+        Let's Connect!
       </Button>
 
       <Modal isCentered isOpen={isOpen} onClose={onClose}>

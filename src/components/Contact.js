@@ -11,6 +11,7 @@ import {
 } from '@chakra-ui/react';
 import Footer from './Footer';
 import LetsConnectModal from './LetsConnectModal';
+import TestResultsModal2 from './TestResultsModal2';
 
 const Contact = () => {
   const bg = useColorModeValue('black', 'gray.800');
@@ -222,13 +223,14 @@ const Contact = () => {
                   Download Resume
                 </Button>
 
+                <TestResultsModal2 />
                 <Button
                   rounded={'full'}
                   bg={'purple.300'}
                   // bgGradient="linear(to-r, purple.500, green.400)"
                   color={'white'}
                   _hover={{
-                    bgGradient: 'linear(to-l, green.400, purple.500)',
+                    bgGradient: 'linear(to-r, green.400, purple.500)',
 
                     color: 'black',
                   }}
