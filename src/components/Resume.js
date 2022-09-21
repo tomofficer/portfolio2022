@@ -692,8 +692,8 @@ const Resume = ({ myWorkRef }) => {
                       marginBottom: '20px',
                     }}
                   >
-                    •Developed using React.js, Chakra UI, JavaScript, HTML and
-                    CSS
+                    •Deep dive into JS fundamentals using Async and Object
+                    Oriented Programming
                   </p>
                   <chakra.header fontSize={'14px'}>
                     React Front To Back{' '}
@@ -730,8 +730,8 @@ const Resume = ({ myWorkRef }) => {
                       marginBottom: '20px',
                     }}
                   >
-                    •Developed using React.js, Chakra UI, JavaScript, HTML and
-                    CSS
+                    •Learned Modern React 16.8+ Including Hooks, Context API,
+                    Full Stack MERN & Redux
                   </p>
                   <chakra.header fontSize={'14px'}>
                     React + Shopify (Headless CMS){' '}
@@ -768,8 +768,8 @@ const Resume = ({ myWorkRef }) => {
                       marginBottom: '20px',
                     }}
                   >
-                    •Developed using React.js, Chakra UI, JavaScript, HTML and
-                    CSS
+                    •Built a Headless Shopify Storefront using the Shopify API,
+                    React Hooks and Context API
                   </p>
                   <chakra.header fontSize={'14px'}>
                     Advanced Shopify Theme Development : Liquid + Vue.js{' '}
@@ -806,8 +806,8 @@ const Resume = ({ myWorkRef }) => {
                       marginBottom: '20px',
                     }}
                   >
-                    •Developed using React.js, Chakra UI, JavaScript, HTML and
-                    CSS
+                    •Learned to build Shopify themes using Liquid, JavaScript,
+                    and Vue.js v3.0 from scratch
                   </p>
                 </Th>
                 <Th></Th>
