@@ -427,8 +427,8 @@ const Resume = ({ myWorkRef }) => {
                       marginLeft: '100px',
                     }}
                   >
-                    •Spearheaded custom website from wireframe design to
-                    production level deployment
+                    •Developed a modern, responsive frontend using React,
+                    JavaScript, HTML and CSS
                   </p>
                   <p
                     style={{
@@ -437,8 +437,8 @@ const Resume = ({ myWorkRef }) => {
                       marginBottom: '20px',
                     }}
                   >
-                    •Developed using React.js, Chakra UI, JavaScript, HTML and
-                    CSS
+                    •Tested, debugged and deployed 10,000+ lines of code and
+                    optimized for SEO and accessibility
                   </p>
 
                   <chakra.header fontSize={'14px'}>
@@ -473,23 +473,15 @@ const Resume = ({ myWorkRef }) => {
                       w="15px"
                     />
                   </a>
+
                   <p
                     style={{
                       fontSize: '10px',
                       marginLeft: '100px',
                     }}
                   >
-                    •Modern developer blog focused on industry best practices
-                    for JavaScript and React.js
-                  </p>
-                  <p
-                    style={{
-                      fontSize: '10px',
-                      marginLeft: '100px',
-                    }}
-                  >
-                    •Developed using React.js, Chakra UI, JavaScript, HTML and
-                    CSS
+                    •Built out a modern, responsive frontend from scratch using
+                    React, HTML and CSS
                   </p>
                   <p
                     style={{
@@ -499,7 +491,7 @@ const Resume = ({ myWorkRef }) => {
                     }}
                   >
                     •Implemented fetch calls to the Contentful API to store and
-                    retrieve blog data
+                    retrieve data from the backend
                   </p>
 
                   <chakra.header fontSize={'14px'}>
