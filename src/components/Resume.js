@@ -590,7 +590,17 @@ const Resume = ({ myWorkRef }) => {
                       marginLeft: '100px',
                     }}
                   >
-                    •9 Month mentorship from a senior software engineer
+                    •Learned industry standards & best practices in both
+                    frontend and backend technology
+                  </p>
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '100px',
+                    }}
+                  >
+                    •Practiced modern Agile SCRUM development using JavaScript,
+                    React, Express and Node.js
                   </p>
                   <p
                     style={{
@@ -599,8 +609,8 @@ const Resume = ({ myWorkRef }) => {
                       marginBottom: '20px',
                     }}
                   >
-                    •Meeting twice weekly to learn industry standards in both
-                    front and back-end technologies
+                    •Developed, designed & deployed numerous production level
+                    full stack web applications
                   </p>
                   <chakra.header fontSize={'14px'}>
                     Bachelor Of Applied Science, Audio Engineering{' '}
@@ -635,8 +645,8 @@ const Resume = ({ myWorkRef }) => {
                       marginLeft: '100px',
                     }}
                   >
-                    •Spearheaded custom website from wireframe design to
-                    production level deployment
+                    •Learned industry standards in professional studio
+                    recording, live sound & post-production
                   </p>
                   <p
                     style={{
@@ -645,8 +655,12 @@ const Resume = ({ myWorkRef }) => {
                       marginBottom: '20px',
                     }}
                   >
-                    •Used industry best practices to write clean front-end code
-                    using JavaScript, HTML + CSS
+                    •Learned modern recording techniques, production skills,
+                    sound design, acoustics,
+                    <br />{' '}
+                    <span style={{ paddingLeft: '5px' }}>
+                      MIDI systems, mixing, mastering and digital editing
+                    </span>
                   </p>{' '}
                 </Th>
                 <Th></Th>
