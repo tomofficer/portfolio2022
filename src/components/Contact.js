@@ -217,7 +217,7 @@ const Contact = ({ contactRef }) => {
                   }}
                   mt={'30px'}
                   as="a"
-                  href="https://docs.google.com/document/d/1IY-RycZ21irJRZAMByTQnmeMM6xHo2iZw6T4gjEzuzk/edit?usp=sharing"
+                  href="https://docs.google.com/document/d/1Vei5e3WSZGjoKwzNdNYVPqP0f9SuH2PY-BJ1hXEGjBE/edit?usp=sharing"
                   target="_blank"
                 >
                   Download Resume

@@ -188,7 +188,7 @@ const LetsConnectModal = () => {
                       </Stack>
                     </Stack>
 
-                    <VisuallyHidden>Your Email</VisuallyHidden>
+                    {/* <VisuallyHidden>Your Email</VisuallyHidden>
                     <Center>
                       <Text color={'gray.500'} mt={4}>
                         Subscribe to my blog
@@ -216,7 +216,7 @@ const LetsConnectModal = () => {
                       }}
                     >
                       Subscribe
-                    </Button>
+                    </Button> */}
                   </Box>
                 </Box>
               </Center>
