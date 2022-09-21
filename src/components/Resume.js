@@ -741,7 +741,9 @@ const Resume = ({ myWorkRef }) => {
                     •Developed using React.js, Chakra UI, JavaScript, HTML and
                     CSS
                   </p>
-                  <chakra.header>React + Shopify (Headless CMS) </chakra.header>
+                  <chakra.header fontSize={'14px'}>
+                    React + Shopify (Headless CMS){' '}
+                  </chakra.header>
 
                   <p
                     style={{
