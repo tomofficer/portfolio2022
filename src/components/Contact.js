@@ -173,7 +173,7 @@ const Contact = ({ contactRef }) => {
                 >
                   {' '}
                   Hey, I'm Tom! I'm an experienced software engineer
-                  specializing in React, JavaScript, HTML, CSS, PostgreSQL and
+                  specializing in JavaScript, React, HTML, CSS, PostgreSQL and
                   Node.js
                 </chakra.p>
 
@@ -203,7 +203,7 @@ const Contact = ({ contactRef }) => {
                   </p>
                   Tom Officer | Full Stack Developer
                   <p>Mount Shasta, California</p>
-                  <p>tom@leadrpro.com</p>
+                  <p>Tom@leadrpro.com</p>
                 </chakra.p>
 
                 <Button
@@ -217,10 +217,11 @@ const Contact = ({ contactRef }) => {
                   }}
                   mt={'30px'}
                   as="a"
-                  href="https://docs.google.com/document/d/1Vei5e3WSZGjoKwzNdNYVPqP0f9SuH2PY-BJ1hXEGjBE/edit?usp=sharing"
+                  href="https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/Tom_Officer_Resume_2022_UbRqw_kgu.pdf?ik-sdk-version=javascript-1.4.3&updatedAt=1663829604405"
+                  // href="https://docs.google.com/document/d/1Vei5e3WSZGjoKwzNdNYVPqP0f9SuH2PY-BJ1hXEGjBE/edit?usp=sharing"
                   target="_blank"
                 >
-                  Download Resume
+                  Download My Resume
                 </Button>
 
                 <TestResultsModal2 />

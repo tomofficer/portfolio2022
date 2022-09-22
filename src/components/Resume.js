@@ -550,6 +550,107 @@ const Resume = ({ myWorkRef }) => {
                 <Th></Th>
               </Tr>
             </Thead>
+            <Thead>
+              <Tr>
+                <Th fontSize={'18px'}>Technical Skills</Th>
+                <Th>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-9537e18e-dd7c-4002-9e9b-50d8518936cd/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    Frontend Skills{' '}
+                  </a>
+
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '40px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •JavaScript | React | HTML | CSS | Next.js | Vue.js |
+                    Shopify : Liquid | Bootstrap | Gatsby.js | Chakra UI
+                  </p>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-9537e18e-dd7c-4002-9e9b-50d8518936cd/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    Backend Skills{' '}
+                  </a>
+
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '40px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •Node.js | Express.js | Knex.js | PostgreSQL | MongoDB |
+                    Separation of concerns | RESTful API's
+                  </p>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-9537e18e-dd7c-4002-9e9b-50d8518936cd/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    Soft Skills{' '}
+                  </a>
+                  {/* <div ref={myWorkRef}></div> */}
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '40px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •Critical problem solving | Self management | Empathy |
+                    Communication | Creativity | Self-awareness
+                  </p>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-2d46e76f-3c8b-4ded-b80b-ce25c769bbe2/"
+                    target={'_blank'}
+                    style={{
+                      color: isHovering ? 'blue' : '',
+                      fontSize: '14px',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                    ref={myWorkRef}
+                  >
+                    Miscellaneous{' '}
+                  </a>
+
+                  <p
+                    style={{
+                      fontSize: '10px',
+                      marginLeft: '40px',
+                      marginBottom: '20px',
+                    }}
+                  >
+                    •SEO | d3.js | Mailchimp |Contentful | MouseFlow | Git |
+                    Figma | Adobe Photoshop | Asana | Postman | Jira
+                  </p>
+                </Th>
+                <Th></Th>
+              </Tr>
+            </Thead>
 
             <Thead>
               <Tr>
@@ -822,107 +923,6 @@ const Resume = ({ myWorkRef }) => {
                   >
                     •Learned to build Shopify themes using Liquid, JavaScript,
                     and Vue.js v3.0 from scratch
-                  </p>
-                </Th>
-                <Th></Th>
-              </Tr>
-            </Thead>
-            <Thead>
-              <Tr>
-                <Th fontSize={'18px'}>Additional Skills</Th>
-                <Th>
-                  <a
-                    href="https://www.udemy.com/certificate/UC-9537e18e-dd7c-4002-9e9b-50d8518936cd/"
-                    target={'_blank'}
-                    style={{
-                      color: isHovering ? 'blue' : '',
-                      fontSize: '14px',
-                    }}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                  >
-                    Frontend Skills{' '}
-                  </a>
-
-                  <p
-                    style={{
-                      fontSize: '10px',
-                      marginLeft: '40px',
-                      marginBottom: '20px',
-                    }}
-                  >
-                    •JavaScript | React | HTML | CSS | Next.js | Vue.js |
-                    Shopify : Liquid | Bootstrap | Gatsby.js | Chakra UI
-                  </p>
-                  <a
-                    href="https://www.udemy.com/certificate/UC-9537e18e-dd7c-4002-9e9b-50d8518936cd/"
-                    target={'_blank'}
-                    style={{
-                      color: isHovering ? 'blue' : '',
-                      fontSize: '14px',
-                    }}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                  >
-                    Backend Skills{' '}
-                  </a>
-
-                  <p
-                    style={{
-                      fontSize: '10px',
-                      marginLeft: '40px',
-                      marginBottom: '20px',
-                    }}
-                  >
-                    •Node.js | Express.js | Knex.js | PostgreSQL | MongoDB |
-                    Separation of concerns | RESTful API's
-                  </p>
-                  <a
-                    href="https://www.udemy.com/certificate/UC-9537e18e-dd7c-4002-9e9b-50d8518936cd/"
-                    target={'_blank'}
-                    style={{
-                      color: isHovering ? 'blue' : '',
-                      fontSize: '14px',
-                    }}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                  >
-                    Soft Skills{' '}
-                  </a>
-                  {/* <div ref={myWorkRef}></div> */}
-                  <p
-                    style={{
-                      fontSize: '10px',
-                      marginLeft: '40px',
-                      marginBottom: '20px',
-                    }}
-                  >
-                    •Critical problem solving | Self management | Empathy |
-                    Communication | Creativity | Self-awareness
-                  </p>
-                  <a
-                    href="https://www.udemy.com/certificate/UC-2d46e76f-3c8b-4ded-b80b-ce25c769bbe2/"
-                    target={'_blank'}
-                    style={{
-                      color: isHovering ? 'blue' : '',
-                      fontSize: '14px',
-                    }}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                    ref={myWorkRef}
-                  >
-                    Miscellaneous{' '}
-                  </a>
-
-                  <p
-                    style={{
-                      fontSize: '10px',
-                      marginLeft: '40px',
-                      marginBottom: '20px',
-                    }}
-                  >
-                    •SEO | d3.js | Mailchimp |Contentful | MouseFlow | Git |
-                    Figma | Adobe Photoshop | Asana | Postman | Jira
                   </p>
                 </Th>
                 <Th></Th>
