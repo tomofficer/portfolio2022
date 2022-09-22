@@ -632,7 +632,6 @@ const Resume = ({ myWorkRef }) => {
                     }}
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
-                    ref={myWorkRef}
                   >
                     Miscellaneous{' '}
                   </a>
@@ -775,7 +774,6 @@ const Resume = ({ myWorkRef }) => {
                   <chakra.header fontSize={'14px'}>
                     Advanced JavaScript{' '}
                   </chakra.header>
-
                   <p
                     style={{
                       fontSize: '12px',
@@ -813,7 +811,6 @@ const Resume = ({ myWorkRef }) => {
                   <chakra.header fontSize={'14px'}>
                     React Front To Back{' '}
                   </chakra.header>
-
                   <p
                     style={{
                       fontSize: '12px',
@@ -848,10 +845,10 @@ const Resume = ({ myWorkRef }) => {
                     •Learned Modern React 16.8+ Including Hooks, Context API,
                     Full Stack MERN & Redux
                   </p>
+
                   <chakra.header fontSize={'14px'}>
                     React + Shopify (Headless CMS){' '}
                   </chakra.header>
-
                   <p
                     style={{
                       fontSize: '12px',
@@ -889,7 +886,6 @@ const Resume = ({ myWorkRef }) => {
                   <chakra.header fontSize={'14px'}>
                     Advanced Shopify Theme Development : Liquid + Vue.js{' '}
                   </chakra.header>
-
                   <p
                     style={{
                       fontSize: '12px',
@@ -898,6 +894,7 @@ const Resume = ({ myWorkRef }) => {
                       paddingBottom: '5px',
                       paddingTop: '5px',
                     }}
+                    ref={myWorkRef}
                   >
                     (Udemy) Sep 2021
                   </p>
