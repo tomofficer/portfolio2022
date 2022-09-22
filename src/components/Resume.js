@@ -393,7 +393,7 @@ const Resume = ({ myWorkRef }) => {
                 <Th fontSize={'18px'}>Experience</Th>
                 <Th>
                   <chakra.header fontSize={'14px'}>
-                    Web Developer{' '}
+                    Front End Developer{' '}
                     {/* <span style={{ fontStyle: 'italic' }}> •</span>{' '} */}
                     <span style={{ fontStyle: 'italic' }}>
                       • YourNextToy.com
@@ -495,7 +495,7 @@ const Resume = ({ myWorkRef }) => {
                   </p>
 
                   <chakra.header fontSize={'14px'}>
-                    Full Stack Developer{' '}
+                    Software Engineer{' '}
                     {/* <span style={{ fontStyle: 'italic' }}> •</span>{' '} */}
                     <span style={{ fontStyle: 'italic' }}>
                       • GitHub Finder App
