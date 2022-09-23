@@ -293,7 +293,9 @@ const Resume = ({ myWorkRef }) => {
                   >
                     (Remote, California) Nov 2021 - Current (Full Time)
                   </p>
-                  <a href="https://www.leadrpro.com/" target={'_blank'}>
+                  {/* TEMP REMOVED EYE ICON UNTIL PROJECT IS FINALIZED */}
+
+                  {/* <a href="https://www.leadrpro.com/" target={'_blank'}>
                     <Icon
                       position={'absolute'}
                       ml={'10px'}
@@ -302,7 +304,7 @@ const Resume = ({ myWorkRef }) => {
                       h="13px"
                       w="15px"
                     />
-                  </a>
+                  </a> */}
                   <p
                     style={{
                       fontSize: '10px',

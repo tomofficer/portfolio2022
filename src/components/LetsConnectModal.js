@@ -58,7 +58,7 @@ const LetsConnectModal = () => {
           onOpen();
         }}
       >
-        Let's Connect!
+        Connect!
       </Button>
 
       <Modal isCentered isOpen={isOpen} onClose={onClose}>

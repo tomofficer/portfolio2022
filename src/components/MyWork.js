@@ -47,7 +47,7 @@ const MyWork = ({ blogRef, contactRef }) => {
     // },
     {
       index: 1,
-      title: 'Flashcard App',
+      title: 'The Flashcard App',
       description:
         'The Flashcard App is a responsive, highly scalable React application that allows users to study virtual sets of flashcards. I developed this application from scratch using JavaScript, React.js and Node.js. In this project I demonstrate my ability to perform CRUDL operations while locally storing data in a json file and formatting necessary queries in the utils folder.',
       imgPath:
