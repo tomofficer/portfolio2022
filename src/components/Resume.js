@@ -399,7 +399,7 @@ const Resume = ({ myWorkRef }) => {
                     Front End Developer{' '}
                     {/* <span style={{ fontStyle: 'italic' }}> •</span>{' '} */}
                     <span style={{ fontStyle: 'italic' }}>
-                      • YourNextToy.com
+                      • Your Next Toy
                     </span>{' '}
                   </chakra.header>
 
@@ -451,7 +451,7 @@ const Resume = ({ myWorkRef }) => {
                     Web Developer{' '}
                     {/* <span style={{ fontStyle: 'italic' }}> •</span>{' '} */}
                     <span style={{ fontStyle: 'italic' }}>
-                      • JavaScriptCodingTips.com
+                      • JavaScript Coding Tips
                     </span>{' '}
                   </chakra.header>
 

@@ -153,9 +153,9 @@ const Contact = ({ contactRef }) => {
                     </a>
                   </chakra.span>
                   <br />
-                  <br /> I specialize in building modern, highly scalable web
-                  apps using JavaScript, React, HTML, CSS, PostgreSQL and
-                  Node.js
+                  <br /> I specialize in building modern, scalable web
+                  applications using JavaScript, React, HTML, CSS, PostgreSQL
+                  and Node.js
                 </chakra.p>
 
                 <chakra.p
