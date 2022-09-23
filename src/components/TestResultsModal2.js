@@ -60,7 +60,7 @@ const TestResultsModal = () => {
           onOpen();
         }}
       >
-        View My Test Results
+        View MyTest Results
       </Button>
 
       <Modal isCentered isOpen={isOpen} onClose={onClose}>

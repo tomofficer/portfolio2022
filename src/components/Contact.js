@@ -263,13 +263,25 @@ const Contact = ({ contactRef }) => {
           }}
           border="solid 1px transparent"
         >
-          <Image
+          {/* ALTERNATE FOOTER PHOTO, ORIGINAL SETTINGS */}
+          {/* <Image
             style={{ position: 'relative', bottom: 0, left: 190 }}
             h={[56, 72, 96, 'full']}
             // w="full"
             // h="full"
             // fit="cover"
             src="https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/selfie2_X8ybBe2dt.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662508173734"
+            alt=""
+            loading="lazy"
+          /> */}
+
+          <Image
+            style={{ position: 'relative', bottom: -80, left: 190 }}
+            // h={[56, 72, 96, 'full']}
+            w="full"
+            h="full"
+            fit="cover"
+            src="https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/selfie1_g2mRpUuHe.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662507998685"
             alt=""
             loading="lazy"
           />
