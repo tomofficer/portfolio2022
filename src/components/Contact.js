@@ -17,8 +17,8 @@ const Contact = ({ contactRef }) => {
   const bg = useColorModeValue('black', 'gray.800');
 
   return (
-    <section id="About" ref={contactRef}>
-      <Box pos="relative" overflow="hidden" bg={bg} mt={10}>
+    <section id="About">
+      <Box pos="relative" overflow="hidden" bg={bg} mt={10} pt={'120px'}>
         <Box maxW="7xl" mx="auto">
           <Box
             pos="relative"
@@ -76,6 +76,7 @@ const Contact = ({ contactRef }) => {
                 lg: 20,
                 xl: 28,
               }}
+              ref={contactRef}
             >
               <Box
                 w="full"
@@ -276,11 +277,11 @@ const Contact = ({ contactRef }) => {
           /> */}
 
           <Image
-            style={{ position: 'relative', bottom: -80, left: 190 }}
+            style={{ position: 'relative', bottom: 0, left: 190 }}
             // h={[56, 72, 96, 'full']}
-            w="full"
+            // w="full"
             h="full"
-            fit="cover"
+            // fit="cover"
             src="https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/selfie1_g2mRpUuHe.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662507998685"
             alt=""
             loading="lazy"
