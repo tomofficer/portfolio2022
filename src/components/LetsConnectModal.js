@@ -165,7 +165,7 @@ const LetsConnectModal = () => {
                           />
                         </Link>
                       </Stack>
-                      <Stack spacing={0} align={'center'}>
+                      {/* <Stack spacing={0} align={'center'}>
                         <Link
                           href="https://instagram.com/javascriptcodingtips?igshid=YmMyMTA2M2Y="
                           target="_blank"
@@ -185,7 +185,7 @@ const LetsConnectModal = () => {
                             as={FaInstagram}
                           />
                         </Link>
-                      </Stack>
+                      </Stack> */}
                     </Stack>
 
                     {/* <VisuallyHidden>Your Email</VisuallyHidden>

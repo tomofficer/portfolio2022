@@ -61,7 +61,7 @@ const Footer = () => {
               />
             </Link>
 
-            <Link
+            {/* <Link
               href="https://instagram.com/javascriptcodingtips?igshid=YmMyMTA2M2Y="
               target="_blank"
             >
@@ -75,7 +75,7 @@ const Footer = () => {
                 w="35px"
                 as={FaInstagram}
               />
-            </Link>
+            </Link> */}
           </HStack>
           <Text
             textAlign="center"
