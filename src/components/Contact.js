@@ -222,7 +222,7 @@ const Contact = ({ contactRef }) => {
                   // href="https://docs.google.com/document/d/1Vei5e3WSZGjoKwzNdNYVPqP0f9SuH2PY-BJ1hXEGjBE/edit?usp=sharing"
                   target="_blank"
                 >
-                  Download My Resume
+                  Download Resume
                 </Button>
 
                 <TestResultsModal2 />
