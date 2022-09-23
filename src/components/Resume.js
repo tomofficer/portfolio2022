@@ -349,7 +349,8 @@ const Resume = ({ myWorkRef }) => {
                   >
                     (Remote, California) Jul 2022 - Current (Contract)
                   </p>
-                  <span>
+                  {/* TEMP REMOVED EYE ICON UNTIL PROJECT IS FINALIZED */}
+                  {/* <span>
                     <a
                       href="https://www.whitedogwoodworking.com/"
                       target={'_blank'}
@@ -363,7 +364,7 @@ const Resume = ({ myWorkRef }) => {
                         w="15px"
                       />
                     </a>
-                  </span>
+                  </span> */}
                   <p
                     style={{
                       fontSize: '10px',
@@ -411,7 +412,10 @@ const Resume = ({ myWorkRef }) => {
                   >
                     (Affiliate Marketing Website) Sep 2022
                   </p>
-                  <a href="https://www.yournexttoy.com/" target={'_blank'}>
+
+                  {/* TEMP REMOVED EYE ICON UNTIL PROJECT IS FINALIZED */}
+
+                  {/* <a href="https://www.yournexttoy.com/" target={'_blank'}>
                     <Icon
                       position={'absolute'}
                       ml={'10px'}
@@ -420,7 +424,7 @@ const Resume = ({ myWorkRef }) => {
                       h="13px"
                       w="15px"
                     />
-                  </a>
+                  </a> */}
                   <p
                     style={{
                       fontSize: '10px',
@@ -460,7 +464,9 @@ const Resume = ({ myWorkRef }) => {
                   >
                     (Programming Blog Website) Sep 2022
                   </p>
-                  <a
+                  {/* TEMP REMOVED EYE ICON UNTIL PROJECT IS FINALIZED */}
+
+                  {/* <a
                     href="https://www.javascriptcodingtips.com/"
                     target={'_blank'}
                   >
@@ -472,7 +478,7 @@ const Resume = ({ myWorkRef }) => {
                       h="13px"
                       w="15px"
                     />
-                  </a>
+                  </a> */}
 
                   <p
                     style={{
@@ -513,7 +519,9 @@ const Resume = ({ myWorkRef }) => {
                   >
                     (Full Stack Web App) Dec 2021
                   </p>
-                  <a
+                  {/* TEMP REMOVED EYE ICON UNTIL PROJECT IS FINALIZED */}
+
+                  {/* <a
                     href="https://githubfinder41987.netlify.app/"
                     target={'_blank'}
                   >
@@ -525,7 +533,7 @@ const Resume = ({ myWorkRef }) => {
                       h="13px"
                       w="15px"
                     />
-                  </a>
+                  </a> */}
                   <p
                     style={{
                       fontSize: '10px',
