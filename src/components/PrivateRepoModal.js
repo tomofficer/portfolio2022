@@ -114,16 +114,20 @@ const PrivateRepoModal = () => {
                   h="70px"
                   w="70px"
                   as={FaGithub}
+                  mb={2}
                 />
                 <ModalHeader color="red.500">
                   Sorry, this is a private repo!
                 </ModalHeader>
-                <Text textAlign={'center'} color={'gray.500'} mt={0} mb={6}>
+                {/* <Text textAlign={'center'} color={'gray.500'} mt={0} mb={6}>
                   Unfortunately by law I can't share this repo publicly, but
                   feel free to check out a few code snippets that demonstrate
                   the skills I contributed to this project.
-                </Text>
-                <Menu>
+                </Text> */}
+                {/* <Text textAlign={'center'} color={'gray.500'} mt={0} mb={6}>
+                  Unfortunately by law I can't share this repo.
+                </Text> */}
+                {/* <Menu>
                   {({ isOpen }) => (
                     <>
                       <MenuButton
@@ -135,8 +139,8 @@ const PrivateRepoModal = () => {
                           transform: 'translateY(-2px)',
                           bg: 'green.400',
                         }}
-                        // bgGradient="linear(to-l, green.100, green.300)"
-                        // rightIcon={<ChevronDownIcon />}
+                        bgGradient="linear(to-l, green.100, green.300)"
+                        rightIcon={<ChevronDownIcon />}
                       >
                         {isOpen ? 'Hide Code Samples' : 'View Code Samples'}
                       </MenuButton>
@@ -149,17 +153,17 @@ const PrivateRepoModal = () => {
                             </MenuItem>
                           </>
                         ))}
-                        {/* <MenuItem>API Calls</MenuItem>
+                        <MenuItem>API Calls</MenuItem>
                         <MenuItem>
                           <CodeSampleModal />
                         </MenuItem>
                         <MenuItem>Conditional Rendering</MenuItem>
                         <MenuItem>React useEffect Hook</MenuItem>
-                        <MenuItem>React useState Hook</MenuItem> */}
+                        <MenuItem>React useState Hook</MenuItem>
                       </MenuList>
                     </>
                   )}
-                </Menu>
+                </Menu> */}
               </Center>
             </Box>
           </ModalBody>
