@@ -9,7 +9,7 @@ const MyWork = ({ blogRef, contactRef }) => {
       index: 0,
       title: 'LeadrPro',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
+        'LeadrPro is a software marketplace that hosts and manages video sales demos for Saas companies. I am one of three founding Software Engineers who built this application from the ground up using the PERN Stack. Throughout this project I have written, tested, debugged, refactored and maintained over 100,000 lines of code and counting. Go sign up today and get paid to explore the latest in new software solutions!',
       imgPath:
         'https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80',
       liveLink: 'https://www.leadrpro.com/',
@@ -49,7 +49,7 @@ const MyWork = ({ blogRef, contactRef }) => {
       index: 1,
       title: 'Flashcard App',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
+        'The Flashcard App is a responsive, highly scalable React application that allows users to study virtual sets of flashcards. I developed this application from scratch using JavaScript, React.js and Node.js. In this project I demonstrate my ability to perform CRUDL operations while locally storing data in a json file and formatting necessary queries in the utils folder.',
       imgPath:
         'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/tom-hermans-9BoqXzEeQqM-unsplash_cQqKHGtj_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663906537717',
       liveLink: 'https://flashcards-xi.vercel.app/',
@@ -59,7 +59,7 @@ const MyWork = ({ blogRef, contactRef }) => {
       index: 2,
       title: 'GitHub Finder App',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
+        'The GitHub Finder App is a scalable, responsive web application that allows users to search for, display and visit profiles on Github. This frontend application was developed using JavaScript, React.js and Node.js while fetching data from the GitHub API. This project demonstrates the use of modern frontend skills such as API fetch calls, data mapping, conditional rendering, event handling and React hooks.',
       imgPath:
         'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/marvin-meyer-SYTO3xs06fU-unsplash_nxxNA9f5M.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663020924096',
       liveLink: 'https://githubfinder41987.netlify.app/',
@@ -67,9 +67,9 @@ const MyWork = ({ blogRef, contactRef }) => {
     },
     {
       index: 3,
-      title: 'Bathbombs Ecommerce Mockup',
+      title: 'Bathbombs ECommerce Mockup',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
+        'Bath Bombs By Tom is a mockup ECommerce shop using a Headless CMS. Built from scratch using React, Liquid (the Shopify Frontend language) and pulling data from the Shopify Context API. This project displays important dev skills such as fetching data from RESTful APIs, modern css animations and a fully functional shopping cart feature.',
       imgPath:
         'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/pharma-hemp-complex-yVAXSK6zFIM-unsplash__1__isNXYtPFc.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663906766742',
       liveLink: 'https://bath-bombs-ker8.vercel.app/',
