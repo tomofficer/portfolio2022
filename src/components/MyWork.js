@@ -15,38 +15,48 @@ const MyWork = ({ blogRef, contactRef }) => {
       liveLink: 'https://www.leadrpro.com/',
       gitHubLink: 1,
     },
+    // {
+    //   index: 1,
+    //   title: 'Your Next Toy',
+    //   description:
+    //     'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
+    //   imgPath:
+    //     'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/chris-hardy-H5Ffv4I5ZMI-unsplash_CMz4Jv9Ql.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663021113717',
+    //   liveLink: 'https://yournexttoy.com',
+    //   gitHubLink: 'https://github.com/tomofficer/best-kids-toys-affiliate',
+    // },
+    // {
+    //   index: 2,
+    //   title: 'White Dog Woodworking',
+    //   description:
+    //     'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
+    //   imgPath:
+    //     'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/wdww_Ge3jBVDWu.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663020587694',
+    //   liveLink: 'https://whitedogwoodworking.com',
+    //   gitHubLink: 'https://github.com/tomofficer/whitedogwoodworking',
+    // },
+    // {
+    //   index: 3,
+    //   title: 'JavaScript Coding Tips Blog',
+    //   description:
+    //     'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
+    //   imgPath:
+    //     'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/claudio-schwarz-i25aqE_YUZs-unsplash_k5SlbiydX.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663021962512',
+    //   liveLink: 'https://javascriptcodingtips.com',
+    //   gitHubLink: 'https://github.com/tomofficer/js-coding-tips-blog',
+    // },
     {
       index: 1,
-      title: 'Your Next Toy',
+      title: 'Flashcard App',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
       imgPath:
-        'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/chris-hardy-H5Ffv4I5ZMI-unsplash_CMz4Jv9Ql.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663021113717',
-      liveLink: 'https://yournexttoy.com',
-      gitHubLink: 'https://github.com/tomofficer/best-kids-toys-affiliate',
+        'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/tom-hermans-9BoqXzEeQqM-unsplash_cQqKHGtj_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663906537717',
+      liveLink: 'https://flashcards-xi.vercel.app/',
+      gitHubLink: 'https://github.com/tomofficer/flashcard-app',
     },
     {
       index: 2,
-      title: 'White Dog Woodworking',
-      description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
-      imgPath:
-        'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/wdww_Ge3jBVDWu.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663020587694',
-      liveLink: 'https://whitedogwoodworking.com',
-      gitHubLink: 'https://github.com/tomofficer/whitedogwoodworking',
-    },
-    {
-      index: 3,
-      title: 'JavaScript Coding Tips Blog',
-      description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
-      imgPath:
-        'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/claudio-schwarz-i25aqE_YUZs-unsplash_k5SlbiydX.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663021962512',
-      liveLink: 'https://javascriptcodingtips.com',
-      gitHubLink: 'https://github.com/tomofficer/js-coding-tips-blog',
-    },
-    {
-      index: 4,
       title: 'GitHub Finder App',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
@@ -54,6 +64,16 @@ const MyWork = ({ blogRef, contactRef }) => {
         'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/marvin-meyer-SYTO3xs06fU-unsplash_nxxNA9f5M.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663020924096',
       liveLink: 'https://githubfinder41987.netlify.app/',
       gitHubLink: 'https://github.com/tomofficer/github-finder',
+    },
+    {
+      index: 3,
+      title: 'Bathbombs Ecommerce Mockup',
+      description:
+        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio id aspernatur numquam provident nisi possimus consequatur ut, suscipit officiis et.',
+      imgPath:
+        'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/pharma-hemp-complex-yVAXSK6zFIM-unsplash__1__isNXYtPFc.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663906766742',
+      liveLink: 'https://bath-bombs-ker8.vercel.app/',
+      gitHubLink: 'https://github.com/tomofficer/bath-bombs',
     },
   ];
 
