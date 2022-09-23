@@ -334,7 +334,7 @@ const Resume = ({ myWorkRef }) => {
                     scalability on the back-end
                   </p>
                   <chakra.header fontSize="14px">
-                    Front End Developer
+                    Front End Developer{' '}
                     <span style={{ fontStyle: 'italic' }}>
                       • White Dog Woodworking
                     </span>{' '}
