@@ -39,7 +39,7 @@ const Contact = ({ contactRef }) => {
             bg={bg}
             border="solid 1px transparent"
           >
-            <Icon
+            {/* <Icon
               display={{
                 base: 'none',
                 lg: 'block',
@@ -58,7 +58,8 @@ const Contact = ({ contactRef }) => {
               aria-hidden="true"
             >
               <polygon points="50,0 100,0 50,100 0,100" />
-            </Icon>
+            </Icon> */}
+
             <Box
               mx="auto"
               maxW={{
@@ -156,30 +157,6 @@ const Contact = ({ contactRef }) => {
                   apps using JavaScript, React, HTML, CSS, PostgreSQL and
                   Node.js
                 </chakra.p>
-                {/* <chakra.p
-                  mt={{
-                    base: 3,
-                    sm: 5,
-                    md: 5,
-                  }}
-                  fontSize={{
-                    sm: 'lg',
-                    md: 'xl',
-                  }}
-                  maxW={{
-                    sm: 'xl',
-                  }}
-                  mx={{
-                    sm: 'auto',
-                    lg: 0,
-                  }}
-                  color="gray.500"
-                >
-                  {' '}
-                  Hey, I'm Tom! I'm a professional software engineer
-                  specializing in JavaScript, React, HTML, CSS, PostgreSQL and
-                  Node.js
-                </chakra.p> */}
 
                 <chakra.p
                   mt={{

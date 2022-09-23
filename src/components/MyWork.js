@@ -59,22 +59,22 @@ const MyWork = ({ blogRef, contactRef }) => {
       index: 2,
       title: 'GitHub Finder App',
       description:
-        'The GitHub Finder App is a scalable, responsive web application that allows users to search for, display and visit profiles on Github. This frontend application was developed using JavaScript, React.js and Node.js while fetching data from the GitHub API. This project demonstrates the use of modern frontend skills such as API fetch calls, data mapping, conditional rendering, event handling and React hooks.',
+        'The GitHub Finder App is a frontend web application that allows users to search for, display and visit profiles on Github. This frontend application was developed using JavaScript, React.js and Node.js while fetching data from the GitHub API. This project demonstrates the use of modern frontend skills such as API fetch calls, data mapping, conditional rendering, event handling and React hooks.',
       imgPath:
         'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/marvin-meyer-SYTO3xs06fU-unsplash_nxxNA9f5M.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663020924096',
       liveLink: 'https://githubfinder41987.netlify.app/',
       gitHubLink: 'https://github.com/tomofficer/github-finder',
     },
-    {
-      index: 3,
-      title: 'Bathbombs ECommerce Mockup',
-      description:
-        'Bath Bombs By Tom is a mockup ECommerce shop using a Headless CMS. Built from scratch using React, Liquid (the Shopify Frontend language) and pulling data from the Shopify Context API. This project displays important dev skills such as fetching data from RESTful APIs, modern css animations and a fully functional shopping cart feature.',
-      imgPath:
-        'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/pharma-hemp-complex-yVAXSK6zFIM-unsplash__1__isNXYtPFc.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663906766742',
-      liveLink: 'https://bath-bombs-ker8.vercel.app/',
-      gitHubLink: 'https://github.com/tomofficer/bath-bombs',
-    },
+    // {
+    //   index: 3,
+    //   title: 'Bathbombs ECommerce Mockup',
+    //   description:
+    //     'Bath Bombs By Tom is a mockup ECommerce shop using a Headless CMS. Built from scratch using React, Liquid (the Shopify Frontend language) and pulling data from the Shopify Context API. This project displays important dev skills such as fetching data from RESTful APIs, modern css animations and a fully functional shopping cart feature.',
+    //   imgPath:
+    //     'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/pharma-hemp-complex-yVAXSK6zFIM-unsplash__1__isNXYtPFc.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663906766742',
+    //   liveLink: 'https://bath-bombs-ker8.vercel.app/',
+    //   gitHubLink: 'https://github.com/tomofficer/bath-bombs',
+    // },
   ];
 
   //check if index is even
