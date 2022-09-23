@@ -118,41 +118,7 @@ const Contact = ({ contactRef }) => {
                   >
                     Contact me
                   </chakra.span>
-                  {/* <chakra.span
-                  display={{
-                    base: 'block',
-                    xl: 'inline',
-                  }}
-                  color="brand.600"
-                  _dark={{
-                    color: 'brand.400',
-                  }}
-                >
-                  online business
-                </chakra.span> */}
                 </chakra.h1>
-                {/* <chakra.p
-                mt={{
-                  base: 3,
-                  sm: 5,
-                  md: 5,
-                }}
-                fontSize={{
-                  sm: 'lg',
-                  md: 'xl',
-                }}
-                maxW={{
-                  sm: 'xl',
-                }}
-                mx={{
-                  sm: 'auto',
-                  lg: 0,
-                }}
-                color="gray.500"
-              >
-                {' '}
-                Hi, my name's Tom!
-              </chakra.p> */}
                 <chakra.p
                   mt={{
                     base: 3,
@@ -173,10 +139,47 @@ const Contact = ({ contactRef }) => {
                   color="gray.500"
                 >
                   {' '}
-                  Hey, I'm Tom! I'm an experienced software engineer
-                  specializing in JavaScript, React, HTML, CSS, PostgreSQL and
+                  Hey, I'm Tom! I'm a professional developer and one of the
+                  three{' '}
+                  <chakra.span fontStyle={'italic'}>
+                    founding Software Engineers of{' '}
+                    <a
+                      href="https://www.leadrpro.com/"
+                      target={'_blank'}
+                      style={{ color: '#AC6CCC' }}
+                    >
+                      LeadrPro
+                    </a>
+                  </chakra.span>
+                  <br />
+                  <br /> I specialize in building modern, highly scalable web
+                  apps using JavaScript, React, HTML, CSS, PostgreSQL and
                   Node.js
                 </chakra.p>
+                {/* <chakra.p
+                  mt={{
+                    base: 3,
+                    sm: 5,
+                    md: 5,
+                  }}
+                  fontSize={{
+                    sm: 'lg',
+                    md: 'xl',
+                  }}
+                  maxW={{
+                    sm: 'xl',
+                  }}
+                  mx={{
+                    sm: 'auto',
+                    lg: 0,
+                  }}
+                  color="gray.500"
+                >
+                  {' '}
+                  Hey, I'm Tom! I'm a professional software engineer
+                  specializing in JavaScript, React, HTML, CSS, PostgreSQL and
+                  Node.js
+                </chakra.p> */}
 
                 <chakra.p
                   mt={{
@@ -198,10 +201,10 @@ const Contact = ({ contactRef }) => {
                   color="gray.500"
                 >
                   {' '}
-                  <p style={{ marginBottom: '20px' }}>
+                  {/* <p style={{ marginBottom: '20px' }}>
                     Thanks for visiting my page! I'm always open to new
                     opportunities and would love to hear from you.
-                  </p>
+                  </p> */}
                   Tom Officer | Full Stack Developer
                   <p>Mount Shasta, California</p>
                   <p>Tom@leadrpro.com</p>
@@ -267,10 +270,10 @@ const Contact = ({ contactRef }) => {
           {/* ALTERNATE FOOTER PHOTO, ORIGINAL SETTINGS */}
           {/* <Image
             style={{ position: 'relative', bottom: 0, left: 190 }}
-            h={[56, 72, 96, 'full']}
+            // h={[56, 72, 96, 'full']}
             // w="full"
-            // h="full"
-            // fit="cover"
+            h="full"
+            fit="cover"
             src="https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/selfie2_X8ybBe2dt.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662508173734"
             alt=""
             loading="lazy"
@@ -278,9 +281,9 @@ const Contact = ({ contactRef }) => {
 
           <Image
             style={{ position: 'relative', bottom: 0, left: 190 }}
-            // h={[56, 72, 96, 'full']}
+            h={[56, 72, 96, 'full']}
             // w="full"
-            h="full"
+            // h="800px"
             // fit="cover"
             src="https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/selfie1_g2mRpUuHe.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662507998685"
             alt=""

@@ -83,7 +83,7 @@ const LetsConnectModal = () => {
                     h={'190px'}
                     w={'full'}
                     src={
-                      'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/rob-sarmiento-5xa0SI9JmmY-unsplash_wEHv7Zio1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663057107754'
+                      'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/maarten-van-den-heuvel-gZXx8lKAb7Y-unsplash_RE8fMMRCq.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663923004184'
                     }
                     objectFit={'cover'}
                   />
