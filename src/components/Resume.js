@@ -349,7 +349,7 @@ const Resume = ({ myWorkRef }) => {
                       paddingTop: '5px',
                     }}
                   >
-                    (Remote, California) Jul 2022 - Current (Contract)
+                    (Remote, California) Aug 2022 - Current (Contract)
                   </p>
                   {/* TEMP REMOVED EYE ICON UNTIL PROJECT IS FINALIZED */}
                   {/* <span>
