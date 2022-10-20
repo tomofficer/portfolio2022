@@ -519,7 +519,7 @@ const Resume = ({ myWorkRef }) => {
                       paddingTop: '5px',
                     }}
                   >
-                    (Full Stack Web App) Dec 2021
+                    (Web Application) Dec 2021
                   </p>
                   {/* TEMP REMOVED EYE ICON UNTIL PROJECT IS FINALIZED */}
 
@@ -584,8 +584,8 @@ const Resume = ({ myWorkRef }) => {
                       marginBottom: '20px',
                     }}
                   >
-                    •JavaScript | React | HTML | CSS | Next.js | Vue.js |
-                    Shopify : Liquid | Bootstrap | Gatsby.js | Chakra UI
+                    •JavaScript | React | HTML | CSS | Chakra UI | AJAX | JSON |
+                    DOM Manipulation
                   </p>
                   <a
                     href="https://www.udemy.com/certificate/UC-9537e18e-dd7c-4002-9e9b-50d8518936cd/"
@@ -607,8 +607,7 @@ const Resume = ({ myWorkRef }) => {
                       marginBottom: '20px',
                     }}
                   >
-                    •Node.js | Express.js | Knex.js | PostgreSQL | MongoDB |
-                    Separation of concerns | RESTful API's
+                    •Node.js | Express.js | Knex.js | PostgreSQL | RESTful API's
                   </p>
                   <a
                     href="https://www.udemy.com/certificate/UC-9537e18e-dd7c-4002-9e9b-50d8518936cd/"
@@ -631,7 +630,7 @@ const Resume = ({ myWorkRef }) => {
                     }}
                   >
                     •Critical problem solving | Self management | Empathy |
-                    Communication | Creativity | Self-awareness
+                    Communication | Self-awareness
                   </p>
                   <a
                     href="https://www.udemy.com/certificate/UC-2d46e76f-3c8b-4ded-b80b-ce25c769bbe2/"
@@ -653,8 +652,8 @@ const Resume = ({ myWorkRef }) => {
                       marginBottom: '20px',
                     }}
                   >
-                    •SEO | d3.js | Mailchimp |Contentful | MouseFlow | Git |
-                    Figma | Adobe Photoshop | Asana | Postman | Jira
+                    •Git | Github | BitBucket | Figma | d3.js | Adobe Photoshop
+                    | Asana | Postman | Jira
                   </p>
                 </Th>
                 <Th></Th>
